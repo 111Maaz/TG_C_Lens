@@ -51,7 +51,8 @@ const keyframesStyles = `
 `;
 
 export const AutoWelcomePage: React.FC = () => {
-  const [currentStage, setCurrentStage] = useState(1);
+  // const [currentStage, setCurrentStage] = useState(1);
+  const [currentStage, setCurrentStage] = useState(2);  // Start directly at stage 2
   const [typewriterText, setTypewriterText] = useState('');
   const [progress, setProgress] = useState(0);
 
@@ -66,6 +67,8 @@ export const AutoWelcomePage: React.FC = () => {
   }, []);
 
   useEffect(() => {
+    // Commenting out first stage animations since we're skipping to stage 2
+    /*
     // Typewriter effect for "Developer"
     let index = 0;
     const typewriterInterval = setInterval(() => {
@@ -92,11 +95,12 @@ export const AutoWelcomePage: React.FC = () => {
     const stageTimer = setTimeout(() => {
       setCurrentStage(2);
     }, 5000);
+    */
 
     return () => {
-      clearInterval(typewriterInterval);
-      clearInterval(progressInterval);
-      clearTimeout(stageTimer);
+      // clearInterval(typewriterInterval);
+      // clearInterval(progressInterval);
+      // clearTimeout(stageTimer);
     };
   }, []);
 
@@ -118,10 +122,11 @@ export const AutoWelcomePage: React.FC = () => {
     }
   ];
 
+  // Comment out the first stage return statement
+  /*
   if (currentStage === 1) {
     return (
       <div className="min-h-screen relative overflow-hidden flex items-center justify-center p-6 animate-fade-in font-mono">
-        {/* Animated gradient background */}
         <div 
           className="absolute inset-0 z-0"
           style={{
@@ -135,21 +140,16 @@ export const AutoWelcomePage: React.FC = () => {
         <div className="max-w-6xl w-full backdrop-blur-sm bg-white/30 p-8 rounded-2xl shadow-xl transition-all duration-500 relative z-10" 
              style={{ animation: 'glassReveal 1s ease-out forwards' } as React.CSSProperties}>
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-            {/* Left side content */}
             <div className="flex-1 text-center lg:text-left backdrop-blur-md bg-white/40 p-6 rounded-xl">
-              {/* Typewriter text */}
               <div className="text-2xl lg:text-3xl text-gray-600 mb-4 font-mono h-12">
                 {typewriterText}
                 <span className="animate-pulse">|</span>
               </div>
               
-              {/* Main name */}
               <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 animate-scale-in font-sans">
                 I'm <span className="text-blue-600">Mohammed Maaz Ali</span>
               </h1>
 
-
-              {/* Progress indicator */}
               <div className="mt-8">
                 <div className="bg-gray-200/50 backdrop-blur-sm rounded-full h-2 w-full max-w-md mx-auto lg:mx-0">
                   <div 
@@ -163,12 +163,9 @@ export const AutoWelcomePage: React.FC = () => {
               </div>
             </div>
             
-            {/* Right side - Profile image with orbiting ball */}
             <div className="flex-shrink-0">
               <div className="relative backdrop-blur-xl bg-white/50 p-8 rounded-2xl shadow-2xl">
-                {/* Orbit container - Matches exact image dimensions */}
                 <div className="absolute w-64 h-64 lg:w-72 lg:h-72" style={{ top: '32px', left: '32px' }}>
-                  {/* Orbiting ball with gradient trail */}
                   <div 
                     className="absolute w-4 h-4 rounded-full bg-gradient-to-r from-blue-400 to-purple-500"
                     style={{
@@ -183,7 +180,6 @@ export const AutoWelcomePage: React.FC = () => {
                       zIndex: 10
                     } as React.CSSProperties}
                   >
-                    {/* Gradient trail effect */}
                     <div 
                       className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400/40 to-purple-500/40"
                       style={{
@@ -194,42 +190,23 @@ export const AutoWelcomePage: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Static image container */}
                 <div className="relative w-64 h-64 lg:w-72 lg:h-72 rounded-full backdrop-blur-md bg-white/90 p-2 shadow-xl transition-all duration-500">
                   <div className="w-full h-full rounded-full overflow-hidden">
                     <img 
-                      src="/Maaz1.jpg" 
-                      alt="Mohammed Maaz Ali" 
-                      className="w-full h-full rounded-full object-cover"
-                      onError={(e) => {
-                        const target = e.currentTarget;
-                        target.style.display = 'none';
-                        const fallback = target.parentElement?.querySelector('div');
-                        if (fallback) {
-                          fallback.className = "flex items-center justify-center w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 rounded-full";
-                        }
-                      }}
+                      src="/section1.jpg"
+                      alt="Developer"
+                      className="w-full h-full object-cover"
                     />
-                    <div className="hidden">
-                      <span className="text-3xl font-bold text-white">MA</span>
-                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          
-          {/* Footer with ID */}
-          <div className="text-center mt-12">
-            <div className="text-xl text-gray-800 font-mono backdrop-blur-sm bg-white/30 inline-block px-6 py-3 rounded-full">
-              Student ID: <span className="font-mono">1604-22-737-</span>
-              <span className="bg-yellow-400 px-2 py-1 rounded font-bold text-gray-900 animate-pulse-soft">101</span>
             </div>
           </div>
         </div>
       </div>
     );
   }
+  */
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-100 flex items-center justify-center p-6 animate-fade-in font-sans">
