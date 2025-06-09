@@ -142,40 +142,42 @@ export const StatsCardGrid: React.FC = () => {
 
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 animate-fade-in">
-      <StatsCard
-        title="Crime Hotspot"
-        value={enhancedStats.hotspotDistrict.name}
-        description={`${enhancedStats.hotspotDistrict.rate.toFixed(1)} crimes/lakh population`}
-        icon={<AlertTriangle className="h-5 w-5 text-red-500" />}
-        className="bg-gradient-to-br from-card to-red-50/30 backdrop-blur-sm border-red-200/50"
-      />
-      
-      <StatsCard
-        title="Safest District"
-        value={enhancedStats.safestDistrict.name}
-        description={`${enhancedStats.safestDistrict.rate.toFixed(1)} crimes/lakh population`}
-        icon={<Shield className="h-5 w-5 text-blue-500" />}
-        className="bg-gradient-to-br from-card to-blue-50/30 backdrop-blur-sm border-blue-200/50"
-      />
-      
-      <StatsCard
-        title="Top Crime Type"
-        value={enhancedStats.topCrimeType.type}
-        description={`${enhancedStats.topCrimeType.count.toLocaleString()} total cases`}
-        icon={<Gavel className="h-5 w-5 text-purple-500" />}
-        className="bg-gradient-to-br from-card to-purple-50/30 backdrop-blur-sm border-purple-200/50"
-      />
-      
-      <StatsCard
-        title="Crime Trend (2020→2021)"
-        value={`${enhancedStats.yearOverYearTrend.positive ? '↑' : '↓'} ${enhancedStats.yearOverYearTrend.change.toFixed(1)}%`}
-        description="Year-over-year change"
-        icon={enhancedStats.yearOverYearTrend.positive ? 
-          <TrendingUp className="h-5 w-5 text-green-500" /> : 
-          <TrendingDown className="h-5 w-5 text-red-500" />
-        }
-        className={`bg-gradient-to-br from-card ${enhancedStats.yearOverYearTrend.positive ? 'to-green-50/30 border-green-200/50' : 'to-red-50/30 border-red-200/50'} backdrop-blur-sm`}
-      />
-    </div>
+  <StatsCard
+    title="Crime Hotspot"
+    value={enhancedStats.hotspotDistrict.name}
+    description={`${enhancedStats.hotspotDistrict.rate.toFixed(1)} crimes/lakh population`}
+    icon={<AlertTriangle className="h-5 w-5 text-red-500" />}
+    className="relative backdrop-blur-sm bg-white/5 p-4 rounded-2xl ring-1 ring-black/30 shadow-md"
+  />
+
+  <StatsCard
+    title="Safest District"
+    value={enhancedStats.safestDistrict.name}
+    description={`${enhancedStats.safestDistrict.rate.toFixed(1)} crimes/lakh population`}
+    icon={<Shield className="h-5 w-5 text-blue-500" />}
+    className="relative backdrop-blur-sm bg-white/5 p-4 rounded-2xl ring-1 ring-black/30 shadow-md"
+  />
+
+  <StatsCard
+    title="Top Crime Type"
+    value={enhancedStats.topCrimeType.type}
+    description={`${enhancedStats.topCrimeType.count.toLocaleString()} total cases`}
+    icon={<Gavel className="h-5 w-5 text-purple-500" />}
+    className="relative backdrop-blur-sm bg-white/5 p-4 rounded-2xl ring-1 ring-black/30 shadow-md"
+  />
+
+  <StatsCard
+    title="Crime Trend (2020→2021)"
+    value={`${enhancedStats.yearOverYearTrend.positive ? '↑' : '↓'} ${enhancedStats.yearOverYearTrend.change.toFixed(1)}%`}
+    description="Year-over-year change"
+    icon={
+      enhancedStats.yearOverYearTrend.positive
+        ? <TrendingUp className="h-5 w-5 text-green-500" />
+        : <TrendingDown className="h-5 w-5 text-red-500" />
+    }
+    className="relative backdrop-blur-sm bg-white/5 p-4 rounded-2xl ring-1 ring-black/30 shadow-md"
+  />
+</div>
+
   );
 };

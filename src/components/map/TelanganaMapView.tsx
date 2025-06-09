@@ -20,9 +20,10 @@ interface RegionData {
 
 interface TelanganaMapViewProps {
   regions: RegionData[];
+  children?: React.ReactNode;
 }
 
-export const TelanganaMapView: React.FC<TelanganaMapViewProps> = ({ regions }) => {
+export const TelanganaMapView: React.FC<TelanganaMapViewProps> = ({ regions, children }) => {
   // Center coordinates for Telangana state
   const telanganaCenter: [number, number] = [18.1124, 79.0193];
   const [districtBoundaries, setDistrictBoundaries] = useState<any>(null);
@@ -92,6 +93,9 @@ export const TelanganaMapView: React.FC<TelanganaMapViewProps> = ({ regions }) =
             circleRadius={FIXED_CIRCLE_RADIUS}
           />
         ))}
+
+        {/* Additional Map Layers */}
+        {children}
 
         {/* Controls */}
         <ZoomControl position="topright" />

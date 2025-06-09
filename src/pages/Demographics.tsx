@@ -163,7 +163,7 @@ const Demographics = () => {
         </p>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <Card className="lg:col-span-2">
+          <Card className="lg:col-span-2 ring-1 ring-black/30 rounded-t-2xl">
             <CardHeader>
               <CardTitle>Population vs Crime Rate Correlation</CardTitle>
               <CardDescription>
@@ -228,7 +228,7 @@ const Demographics = () => {
             </CardContent>
           </Card>
           
-          <Card>
+          <Card className="ring-1 ring-black/30 rounded-t-2xl">
             <CardHeader>
               <CardTitle>Crime Distribution by District</CardTitle>
               <CardDescription>Top districts by total incidents</CardDescription>
@@ -260,7 +260,7 @@ const Demographics = () => {
             </CardContent>
           </Card>
           
-          <Card>
+          <Card className="ring-1 ring-black/30 rounded-t-2xl">
             <CardHeader>
               <CardTitle>Year-over-Year Variation Analysis</CardTitle>
               <CardDescription>Districts with significant crime variation (2021 vs 2020)</CardDescription>

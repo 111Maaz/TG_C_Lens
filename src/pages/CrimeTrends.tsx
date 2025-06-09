@@ -150,75 +150,79 @@ const CrimeTrends = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <Card>
-            <CardHeader>
-              <CardTitle>Year-over-Year Crime Totals</CardTitle>
-              <CardDescription>
-                Total incidents comparison with variation percentage
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="h-[350px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <AreaChart
-                  data={yearComparison}
-                  margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="year" />
-                  <YAxis />
-                  <Tooltip 
-                    formatter={(value, name) => {
-                      if (name === 'crimes') return [value, 'Total Crimes'];
-                      return [value, name];
-                    }}
-                    labelFormatter={(label, payload) => {
-                      const data = payload?.[0]?.payload;
-                      return `${label}${data?.variation ? ` (${data.variation}% variation)` : ''}`;
-                    }}
-                  />
-                  <Area 
-                    type="monotone" 
-                    dataKey="crimes" 
-                    stroke="#8884d8" 
-                    fill="#8884d8" 
-                    name="crimes"
-                  />
-                </AreaChart>
-              </ResponsiveContainer>
-            </CardContent>
+            <div className="ring-1 ring-black/30 rounded-t-2xl">
+              <CardHeader>
+                <CardTitle>Year-over-Year Crime Totals</CardTitle>
+                <CardDescription>
+                  Total incidents comparison with variation percentage
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="h-[350px]">
+                <ResponsiveContainer width="100%" height="100%">
+                  <AreaChart
+                    data={yearComparison}
+                    margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="year" />
+                    <YAxis />
+                    <Tooltip 
+                      formatter={(value, name) => {
+                        if (name === 'crimes') return [value, 'Total Crimes'];
+                        return [value, name];
+                      }}
+                      labelFormatter={(label, payload) => {
+                        const data = payload?.[0]?.payload;
+                        return `${label}${data?.variation ? ` (${data.variation}% variation)` : ''}`;
+                      }}
+                    />
+                    <Area 
+                      type="monotone" 
+                      dataKey="crimes" 
+                      stroke="#8884d8" 
+                      fill="#8884d8" 
+                      name="crimes"
+                    />
+                  </AreaChart>
+                </ResponsiveContainer>
+              </CardContent>
+            </div>
           </Card>
 
           <Card>
-            <CardHeader>
-              <CardTitle>Crime Category Analysis</CardTitle>
-              <CardDescription>Incidents by category with variation data</CardDescription>
-            </CardHeader>
-            <CardContent className="h-[350px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart
-                  data={categoryTrends}
-                  margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="name" />
-                  <YAxis />
-                  <Tooltip 
-                    formatter={(value, name) => {
-                      if (name === 'incidents') return [value, 'Total Incidents'];
-                      return [value, name];
-                    }}
-                    labelFormatter={(label, payload) => {
-                      const data = payload?.[0]?.payload;
-                      return `${label}${data?.variation ? ` (${data.variation}% variation)` : ''}`;
-                    }}
-                  />
-                  <Legend />
-                  <Bar dataKey="incidents" fill="#ffc658" name="incidents" />
-                </BarChart>
-              </ResponsiveContainer>
-            </CardContent>
+          <div className="ring-1 ring-black/30 rounded-t-2xl">
+              <CardHeader>
+                <CardTitle>Crime Category Analysis</CardTitle>
+                <CardDescription>Incidents by category with variation data</CardDescription>
+              </CardHeader>
+              <CardContent className="h-[350px]">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart
+                    data={categoryTrends}
+                    margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip 
+                      formatter={(value, name) => {
+                        if (name === 'incidents') return [value, 'Total Incidents'];
+                        return [value, name];
+                      }}
+                      labelFormatter={(label, payload) => {
+                        const data = payload?.[0]?.payload;
+                        return `${label}${data?.variation ? ` (${data.variation}% variation)` : ''}`;
+                      }}
+                    />
+                    <Legend />
+                    <Bar dataKey="incidents" fill="#ffc658" name="incidents" />
+                  </BarChart>
+                </ResponsiveContainer>
+              </CardContent>
+            </div>
           </Card>
           
-          <Card className="lg:col-span-2">
+          <Card className="lg:col-span-2 ring-1 ring-black/30 rounded-t-2xl">
             <CardHeader>
               <CardTitle>District-wise Trend Comparison (2020 vs 2021)</CardTitle>
               <CardDescription>Top districts showing year-over-year crime changes</CardDescription>

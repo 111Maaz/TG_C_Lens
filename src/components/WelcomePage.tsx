@@ -44,7 +44,7 @@ export const WelcomePage: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between mb-12 gap-8">
           <div className="flex-1">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Welcome to <span className="text-blue-600">T•S Crime Lens</span>
+              Welcome to <span className="text-blue-600">T•G Crime Lens</span>
             </h1>
             <p className="text-xl text-gray-600 mb-6">
               Comprehensive Crime Analytics Dashboard for Telangana State

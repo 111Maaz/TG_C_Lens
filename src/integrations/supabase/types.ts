@@ -9,13 +9,61 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
-      [_ in never]: never
+      unofficial_reports: {
+        Row: {
+          id: string;
+          crime_type: string;
+          location: string;
+          district: string;
+          description: string;
+          is_anonymous: boolean;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          crime_type: string;
+          location: string;
+          district: string;
+          description: string;
+          is_anonymous?: boolean;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          crime_type?: string;
+          location?: string;
+          district?: string;
+          description?: string;
+          is_anonymous?: boolean;
+          created_at?: string;
+        };
+      };
+      request_limits: {
+        Row: {
+          ip_address: string;
+          request_count: number;
+          window_start: string;
+        };
+        Insert: {
+          ip_address: string;
+          request_count?: number;
+          window_start?: string;
+        };
+        Update: {
+          ip_address?: string;
+          request_count?: number;
+          window_start?: string;
+        };
+      };
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      check_rate_limit: {
+        Args: { client_ip: string };
+        Returns: boolean;
+      };
     }
     Enums: {
       [_ in never]: never

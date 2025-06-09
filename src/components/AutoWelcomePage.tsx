@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Shield, Users, BarChart3, Search } from 'lucide-react';
+import SplashCursor from './SplashCursor';
 
 // Define keyframes as a string constant
 const keyframesStyles = `
@@ -106,17 +107,17 @@ export const AutoWelcomePage: React.FC = () => {
 
   const stageOneCards = [
     {
-      icon: <Users className="h-8 w-8 text-blue-600" />,
+      icon: <Users className="h-8 w-8 text-blue-400" />,
       title: "For Journalists",
       description: "Access comprehensive crime data for investigative reporting and data-driven stories."
     },
     {
-      icon: <BarChart3 className="h-8 w-8 text-green-600" />,
+      icon: <BarChart3 className="h-8 w-8 text-green-400" />,
       title: "For Analysts",
       description: "Leverage detailed statistics and trends for policy research and analysis."
     },
     {
-      icon: <Search className="h-8 w-8 text-purple-600" />,
+      icon: <Search className="h-8 w-8 text-purple-400" />,
       title: "For Citizens",
       description: "Stay informed about safety trends and crime patterns in your area."
     }
@@ -209,71 +210,82 @@ export const AutoWelcomePage: React.FC = () => {
   */
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-100 flex items-center justify-center p-6 animate-fade-in font-sans">
-      <div className="max-w-4xl w-full">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            <span className="text-blue-600">T•S Crime Lens</span>
-          </h1>
-          <p className="text-xl text-gray-600">
-            Comprehensive Crime Analytics Dashboard for Telangana State
-          </p>
-          <div className="flex items-center justify-center gap-4 mt-4">
-            <Shield className="h-8 w-8 text-blue-600 animate-float" />
-            <span className="text-lg text-gray-700">Empowering Data-Driven Insights</span>
+    <div className="relative min-h-screen overflow-hidden bg-black">
+      <SplashCursor 
+        BACK_COLOR={{ r: 0, g: 0, b: 0 }}
+        DYE_RESOLUTION={1024}
+        SPLAT_RADIUS={0.3}
+        SPLAT_FORCE={8000}
+        CURL={30}
+        COLOR_UPDATE_SPEED={12}
+        TRANSPARENT={true}
+      />
+      <div className="relative z-[1] min-h-screen flex items-center justify-center p-6 animate-fade-in font-sans">
+        <div className="max-w-4xl w-full">
+          {/* Header */}
+          <div className="text-center mb-12">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">
+              <span className="text-blue-500">T•G Crime Lens</span>
+            </h1>
+            <p className="text-xl text-gray-300">
+              Comprehensive Crime Analytics Dashboard for Telangana State
+            </p>
+            <div className="flex items-center justify-center gap-4 mt-4">
+              <Shield className="h-8 w-8 text-blue-500 animate-float" />
+              <span className="text-lg text-gray-300">Empowering Data-Driven Insights</span>
+            </div>
           </div>
-        </div>
 
-        {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          {stageOneCards.map((card, index) => (
-            <div 
-              key={index} 
-              className="bg-white/70 backdrop-blur-sm border border-white/30 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in text-center"
-              style={{ animationDelay: `${index * 0.2}s` }}
-            >
-              <div className="flex justify-center mb-4">
-                {card.icon}
+          {/* Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            {stageOneCards.map((card, index) => (
+              <div 
+                key={index} 
+                className="bg-black/30 backdrop-blur-sm border border-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:bg-gray-900/30"
+                style={{ animationDelay: `${index * 0.2}s` }}
+              >
+                <div className="flex justify-center mb-4">
+                  {card.icon}
+                </div>
+                <h3 className="font-bold text-white mb-3 text-lg">
+                  {card.title}
+                </h3>
+                <p className="text-gray-300 text-sm">
+                  {card.description}
+                </p>
               </div>
-              <h3 className="font-bold text-gray-900 mb-3 text-lg">
-                {card.title}
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                {card.description}
-              </p>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
 
-        {/* How to Use Section */}
-        <div className="bg-white/80 backdrop-blur-sm border border-white/30 rounded-2xl p-6 shadow-lg text-center">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">How to Use</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
-            <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">1</div>
-              <p className="text-gray-700"><strong>Explore the Map:</strong> View crime intensity across Telangana districts with color-coded markers.</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">2</div>
-              <p className="text-gray-700"><strong>Analyze Trends:</strong> Use the analytics dashboard to understand crime patterns over time.</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">3</div>
-              <p className="text-gray-700"><strong>Filter Data:</strong> Customize your view by crime type, year, or specific regions.</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">4</div>
-              <p className="text-gray-700"><strong>Get Insights:</strong> Click on districts for detailed crime breakdowns and statistics.</p>
+          {/* How to Use Section */}
+          <div className="bg-black/70 backdrop-blur-sm border border-gray-800 rounded-2xl p-6 shadow-lg text-center mb-8">
+            <h3 className="text-2xl font-bold text-white mb-4">How to Use</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">1</div>
+                <p className="text-gray-300"><strong className="text-white">Explore the Map:</strong> View crime intensity across Telangana districts with color-coded markers.</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">2</div>
+                <p className="text-gray-300"><strong className="text-white">Analyze Trends:</strong> Use the analytics dashboard to understand crime patterns over time.</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">3</div>
+                <p className="text-gray-300"><strong className="text-white">Filter Data:</strong> Customize your view by crime type, year, or specific regions.</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">4</div>
+                <p className="text-gray-300"><strong className="text-white">Get Insights:</strong> Click on districts for detailed crime breakdowns and statistics.</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Loading indicator */}
-        <div className="text-center mt-8">
-          <p className="text-gray-500">Redirecting to dashboard...</p>
-          <div className="mt-2 flex justify-center">
-            <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+          {/* Redirecting Section */}
+          <div className="text-center mt-8 bg-black/70 p-6 rounded-2xl border border-gray-800">
+            <p className="text-gray-400 mb-4">Redirecting to dashboard...</p>
+            <div className="flex justify-center">
+              <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-500"></div>
+            </div>
           </div>
         </div>
       </div>

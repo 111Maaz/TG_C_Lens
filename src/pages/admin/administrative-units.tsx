@@ -166,7 +166,7 @@ const StatCard = ({ item, count, icon: Icon, color }) => {
     <motion.div
       ref={ref}
       variants={itemVariants}
-      className="rounded-xl shadow-md p-6 bg-white/90 backdrop-blur-sm"
+      className="rounded-xl shadow-md p-6 bg-white/90 backdrop-blur-sm ring-1 ring-black/30 rounded-t-2xl"
     >
       <div className={cn(
         "flex items-center gap-3 p-2 rounded-lg mb-3",
@@ -190,6 +190,7 @@ const CommissionerateCard = ({ name, icon: Icon, emoji, color, districtsCovered 
       "rounded-xl shadow-md p-6 h-full",
       "bg-white/90 backdrop-blur-sm",
       "hover:scale-105 hover:shadow-xl transition-all duration-300",
+      "ring-1 ring-black/30 rounded-t-2xl"
     )}
   >
     <div className={cn(
@@ -243,7 +244,7 @@ const AdministrativeUnitsPage = () => {
 
         {/* Overview Section */}
         <motion.div variants={itemVariants}>
-          <Card className="backdrop-blur-sm bg-white/90 shadow-lg rounded-2xl border-0">
+          <Card className="backdrop-blur-sm bg-white/90 shadow-lg rounded-2xl border-0 ring-1 ring-black/30 rounded-t-2xl">
             <CardHeader>
               <CardTitle className="text-2xl">Overview</CardTitle>
             </CardHeader>
@@ -264,10 +265,10 @@ const AdministrativeUnitsPage = () => {
 
         {/* Historical Context Section */}
         <motion.div variants={itemVariants}>
-          <Card className="backdrop-blur-sm bg-white/90 shadow-lg rounded-2xl border-0 relative overflow-hidden">
+          <Card className="backdrop-blur-sm bg-white/90 shadow-lg rounded-2xl border-0 relative overflow-hidden ring-1 ring-black/30 rounded-t-2xl">
             {/* Background Map */}
             <div 
-              className="absolute bottom-13 right-10 w-64 h-64 opacity-40 pointer-events-none"
+              className="absolute bottom-20 right-10 w-64 h-64 opacity-20 pointer-events-none"
               style={{
                 backgroundImage: 'url("/section1.jpg")',
                 backgroundSize: 'contain',
@@ -303,7 +304,7 @@ const AdministrativeUnitsPage = () => {
 
         {/* Districts Not Reported Section */}
         <motion.div variants={itemVariants}>
-          <Card className="backdrop-blur-sm bg-white/90 shadow-lg rounded-2xl border-0">
+          <Card className="backdrop-blur-sm bg-white/90 shadow-lg rounded-2xl border-0 ring-1 ring-black/30 rounded-t-2xl">
             <CardHeader>
               <CardTitle className="text-2xl">Districts & Commissionerates</CardTitle>
             </CardHeader>
