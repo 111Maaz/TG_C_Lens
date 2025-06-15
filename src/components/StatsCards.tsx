@@ -72,17 +72,20 @@ export const StatsCardGrid: React.FC = () => {
         acc[item.units] = {
           totalCrimes: 0,
           population: item.populationInLakhs,
-          crimeRate: item.crimeRateFor2021
+          crimeRate: 0
         };
       }
       acc[item.units].totalCrimes += item.crimes;
       return acc;
     }, {} as Record<string, any>);
 
-    // Filter out districts with 0 or invalid crime rates
+    // Filter out districts with 0 or invalid population and calculate actual crime rates
     const validDistricts = Object.entries(districtRates)
-      .filter(([_, data]) => data.crimeRate > 0 && isFinite(data.crimeRate))
-      .map(([name, data]) => ({ name, rate: data.crimeRate }));
+      .filter(([_, data]) => data.population > 0 && isFinite(data.population))
+      .map(([name, data]) => ({
+        name,
+        rate: data.totalCrimes / data.population
+      }));
 
     const hotspotDistrict = validDistricts
       .sort((a, b) => b.rate - a.rate)[0] || { name: 'N/A', rate: 0 };

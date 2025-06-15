@@ -23,7 +23,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 22,Nalgonda,16.18,44.19,Bodily Crimes,Hurt,973,2020,0
 23,Narayanpet,5.66,41.87,Bodily Crimes,Hurt,298,2020,0
 24,Nirmal,7.09,40.76,Bodily Crimes,Hurt,247,2020,0
-25,Rajanna Siricilla,5.98,75.75,Bodily Crimes,Hurt,481,2020,0
+25,Rajanna Sircilla,5.98,75.75,Bodily Crimes,Hurt,481,2020,0
 26,Sanga Reddy,15.27,41.26,Bodily Crimes,Hurt,631,2020,0
 27,Suryapet,10.99,81.16,Bodily Crimes,Hurt,945,2020,0
 28,Vikarabad,9.41,56.54,Bodily Crimes,Hurt,545,2020,0
@@ -50,7 +50,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 49,Mahabubnagar,9.16,2.51,Bodily Crimes,Murder,16,2020,0
 50,Medak,7.67,3.65,Bodily Crimes,Murder,26,2020,0
 51,Mulugu,2.94,2.04,Bodily Crimes,Murder,6,2020,0
-52,Nagarkumool,8.61,2.67,Bodily Crimes,Murder,25,2020,0
+52,Nagarkurnool,8.61,2.67,Bodily Crimes,Murder,25,2020,0
 53,Nalgonda,16.18,3.28,Bodily Crimes,Murder,26,2020,0
 54,Narayanpet,5.66,1.94,Bodily Crimes,Murder,6,2020,0
 55,Nirmal,7.09,1.83,Bodily Crimes,Murder,19,2020,0
@@ -81,11 +81,11 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 80,Mahabubnagar,9.16,9.61,Bodily Crimes,Rape,64,2020,0
 81,Medak,7.67,6.78,Bodily Crimes,Rape,38,2020,0
 82,Mulugu,2.94,12.93,Bodily Crimes,Rape,25,2020,0
-83,Nagarkumool,8.61,5.81,Bodily Crimes,Rape,42,2020,0
+83,Nagarkurnool,8.61,5.81,Bodily Crimes,Rape,42,2020,0
 84,Nalgonda,16.18,5.81,Bodily Crimes,Rape,54,2020,0
 85,Narayanpet,5.66,10.25,Bodily Crimes,Rape,55,2020,0
 86,Nirmal,7.09,2.4,Bodily Crimes,Rape,19,2020,0
-87,Rajanna Siricilla,5.98,5.35,Bodily Crimes,Rape,44,2020,0
+87,Rajanna Sircilla,5.98,5.35,Bodily Crimes,Rape,44,2020,0
 88,Sanga Reddy,15.27,3.73,Bodily Crimes,Rape,36,2020,0
 89,Suryapet,10.99,7.64,Bodily Crimes,Rape,64,2020,0
 90,Vikarabad,9.41,7.86,Bodily Crimes,Rape,63,2020,0
@@ -116,7 +116,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 115,Nalgonda,16.18,1.05,Bodily Crimes,Rioting,31,2020,0
 116,Narayanpet,5.66,0.53,Bodily Crimes,Rioting,9,2020,0
 117,Nirmal,7.09,2.12,Bodily Crimes,Rioting,21,2020,0
-118,Rajanna Siricilla,5.98,0.67,Bodily Crimes,Rioting,22,2020,0
+118,Rajanna Sircilla,5.98,0.67,Bodily Crimes,Rioting,22,2020,0
 119,Sanga Reddy,15.27,0.07,Bodily Crimes,Rioting,16,2020,0
 120,Suryapet,10.99,2.09,Bodily Crimes,Rioting,17,2020,0
 121,Vikarabad,9.41,0.32,Bodily Crimes,Rioting,6,2020,0
@@ -639,7 +639,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 638,Mahabubnagar,,0,Property Crime,Dacoities,0,2020,0
 639,Medak,,0.13,Property Crime,Dacoities,0,2020,0
 640,Mulugu,,0,Property Crime,Dacoities,0,2020,0
-641,Nagarkumool,,0,Property Crime,Dacoities,0,2020,0
+641,Nagarkurnool,,0,Property Crime,Dacoities,0,2020,0
 642,Nalgonda,,0,Property Crime,Dacoities,0,2020,0
 643,Narayanpet,,0,Property Crime,Dacoities,0,2020,0
 644,Nirmal,,0,Property Crime,Dacoities,1,2020,0
@@ -670,7 +670,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 669,Mahabubnagar,,0.55,Property Crime,Murder for gain,2,2020,0
 670,Medak,,0.91,Property Crime,Murder for gain,1,2020,0
 671,Mulugu,,0,Property Crime,Murder for gain,0,2020,0
-672,Nagarkumool,,0.23,Property Crime,Murder for gain,0,2020,0
+672,Nagarkurnool,,0.23,Property Crime,Murder for gain,0,2020,0
 673,Nalgonda,,0,Property Crime,Murder for gain,1,2020,0
 674,Narayanpet,,0.53,Property Crime,Murder for gain,0,2020,0
 675,Nirmal,,0.14,Property Crime,Murder for gain,1,2020,0
@@ -767,7 +767,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 766,Nalgonda,16.18,44.19,Bodily Crimes,Hurt,715,2021,-26.5
 767,Narayanpet,5.66,41.87,Bodily Crimes,Hurt,237,2021,-20.5
 768,Nirmal,7.09,40.76,Bodily Crimes,Hurt,289,2021,17
-769,Rajanna Siricilla,5.98,75.75,Bodily Crimes,Hurt,453,2021,-5.8
+769,Rajanna Sircilla,5.98,75.75,Bodily Crimes,Hurt,453,2021,-5.8
 770,Sanga Reddy,15.27,41.26,Bodily Crimes,Hurt,630,2021,-0.2
 771,Suryapet,10.99,81.16,Bodily Crimes,Hurt,892,2021,-5.6
 772,Vikarabad,9.41,56.54,Bodily Crimes,Hurt,532,2021,-2.4
@@ -794,7 +794,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 793,Mahabubnagar,9.16,2.51,Bodily Crimes,Murder,23,2021,43.8
 794,Medak,7.67,3.65,Bodily Crimes,Murder,28,2021,7.7
 795,Mulugu,2.94,2.04,Bodily Crimes,Murder,6,2021,0
-796,Nagarkumool,8.61,2.67,Bodily Crimes,Murder,23,2021,-8
+796,Nagarkurnool,8.61,2.67,Bodily Crimes,Murder,23,2021,-8
 797,Nalgonda,16.18,3.28,Bodily Crimes,Murder,53,2021,103.8
 798,Narayanpet,5.66,1.94,Bodily Crimes,Murder,11,2021,83.3
 799,Nirmal,7.09,1.83,Bodily Crimes,Murder,13,2021,-31.6
@@ -825,11 +825,11 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 824,Mahabubnagar,9.16,9.61,Bodily Crimes,Rape,88,2021,37.5
 825,Medak,7.67,6.78,Bodily Crimes,Rape,52,2021,36.8
 826,Mulugu,2.94,12.93,Bodily Crimes,Rape,38,2021,52
-827,Nagarkumool,8.61,5.81,Bodily Crimes,Rape,50,2021,19
+827,Nagarkurnool,8.61,5.81,Bodily Crimes,Rape,50,2021,19
 828,Nalgonda,16.18,5.81,Bodily Crimes,Rape,94,2021,74.1
 829,Narayanpet,5.66,10.25,Bodily Crimes,Rape,58,2021,5.5
 830,Nirmal,7.09,2.4,Bodily Crimes,Rape,17,2021,-10.5
-831,Rajanna Siricilla,5.98,5.35,Bodily Crimes,Rape,32,2021,-27.3
+831,Rajanna Sircilla,5.98,5.35,Bodily Crimes,Rape,32,2021,-27.3
 832,Sanga Reddy,15.27,3.73,Bodily Crimes,Rape,57,2021,58.3
 833,Suryapet,10.99,7.64,Bodily Crimes,Rape,84,2021,31.3
 834,Vikarabad,9.41,7.86,Bodily Crimes,Rape,74,2021,17.5
@@ -860,7 +860,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 859,Nalgonda,16.18,1.05,Bodily Crimes,Rioting,17,2021,-45.2
 860,Narayanpet,5.66,0.53,Bodily Crimes,Rioting,3,2021,-66.7
 861,Nirmal,7.09,2.12,Bodily Crimes,Rioting,15,2021,-28.6
-862,Rajanna Siricilla,5.98,0.67,Bodily Crimes,Rioting,4,2021,-81.8
+862,Rajanna Sircilla,5.98,0.67,Bodily Crimes,Rioting,4,2021,-81.8
 863,Sanga Reddy,15.27,0.07,Bodily Crimes,Rioting,1,2021,-93.8
 864,Suryapet,10.99,2.09,Bodily Crimes,Rioting,23,2021,35.3
 865,Vikarabad,9.41,0.32,Bodily Crimes,Rioting,3,2021,-50
@@ -1383,7 +1383,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 1382,Mahabubnagar,,0,Property Crime,Dacoities,0,2021,0
 1383,Medak,,0.13,Property Crime,Dacoities,1,2021,0
 1384,Mulugu,,0,Property Crime,Dacoities,0,2021,0
-1385,Nagarkumool,,0,Property Crime,Dacoities,0,2021,0
+1385,Nagarkurnool,,0,Property Crime,Dacoities,0,2021,0
 1386,Nalgonda,,0,Property Crime,Dacoities,0,2021,0
 1387,Narayanpet,,0,Property Crime,Dacoities,0,2021,0
 1388,Nirmal,,0,Property Crime,Dacoities,0,2021,-100
@@ -1414,7 +1414,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 1413,Mahabubnagar,,0.55,Property Crime,Murder for gain,5,2021,150
 1414,Medak,,0.91,Property Crime,Murder for gain,7,2021,600
 1415,Mulugu,,0,Property Crime,Murder for gain,0,2021,0
-1416,Nagarkumool,,0.23,Property Crime,Murder for gain,2,2021,0
+1416,Nagarkurnool,,0.23,Property Crime,Murder for gain,2,2021,0
 1417,Nalgonda,,0,Property Crime,Murder for gain,0,2021,-100
 1418,Narayanpet,,0.53,Property Crime,Murder for gain,3,2021,0
 1419,Nirmal,,0.14,Property Crime,Murder for gain,1,2021,0
