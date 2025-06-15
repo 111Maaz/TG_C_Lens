@@ -177,7 +177,9 @@ const AppSidebar = () => {
           T•S Crime Lens v1.0
         </div> */}
         <div className="absolute bottom-4 left-4 text-white">
-            <p className="text-sm mb-2">T•S Crime Lens v1.0</p>
+            <p className="text-sm mb-2">T•G Crime Lens v1.0</p>
+            <p className="text-xs text-white/70">101 Maaz Ali</p>
+            <br />
             <div className="flex gap-3">
               {/* Facebook */}
               <svg className="w-6 h-6" fill="#1877F2" viewBox="0 0 24 24">
