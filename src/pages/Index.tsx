@@ -11,6 +11,7 @@ import { useTelanganaStats } from '@/hooks/useDashboardData';
 import { useFilters } from '@/contexts/FilterContext';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { UnifiedFooter } from '@/components/UnifiedFooter';
 
 const SafetyFocusZone = ({ title, description, className }: { title: string; description: string; className?: string }) => {
   return (
@@ -65,9 +66,9 @@ const Index = () => {
           <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
 
           <div className="container mx-auto px-4 py-8 relative">
-            <div className="flex justify-between items-center mb-8 transform hover:scale-[1.01] transition-transform">
-              <div className="backdrop-blur-sm bg-white/5 p-4 rounded-2xl border border-white/10 shadow-xl ring-1 ring-black/30 rounded-t-2xl">
-                <h2 className="text-2xl font-bold text-foreground">Dashboard Overview</h2>
+            {/* <div className="flex justify-between items-center mb-8 transform hover:scale-[1.01] transition-transform"> */}
+              {/* <div className="backdrop-blur-sm bg-white/5 p-4 rounded-2xl border border-white/10 shadow-xl ring-1 ring-black/30 rounded-t-2xl"> */}
+                {/* <h2 className="text-2xl font-bold text-foreground">Dashboard Overview</h2> */}
                 {isFiltered && (
                   <p className="text-sm text-muted-foreground animate-fade-in mt-2">
                     Showing data for {getDistrictName()}
@@ -76,8 +77,8 @@ const Index = () => {
                     {activeFilters.year !== 'all' ? ` • Year ${activeFilters.year}` : ''}
                   </p>
                 )}
-              </div>
-            </div>
+              {/* </div> */}
+            {/* </div> */}
             
             <div className="relative mb-8 transform hover:scale-[1.01] transition-transform">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl blur-xl"></div>
@@ -205,17 +206,7 @@ const Index = () => {
           </div>
         </section>
 
-        <footer className="relative border-t border-white/10 bg-gradient-to-b from-background/50 to-background ring-1 ring-black/30 rounded-t-2xl">
-          <div className="container mx-auto px-4 py-6">
-            <div className="mb-4">
-              <EmergencyNumbers />
-            </div>
-            <div className="text-center text-sm text-red/60 mt-4">
-              <p>Telangana Crime Dashboard - Official data from Telangana Police Department</p>
-              <p className="mt-2">© 2025 Telangana State Police Analytics Division</p>
-            </div>
-          </div>
-        </footer>
+        <UnifiedFooter />
       </div>
     </SidebarWrapper>
   );

@@ -19,6 +19,7 @@ import { AutoWelcomePage } from "./components/AutoWelcomePage";
 import { useState, useEffect } from "react";
 import AdministrativeUnitsPage from "./pages/admin/administrative-units";
 import AdminReportsPage from "./pages/admin/reports";
+import { WelcomeModal } from "@/components/WelcomeModal";
 
 // Create a client with default options
 const queryClient = new QueryClient({
@@ -32,17 +33,21 @@ const queryClient = new QueryClient({
 });
 
 const App = () => {
-  const [showWelcome, setShowWelcome] = useState(true);
+  const [showSplash, setShowSplash] = useState(true);
+  const [showWelcomeModal, setShowWelcomeModal] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowWelcome(false);
-    }, 10000); // 10 seconds total
+    // Show splash screen for 3 seconds
+    const splashTimer = setTimeout(() => {
+      setShowSplash(false);
+      // Show welcome modal after splash screen
+      setShowWelcomeModal(true);
+    }, 3000);
 
-    return () => clearTimeout(timer);
+    return () => clearTimeout(splashTimer);
   }, []);
 
-  if (showWelcome) {
+  if (showSplash) {
     return <AutoWelcomePage />;
   }
 
@@ -102,6 +107,10 @@ const App = () => {
                 </main>
               </div>
             </BrowserRouter>
+            <WelcomeModal 
+              isOpen={showWelcomeModal} 
+              onClose={() => setShowWelcomeModal(false)} 
+            />
           </TooltipProvider>
         </FilterProvider>
       </AuthProvider>

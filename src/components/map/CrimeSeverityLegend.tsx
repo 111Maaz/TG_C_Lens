@@ -11,7 +11,7 @@ export const CrimeSeverityLegend: React.FC = () => {
         {legendData.map((item, index) => (
           <div key={index} className="flex items-center gap-1.5 py-1 px-2 rounded bg-gray-50">
             <div 
-              className="w-6 h-6 rounded-full border border-gray-300 flex-shrink-0"
+              className="w-7 h-7 rounded-full border border-gray-300 flex-shrink-0"
               style={{ backgroundColor: item.color }}
             ></div>
             <div className="flex flex-col">

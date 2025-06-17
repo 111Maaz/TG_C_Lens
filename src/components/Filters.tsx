@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { 
   Select,
@@ -15,9 +14,15 @@ import { Button } from "@/components/ui/button";
 import { useFilters } from '@/contexts/FilterContext';
 import { toast } from '@/components/ui/use-toast';
 import { useSearchParams } from 'react-router-dom';
-import { Filter, RefreshCw } from 'lucide-react';
+import { Filter, RefreshCw, HelpCircle } from 'lucide-react';
 import { useDistrictData } from '@/hooks/useDashboardData';
 import { telanganaDataService } from '@/services/telanganaDataService';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 export const DashboardFilters: React.FC = () => {
   const { 
@@ -133,7 +138,19 @@ export const DashboardFilters: React.FC = () => {
       <CardContent className="p-4">
         <div className="flex flex-wrap items-center gap-4">
           <div className="flex-1 min-w-[150px]">
-            <label htmlFor="year" className="block text-sm font-medium mb-1">Year</label>
+            <div className="flex items-center gap-2 mb-1">
+              <label htmlFor="year" className="block text-sm font-medium">Year</label>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <HelpCircle className="h-4 w-4 text-muted-foreground" />
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Select a specific year to view crime data for that period</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            </div>
             <Select 
               value={filters.year} 
               onValueChange={(value) => handleFilterChange('year', value)}
@@ -151,7 +168,19 @@ export const DashboardFilters: React.FC = () => {
           </div>
           
           <div className="flex-1 min-w-[180px]">
-            <label htmlFor="district" className="block text-sm font-medium mb-1">District</label>
+            <div className="flex items-center gap-2 mb-1">
+              <label htmlFor="district" className="block text-sm font-medium">District</label>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <HelpCircle className="h-4 w-4 text-muted-foreground" />
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Filter crime data by specific districts in Telangana</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            </div>
             <Select 
               value={filters.district}
               onValueChange={(value) => handleFilterChange('district', value)}
@@ -169,7 +198,19 @@ export const DashboardFilters: React.FC = () => {
           </div>
           
           <div className="flex-1 min-w-[180px]">
-            <label htmlFor="crime-category" className="block text-sm font-medium mb-1">Crime Category</label>
+            <div className="flex items-center gap-2 mb-1">
+              <label htmlFor="crime-category" className="block text-sm font-medium">Crime Category</label>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <HelpCircle className="h-4 w-4 text-muted-foreground" />
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Select a broad category of crimes to analyze</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            </div>
             <Select 
               value={filters.crimeCategory}
               onValueChange={(value) => handleFilterChange('crimeCategory', value)}
@@ -187,7 +228,19 @@ export const DashboardFilters: React.FC = () => {
           </div>
           
           <div className="flex-1 min-w-[180px]">
-            <label htmlFor="crime-type" className="block text-sm font-medium mb-1">Crime Type</label>
+            <div className="flex items-center gap-2 mb-1">
+              <label htmlFor="crime-type" className="block text-sm font-medium">Crime Type</label>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <HelpCircle className="h-4 w-4 text-muted-foreground" />
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Select specific types of crimes within the chosen category</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            </div>
             <Select 
               value={filters.crimeType}
               onValueChange={(value) => handleFilterChange('crimeType', value)}
@@ -205,23 +258,41 @@ export const DashboardFilters: React.FC = () => {
           </div>
           
           <div className="flex items-end h-[68px] gap-2">
-            <Button 
-              onClick={handleApplyFilters} 
-              className={`${isFiltered ? 'bg-accent hover:bg-accent/90' : 'bg-primary'} transition-colors duration-300 hover:shadow-md flex items-center gap-2`}
-            >
-              <Filter className="h-4 w-4" />
-              Apply Filters
-            </Button>
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button 
+                    onClick={handleApplyFilters} 
+                    className={`${isFiltered ? 'bg-accent hover:bg-accent/90' : 'bg-primary'} transition-colors duration-300 hover:shadow-md flex items-center gap-2`}
+                  >
+                    <Filter className="h-4 w-4" />
+                    Apply Filters
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Apply selected filters to update the dashboard data</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
             
             {isFiltered && (
-              <Button 
-                onClick={handleResetFilters} 
-                variant="outline"
-                className="transition-colors duration-300 hover:bg-destructive/10"
-              >
-                <RefreshCw className="h-4 w-4 mr-2" />
-                Reset
-              </Button>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button 
+                      onClick={handleResetFilters} 
+                      variant="outline"
+                      className="transition-colors duration-300 hover:bg-destructive/10"
+                    >
+                      <RefreshCw className="h-4 w-4 mr-2" />
+                      Reset
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Clear all filters and return to default view</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             )}
           </div>
         </div>

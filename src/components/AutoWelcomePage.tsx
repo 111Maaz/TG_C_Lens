@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Shield, Users, BarChart3, Search } from 'lucide-react';
-import SplashCursor from './SplashCursor';
+import { Shield } from 'lucide-react';
+import SplashCursor from './ui/SplashCursor';
 
 // Define keyframes as a string constant
 const keyframesStyles = `
@@ -21,44 +21,24 @@ const keyframesStyles = `
     }
   }
 
-  @keyframes orbit {
-    from { 
-      transform: translate(-50%, -50%) rotate(0deg) translateX(134px) rotate(0deg);
-    }
-    to { 
-      transform: translate(-50%, -50%) rotate(360deg) translateX(134px) rotate(-360deg);
-    }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 
-  @keyframes orbit-lg {
-    from { 
-      transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg);
-    }
-    to { 
-      transform: translate(-50%, -50%) rotate(360deg) translateX(150px) rotate(-360deg);
-    }
+  @keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
   }
 
-  @keyframes glowTrail {
-    0%, 100% {
-      opacity: 0.6;
-      filter: blur(3px);
-    }
-    50% {
-      opacity: 0.3;
-      filter: blur(5px);
-    }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
   }
 `;
 
 export const AutoWelcomePage: React.FC = () => {
-  // const [currentStage, setCurrentStage] = useState(1);
-  const [currentStage, setCurrentStage] = useState(2);  // Start directly at stage 2
-  const [typewriterText, setTypewriterText] = useState('');
-  const [progress, setProgress] = useState(0);
-
-  const targetText = 'Developer';
-
   // Add the keyframes to the document
   useEffect(() => {
     const styleSheet = document.createElement("style");
@@ -67,225 +47,42 @@ export const AutoWelcomePage: React.FC = () => {
     return () => styleSheet.remove();
   }, []);
 
-  useEffect(() => {
-    // Commenting out first stage animations since we're skipping to stage 2
-    /*
-    // Typewriter effect for "Developer"
-    let index = 0;
-    const typewriterInterval = setInterval(() => {
-      if (index < targetText.length) {
-        setTypewriterText(targetText.slice(0, index + 1));
-        index++;
-      } else {
-        clearInterval(typewriterInterval);
-      }
-    }, 200);
-
-    // Progress bar
-    const progressInterval = setInterval(() => {
-      setProgress((prev) => {
-        if (prev >= 100) {
-          clearInterval(progressInterval);
-          return 100;
-        }
-        return prev + 2; // 50 updates over 5 seconds (100ms each)
-      });
-    }, 100);
-
-    // Stage transitions
-    const stageTimer = setTimeout(() => {
-      setCurrentStage(2);
-    }, 5000);
-    */
-
-    return () => {
-      // clearInterval(typewriterInterval);
-      // clearInterval(progressInterval);
-      // clearTimeout(stageTimer);
-    };
-  }, []);
-
-  const stageOneCards = [
-    {
-      icon: <Users className="h-8 w-8 text-blue-400" />,
-      title: "For Journalists",
-      description: "Access comprehensive crime data for investigative reporting and data-driven stories."
-    },
-    {
-      icon: <BarChart3 className="h-8 w-8 text-green-400" />,
-      title: "For Analysts",
-      description: "Leverage detailed statistics and trends for policy research and analysis."
-    },
-    {
-      icon: <Search className="h-8 w-8 text-purple-400" />,
-      title: "For Citizens",
-      description: "Stay informed about safety trends and crime patterns in your area."
-    }
-  ];
-
-  // Comment out the first stage return statement
-  /*
-  if (currentStage === 1) {
-    return (
-      <div className="min-h-screen relative overflow-hidden flex items-center justify-center p-6 animate-fade-in font-mono">
-        <div 
-          className="absolute inset-0 z-0"
-          style={{
-            background: 'linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)',
-            backgroundSize: '400% 400%',
-            animation: 'gradientAnimation 15s ease infinite',
-            opacity: 0.1
-          } as React.CSSProperties}
-        />
-        
-        <div className="max-w-6xl w-full backdrop-blur-sm bg-white/30 p-8 rounded-2xl shadow-xl transition-all duration-500 relative z-10" 
-             style={{ animation: 'glassReveal 1s ease-out forwards' } as React.CSSProperties}>
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-            <div className="flex-1 text-center lg:text-left backdrop-blur-md bg-white/40 p-6 rounded-xl">
-              <div className="text-2xl lg:text-3xl text-gray-600 mb-4 font-mono h-12">
-                {typewriterText}
-                <span className="animate-pulse">|</span>
-              </div>
-              
-              <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 animate-scale-in font-sans">
-                I'm <span className="text-blue-600">Mohammed Maaz Ali</span>
-              </h1>
-
-              <div className="mt-8">
-                <div className="bg-gray-200/50 backdrop-blur-sm rounded-full h-2 w-full max-w-md mx-auto lg:mx-0">
-                  <div 
-                    className="bg-gradient-to-r from-blue-400 to-purple-500 h-2 rounded-full transition-all duration-100 ease-out"
-                    style={{ width: `${progress}%` } as React.CSSProperties}
-                  ></div>
-                </div>
-                <p className="text-sm text-gray-500 mt-2">
-                  Loading dashboard... {Math.round(progress/20)}s
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex-shrink-0">
-              <div className="relative backdrop-blur-xl bg-white/50 p-8 rounded-2xl shadow-2xl">
-                <div className="absolute w-64 h-64 lg:w-72 lg:h-72" style={{ top: '32px', left: '32px' }}>
-                  <div 
-                    className="absolute w-4 h-4 rounded-full bg-gradient-to-r from-blue-400 to-purple-500"
-                    style={{
-                      left: '50%',
-                      top: '50%',
-                      transformOrigin: '50% 50%',
-                      animation: 'orbit 4s linear infinite',
-                      [`@media (min-width: 1024px)`]: {
-                        animation: 'orbit-lg 4s linear infinite'
-                      },
-                      filter: 'drop-shadow(0 0 6px rgba(99, 102, 241, 0.6))',
-                      zIndex: 10
-                    } as React.CSSProperties}
-                  >
-                    <div 
-                      className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400/40 to-purple-500/40"
-                      style={{
-                        transform: 'scale(2)',
-                        animation: 'glowTrail 2s linear infinite'
-                      } as React.CSSProperties}
-                    />
-                  </div>
-                </div>
-
-                <div className="relative w-64 h-64 lg:w-72 lg:h-72 rounded-full backdrop-blur-md bg-white/90 p-2 shadow-xl transition-all duration-500">
-                  <div className="w-full h-full rounded-full overflow-hidden">
-                    <img 
-                      src="/section1.jpg"
-                      alt="Developer"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-  */
-
   return (
     <div className="relative min-h-screen overflow-hidden bg-black">
-      <SplashCursor 
-        BACK_COLOR={{ r: 0, g: 0, b: 0 }}
-        DYE_RESOLUTION={1024}
-        SPLAT_RADIUS={0.3}
-        SPLAT_FORCE={8000}
-        CURL={30}
-        COLOR_UPDATE_SPEED={12}
-        TRANSPARENT={true}
-      />
-      <div className="relative z-[1] min-h-screen flex items-center justify-center p-6 animate-fade-in font-sans">
-        <div className="max-w-4xl w-full">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-              <span className="text-blue-500">T•G Crime Lens</span>
-            </h1>
-            <p className="text-xl text-gray-300">
-              Comprehensive Crime Analytics Dashboard for Telangana State
-            </p>
-            <div className="flex items-center justify-center gap-4 mt-4">
-              <Shield className="h-8 w-8 text-blue-500 animate-float" />
-              <span className="text-lg text-gray-300">Empowering Data-Driven Insights</span>
-            </div>
-          </div>
+      <SplashCursor />
+      <div className="relative z-[1] min-h-screen flex items-center justify-center p-6 font-sans">
+        <div className="max-w-4xl w-full text-center">
+          {/* Main Title */}
+          <h1 
+            className="text-5xl lg:text-6xl font-bold text-white mb-6"
+            style={{ 
+              background: 'linear-gradient(45deg, #3b82f6, #8b5cf6)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundSize: '200% 200%',
+              animation: 'gradientAnimation 3s ease infinite, fadeIn 0.8s ease-out, pulse 2s infinite'
+            }}
+          >
+            TG Crime Lens
+          </h1>
+          
+          {/* Subtitle with fade-in animation */}
+          <p 
+            className="text-xl text-gray-300 mb-8"
+            style={{ 
+              animation: 'slideUp 0.8s ease-out 0.3s both',
+              opacity: 0
+            }}
+          >
+            Helping Telangana citizens, journalists, and authorities understand crime trends.
+          </p>
 
-          {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-            {stageOneCards.map((card, index) => (
-              <div 
-                key={index} 
-                className="bg-black/30 backdrop-blur-sm border border-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in hover:bg-gray-900/30"
-                style={{ animationDelay: `${index * 0.2}s` }}
-              >
-                <div className="flex justify-center mb-4">
-                  {card.icon}
-                </div>
-                <h3 className="font-bold text-white mb-3 text-lg">
-                  {card.title}
-                </h3>
-                <p className="text-gray-300 text-sm">
-                  {card.description}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          {/* How to Use Section */}
-          <div className="bg-black/70 backdrop-blur-sm border border-gray-800 rounded-2xl p-6 shadow-lg text-center mb-8">
-            <h3 className="text-2xl font-bold text-white mb-4">How to Use</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">1</div>
-                <p className="text-gray-300"><strong className="text-white">Explore the Map:</strong> View crime intensity across Telangana districts with color-coded markers.</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">2</div>
-                <p className="text-gray-300"><strong className="text-white">Analyze Trends:</strong> Use the analytics dashboard to understand crime patterns over time.</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">3</div>
-                <p className="text-gray-300"><strong className="text-white">Filter Data:</strong> Customize your view by crime type, year, or specific regions.</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mt-1">4</div>
-                <p className="text-gray-300"><strong className="text-white">Get Insights:</strong> Click on districts for detailed crime breakdowns and statistics.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Redirecting Section */}
-          <div className="text-center mt-8 bg-black/70 p-6 rounded-2xl border border-gray-800">
-            <p className="text-gray-400 mb-4">Redirecting to dashboard...</p>
-            <div className="flex justify-center">
-              <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-500"></div>
-            </div>
+          {/* Loading Animation */}
+          <div className="flex justify-center">
+            <div 
+              className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full"
+              style={{ animation: 'spin 1s linear infinite' }}
+            />
           </div>
         </div>
       </div>

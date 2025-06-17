@@ -32,16 +32,17 @@ export const setupLeafletDefaultIcon = (): void => {
 export const getSeverityColor = (region: RegionData): string => {
   const total = region.crimeCount.total;
   
-  if (total > 20000) return '#050005';      // >20000 crimes - Very Dark Purple
-  if (total >= 10001) return '#662399';     // 10001-20000 crimes - Purple
-  if (total >= 4000) return '#c91d14';      // 4000-10000 crimes - Red
-  return '#f59c2f';                         // 500-3999 crimes - Orange
+  if (total > 20000) return '#b71c1c';      // >20000 crimes - Dark Red - Extreme
+  if (total >= 10001) return '#ef6c00';     // 10001-20000 crimes - Orange-Red - High
+  if (total >= 4000) return '#fbc02d';      // 4000-10000 crimes - Mustard Yellow - Moderate
+  return '#388e3c';                         // 500-3999 crimes - Green - Safe
+
 };
 
 // Get color legend data for the UI
 export const getColorLegendData = () => [
-  { color: '#f59c2f', label: '500-3,999 crimes', range: 'Low' },
-  { color: '#c91d14', label: '4,000-10,000 crimes', range: 'Medium' },
-  { color: '#662399', label: '10,001-20,000 crimes', range: 'High' },
-  { color: '#050005', label: '>20,000 crimes', range: 'Critical' }
+  { color: '#388e3c', label: '500-3,999 crimes', range: 'Low' },
+  { color: '#fbc02d', label: '4,000-10,000 crimes', range: 'Medium' },
+  { color: '#ef6c00', label: '10,001-20,000 crimes', range: 'High' },
+  { color: '#b71c1c', label: '>20,000 crimes', range: 'Critical' }
 ];
