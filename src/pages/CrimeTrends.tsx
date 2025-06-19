@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SidebarWrapper } from '@/components/AppSidebar';
 import { 
@@ -31,66 +30,58 @@ const CrimeTrends = () => {
   const { activeFilters } = useFilters();
   const { data: stats, isLoading } = useTelanganaStats(activeFilters);
 
-  // Year-over-year comparison with variation data
+  // Year-over-year comparison with variation data (DYNAMIC for all years)
   const yearComparison = React.useMemo(() => {
     if (!stats?.districtData) return [];
-    
-    const totalCrimes2021 = stats.totalIncidents;
-    const avgVariation = stats.districtData.length > 0 
-      ? stats.districtData.reduce((sum, d) => sum + d.percentVariationIn2021Over2020, 0) / stats.districtData.length
-      : 0;
-    
-    // Calculate 2020 data by reversing the variation
-    const totalCrimes2020 = avgVariation !== 0 
-      ? Math.floor(totalCrimes2021 / (1 + avgVariation))
-      : totalCrimes2021;
-
-    return [
-      { 
-        year: '2020', 
-        crimes: totalCrimes2020,
-        variation: 0 
-      },
-      { 
-        year: '2021', 
-        crimes: totalCrimes2021,
-        variation: (avgVariation * 100).toFixed(1)
+    // Aggregate total crimes for each year
+    const crimesByYear: Record<string, number> = {};
+    stats.districtData.forEach((d) => {
+      const year = d.year.toString();
+      crimesByYear[year] = (crimesByYear[year] || 0) + d.crimes;
+    });
+    // Sort years numerically
+    const sortedYears = Object.keys(crimesByYear).sort((a, b) => Number(a) - Number(b));
+    // Optionally, calculate year-on-year variation
+    let prevCrimes: number | null = null;
+    return sortedYears.map((yearStr) => {
+      const year = Number(yearStr);
+      const crimes = Number(crimesByYear[yearStr]);
+      let variation: string | undefined = undefined;
+      if (prevCrimes !== null && prevCrimes > 0) {
+        variation = (((crimes - prevCrimes) / prevCrimes) * 100).toFixed(1);
       }
-    ];
+      const result = {
+        year: yearStr,
+        crimes,
+        variation,
+      };
+      prevCrimes = crimes;
+      return result;
+    });
   }, [stats]);
 
-  // District-wise variation trends
+  // District-wise variation trends (DYNAMIC for all years)
   const districtVariationTrends = React.useMemo(() => {
     if (!stats?.districtData) return [];
-    
-    const districtData = stats.districtData.reduce((acc, item) => {
-      if (!acc[item.units]) {
-        acc[item.units] = {
-          name: item.units,
-          crimes2021: 0,
-          totalVariation: 0,
-          count: 0
-        };
-      }
-      acc[item.units].crimes2021 += item.crimes;
-      acc[item.units].totalVariation += item.percentVariationIn2021Over2020;
-      acc[item.units].count += 1;
-      return acc;
-    }, {} as Record<string, any>);
-
-    return Object.values(districtData)
-      .map((district: any) => {
-        const avgVariation = district.totalVariation / district.count;
-        const crimes2020 = Math.floor(district.crimes2021 / (1 + avgVariation));
-        return {
-          name: district.name,
-          '2020': crimes2020,
-          '2021': district.crimes2021,
-          variation: (avgVariation * 100).toFixed(1)
-        };
-      })
-      .sort((a, b) => b['2021'] - a['2021'])
-      .slice(0, 8); // Top 8 districts
+    // Get all years present in the data
+    const allYears = Array.from(new Set(stats.districtData.map(d => d.year))).sort((a, b) => a - b);
+    // Aggregate crimes by district and year
+    const districtYearMap: Record<string, Record<number, number>> = {};
+    stats.districtData.forEach((item) => {
+      if (!districtYearMap[item.units]) districtYearMap[item.units] = {};
+      districtYearMap[item.units][item.year] = (districtYearMap[item.units][item.year] || 0) + item.crimes;
+    });
+    // Build the data array for the chart
+    const data = Object.entries(districtYearMap).map(([district, yearMap]) => {
+      const row: Record<string, any> = { name: district };
+      allYears.forEach(year => {
+        row[year] = yearMap[year] || 0;
+      });
+      return row;
+    });
+    // Sort by the latest year
+    const latestYear = allYears[allYears.length - 1];
+    return data.sort((a, b) => b[latestYear] - a[latestYear]).slice(0, 8); // Top 8 districts
   }, [stats]);
 
   // Crime category trends (if multiple categories available)
@@ -107,7 +98,7 @@ const CrimeTrends = () => {
         };
       }
       acc[item.category].totalCrimes += item.crimes;
-      acc[item.category].avgVariation += item.percentVariationIn2021Over2020;
+      acc[item.category].avgVariation += item.percentVariationFromPreviousYear;
       acc[item.category].count += 1;
       return acc;
     }, {} as Record<string, any>);
@@ -242,16 +233,11 @@ const CrimeTrends = () => {
                     interval={0}
                   />
                   <YAxis />
-                  <Tooltip 
-                    formatter={(value, name) => [value, name === '2020' ? '2020 Crimes' : '2021 Crimes']}
-                    labelFormatter={(label, payload) => {
-                      const data = payload?.[0]?.payload;
-                      return `${label}${data?.variation ? ` (${data.variation}% variation)` : ''}`;
-                    }}
-                  />
+                  <Tooltip />
                   <Legend />
-                  <Bar dataKey="2020" fill="#82ca9d" name="2020" />
-                  <Bar dataKey="2021" fill="#8884d8" name="2021" />
+                  {Array.from(new Set(stats?.districtData?.map(d => d.year))).sort((a, b) => a - b).map((year, idx) => (
+                    <Bar key={year} dataKey={year.toString()} name={year.toString()} fill={['#82ca9d', '#8884d8', '#ffc658', '#ff7300'][idx % 4]} />
+                  ))}
                 </BarChart>
               </ResponsiveContainer>
             </CardContent>

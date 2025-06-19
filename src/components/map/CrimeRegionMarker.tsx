@@ -40,7 +40,7 @@ const CollapsibleCrimeType = ({ category, crimes }: { category: string; crimes: 
     }
     acc[key].totalIncidents += crime.crimes;
     acc[key].avgRate += crime.crimeRateFor2021;
-    acc[key].avgVariation += crime.percentVariationIn2021Over2020;
+    acc[key].avgVariation += crime.percentVariationFromPreviousYear;
     acc[key].count += 1;
     return acc;
   }, {} as Record<string, { totalIncidents: number; avgRate: number; count: number; latestRate: number; avgVariation: number }>);
@@ -125,7 +125,7 @@ export const CrimeRegionMarker: React.FC<CrimeRegionMarkerProps> = ({ region, se
     if (activeFilters.crimeCategory !== 'all' || activeFilters.crimeType !== 'all') {
       const totalCrimes = districtData.reduce((sum, d) => sum + d.crimes, 0);
       const avgRate = districtData.length > 0 ? districtData.reduce((sum, d) => sum + d.crimeRateFor2021, 0) / districtData.length : 0;
-      const avgVariation = districtData.length > 0 ? districtData.reduce((sum, d) => sum + d.percentVariationIn2021Over2020, 0) / districtData.length : 0;
+      const avgVariation = districtData.length > 0 ? districtData.reduce((sum, d) => sum + d.percentVariationFromPreviousYear, 0) / districtData.length : 0;
       const population = districtData[0]?.populationInLakhs || 0;
 
       return (

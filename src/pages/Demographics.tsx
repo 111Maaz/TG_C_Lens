@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { SidebarWrapper } from '@/components/AppSidebar';
 import { 
   Card, 
@@ -25,6 +25,7 @@ import {
 import { useFilters } from '@/contexts/FilterContext';
 import { telanganaDataService } from '@/services/telanganaDataService';
 import { useTelanganaStats } from '@/hooks/useDashboardData';
+import { Button } from '@/components/ui/button';
 
 // Helper function to calculate trend line
 const calculateTrendLine = (data: any[]) => {
@@ -54,14 +55,15 @@ const calculateTrendLine = (data: any[]) => {
 };
 
 const Demographics = () => {
-  const { activeFilters } = useFilters();
-  const { data: stats, isLoading } = useTelanganaStats(activeFilters);
+  const { data: stats, isLoading } = useTelanganaStats({ year: 'all', district: 'all', crimeCategory: 'all', crimeType: 'all' });
+  const [correlationYear, setCorrelationYear] = useState(2021);
 
   // Population vs Crime Rate Correlation (Scatter plot with trend line)
-  const populationCrimeCorrelation = React.useMemo(() => {
+  const populationCrimeCorrelation = useMemo(() => {
     if (!stats?.districtData) return { scatterData: [], trendLine: [] };
-    
-    const districtSummary = stats.districtData.reduce((acc, item) => {
+    // Filter data for the selected year only
+    const yearData = stats.districtData.filter(item => item.year === correlationYear);
+    const districtSummary = yearData.reduce((acc, item) => {
       if (!acc[item.units]) {
         acc[item.units] = {
           district: item.units,
@@ -73,22 +75,19 @@ const Demographics = () => {
         };
       }
       acc[item.units].totalCrimes += item.crimes;
-      acc[item.units].avgVariation += item.percentVariationIn2021Over2020;
+      acc[item.units].avgVariation += item.percentVariationFromPreviousYear;
       acc[item.units].count += 1;
       return acc;
     }, {} as Record<string, any>);
-
     const scatterData = Object.values(districtSummary)
       .map((district: any) => ({
         ...district,
         avgVariation: district.avgVariation / district.count
       }))
-      .sort((a, b) => a.population - b.population); // Sort by population
-
+      .sort((a, b) => a.population - b.population);
     const trendLine = calculateTrendLine(scatterData);
-
     return { scatterData, trendLine };
-  }, [stats]);
+  }, [stats, correlationYear]);
 
   // Crime distribution by district (replacing age distribution)
   const crimeDistribution = React.useMemo(() => {
@@ -108,27 +107,39 @@ const Demographics = () => {
       .slice(0, 8); // Top 8 districts
   }, [stats]);
 
-  // Year-over-year variation analysis (replacing gender distribution)
+  // Updated variation analysis logic
   const variationAnalysis = React.useMemo(() => {
     if (!stats?.districtData) return [];
-    
-    const avgVariationByDistrict = stats.districtData.reduce((acc, item) => {
-      if (!acc[item.units]) {
-        acc[item.units] = { sum: 0, count: 0 };
+    const yearA = 2021;
+    const yearB = 2020;
+    // Filter for the two years
+    const dataA = stats.districtData.filter(item => item.year === yearA);
+    const dataB = stats.districtData.filter(item => item.year === yearB);
+    // Sum crimes for each district for each year
+    const sumCrimesByDistrict = (data) => {
+      return data.reduce((acc, item) => {
+        acc[item.units] = (acc[item.units] || 0) + item.crimes;
+        return acc;
+      }, {});
+    };
+    const crimesA = sumCrimesByDistrict(dataA);
+    const crimesB = sumCrimesByDistrict(dataB);
+    const allDistricts = Array.from(new Set([...Object.keys(crimesA), ...Object.keys(crimesB)]));
+    const variations = allDistricts.map(district => {
+      const a = crimesA[district] || 0;
+      const b = crimesB[district] || 0;
+      let value;
+      if (b === 0 || b < 5) {
+        value = null; // Mark as N/A if baseline is zero or too low
+      } else {
+        value = ((a - b) / b) * 100;
       }
-      acc[item.units].sum += item.percentVariationIn2021Over2020;
-      acc[item.units].count += 1;
-      return acc;
-    }, {} as Record<string, any>);
-
-    return Object.entries(avgVariationByDistrict)
-      .map(([district, data]) => ({
-        name: district,
-        value: (data.sum / data.count * 100) // Convert to percentage
-      }))
-      .filter(item => Math.abs(item.value) > 1) // Only show significant variations
-      .sort((a, b) => Math.abs(b.value) - Math.abs(a.value))
-      .slice(0, 6);
+      return { name: district, value };
+    });
+    // Sort by absolute variation and show all districts, skip N/A
+    return variations
+      .filter(item => item.value !== null && !isNaN(item.value))
+      .sort((a, b) => Math.abs(b.value) - Math.abs(a.value));
   }, [stats]);
 
   const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#A28AE8', '#FF6B6B'];
@@ -158,8 +169,6 @@ const Demographics = () => {
         <p className="text-muted-foreground mb-8">
           This section provides demographic data related to crime incidents, including population correlation, 
           district distribution, and year-over-year variation analysis based on real Telangana crime data.
-          {activeFilters.crimeCategory !== 'all' && ` Filtered by: ${activeFilters.crimeCategory}`}
-          {activeFilters.district !== 'all' && ` • District: ${activeFilters.district}`}
         </p>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -169,6 +178,18 @@ const Demographics = () => {
               <CardDescription>
                 Bubble size represents total crime incidents. Line shows the trend.
               </CardDescription>
+              <div className="flex gap-2 mt-2">
+                {[2018, 2019, 2020, 2021].map(year => (
+                  <Button
+                    key={year}
+                    size="sm"
+                    variant={correlationYear === year ? 'default' : 'outline'}
+                    onClick={() => setCorrelationYear(year)}
+                  >
+                    {year}
+                  </Button>
+                ))}
+              </div>
             </CardHeader>
             <CardContent className="h-[400px]">
               <ResponsiveContainer width="100%" height="100%">
@@ -183,16 +204,16 @@ const Demographics = () => {
                     label={{ value: 'Population (Lakhs)', position: 'insideBottom', offset: -5 }}
                   />
                   <YAxis 
-                    dataKey="crimeRate" 
-                    name="Crime Rate 2021"
-                    label={{ value: 'Crime Rate 2021', angle: -90, position: 'insideLeft' }}
+                    dataKey="crimeRate"
+                    name={`Crime Rate ${correlationYear}`}
+                    label={{ value: `Crime Rate ${correlationYear}`, angle: -90, position: 'insideLeft' }}
                   />
                   <Tooltip 
                     cursor={{ strokeDasharray: '3 3' }}
                     formatter={(value, name, props) => {
                       if (name === 'totalCrimes') return [value, 'Total Crimes'];
                       if (name === 'population') return [value, 'Population (Lakhs)'];
-                      if (name === 'crimeRate') return [value, 'Crime Rate'];
+                      if (name === 'crimeRate') return [value, `Crime Rate ${correlationYear}`];
                       return [value, name];
                     }}
                     labelFormatter={(value, payload) => {
@@ -228,42 +249,15 @@ const Demographics = () => {
             </CardContent>
           </Card>
           
-          <Card className="ring-1 ring-black/30 rounded-t-2xl">
-            <CardHeader>
-              <CardTitle>Crime Distribution by District</CardTitle>
-              <CardDescription>Top districts by total incidents</CardDescription>
-            </CardHeader>
-            <CardContent className="h-[350px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart
-                  data={crimeDistribution}
-                  margin={{ top: 20, right: 30, left: 20, bottom: 70 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis 
-                    dataKey="name" 
-                    angle={-45}
-                    textAnchor="end"
-                    height={70}
-                    interval={0}
-                  />
-                  <YAxis />
-                  <Tooltip />
-                  <Legend />
-                  <Bar dataKey="value" name="Total Incidents">
-                    {crimeDistribution.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
-                  </Bar>
-                </BarChart>
-              </ResponsiveContainer>
-            </CardContent>
-          </Card>
-          
-          <Card className="ring-1 ring-black/30 rounded-t-2xl">
+          <Card className="lg:col-span-2 w-full ring-1 ring-black/30 rounded-t-2xl">
             <CardHeader>
               <CardTitle>Year-over-Year Variation Analysis</CardTitle>
-              <CardDescription>Districts with significant crime variation (2021 vs 2020)</CardDescription>
+              <CardDescription>
+                Districts with significant crime variation
+                <span className="ml-2 font-semibold text-primary">
+                  (Currently showing: 2021 vs 2020)
+                </span>
+              </CardDescription>
             </CardHeader>
             <CardContent className="h-[350px]">
               <ResponsiveContainer width="100%" height="100%">
@@ -282,6 +276,7 @@ const Demographics = () => {
                   <YAxis />
                   <Tooltip 
                     formatter={(value) => {
+                      if (value === null) return ['N/A', 'Variation'];
                       const numValue = typeof value === 'number' ? value : parseFloat(value as string);
                       return [`${numValue.toFixed(1)}%`, 'Variation'];
                     }}

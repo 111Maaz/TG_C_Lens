@@ -107,14 +107,27 @@ export const StatsCardGrid: React.FC = () => {
       .map(([type, count]) => ({ type, count }))
       .sort((a, b) => b.count - a.count)[0] || { type: 'N/A', count: 0 };
 
-    // Year-over-Year Trend: Calculate from variation data
-    const avgVariation = filteredData.length > 0 
-      ? filteredData.reduce((sum, d) => sum + d.percentVariationIn2021Over2020, 0) / filteredData.length
-      : 0;
-
+    // Year-over-Year Trend: Calculate from aggregate totals, not average of row variations
+    let yoyChange = 0;
+    let yoyPositive = false;
+    if (filteredData.length > 0) {
+      // Determine which years to compare
+      const years = filteredData.map(d => d.year);
+      const maxYear = Math.max(...years);
+      const minYear = Math.min(...years);
+      // Default: compare latest year vs previous year
+      const yearA = maxYear;
+      const yearB = maxYear - 1;
+      const totalA = filteredData.filter(d => d.year === yearA).reduce((sum, d) => sum + d.crimes, 0);
+      const totalB = filteredData.filter(d => d.year === yearB).reduce((sum, d) => sum + d.crimes, 0);
+      if (totalB > 0) {
+        yoyChange = ((totalA - totalB) / totalB) * 100;
+        yoyPositive = yoyChange > 0;
+      }
+    }
     const yearOverYearTrend = {
-      change: Math.abs(avgVariation * 100),
-      positive: avgVariation > 0
+      change: Math.abs(yoyChange),
+      positive: yoyPositive
     };
 
     return {

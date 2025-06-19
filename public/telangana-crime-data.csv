@@ -23,7 +23,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 22,Nalgonda,16.18,44.19,Bodily Crimes,Hurt,973,2020,0
 23,Narayanpet,5.66,41.87,Bodily Crimes,Hurt,298,2020,0
 24,Nirmal,7.09,40.76,Bodily Crimes,Hurt,247,2020,0
-25,Rajanna Sircilla,5.98,75.75,Bodily Crimes,Hurt,481,2020,0
+25,Rajanna Siricilla,5.98,75.75,Bodily Crimes,Hurt,481,2020,0
 26,Sanga Reddy,15.27,41.26,Bodily Crimes,Hurt,631,2020,0
 27,Suryapet,10.99,81.16,Bodily Crimes,Hurt,945,2020,0
 28,Vikarabad,9.41,56.54,Bodily Crimes,Hurt,545,2020,0
@@ -50,7 +50,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 49,Mahabubnagar,9.16,2.51,Bodily Crimes,Murder,16,2020,0
 50,Medak,7.67,3.65,Bodily Crimes,Murder,26,2020,0
 51,Mulugu,2.94,2.04,Bodily Crimes,Murder,6,2020,0
-52,Nagarkurnool,8.61,2.67,Bodily Crimes,Murder,25,2020,0
+52,Nagarkumool,8.61,2.67,Bodily Crimes,Murder,25,2020,0
 53,Nalgonda,16.18,3.28,Bodily Crimes,Murder,26,2020,0
 54,Narayanpet,5.66,1.94,Bodily Crimes,Murder,6,2020,0
 55,Nirmal,7.09,1.83,Bodily Crimes,Murder,19,2020,0
@@ -81,11 +81,11 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 80,Mahabubnagar,9.16,9.61,Bodily Crimes,Rape,64,2020,0
 81,Medak,7.67,6.78,Bodily Crimes,Rape,38,2020,0
 82,Mulugu,2.94,12.93,Bodily Crimes,Rape,25,2020,0
-83,Nagarkurnool,8.61,5.81,Bodily Crimes,Rape,42,2020,0
+83,Nagarkumool,8.61,5.81,Bodily Crimes,Rape,42,2020,0
 84,Nalgonda,16.18,5.81,Bodily Crimes,Rape,54,2020,0
 85,Narayanpet,5.66,10.25,Bodily Crimes,Rape,55,2020,0
 86,Nirmal,7.09,2.4,Bodily Crimes,Rape,19,2020,0
-87,Rajanna Sircilla,5.98,5.35,Bodily Crimes,Rape,44,2020,0
+87,Rajanna Siricilla,5.98,5.35,Bodily Crimes,Rape,44,2020,0
 88,Sanga Reddy,15.27,3.73,Bodily Crimes,Rape,36,2020,0
 89,Suryapet,10.99,7.64,Bodily Crimes,Rape,64,2020,0
 90,Vikarabad,9.41,7.86,Bodily Crimes,Rape,63,2020,0
@@ -116,476 +116,476 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 115,Nalgonda,16.18,1.05,Bodily Crimes,Rioting,31,2020,0
 116,Narayanpet,5.66,0.53,Bodily Crimes,Rioting,9,2020,0
 117,Nirmal,7.09,2.12,Bodily Crimes,Rioting,21,2020,0
-118,Rajanna Sircilla,5.98,0.67,Bodily Crimes,Rioting,22,2020,0
+118,Rajanna Siricilla,5.98,0.67,Bodily Crimes,Rioting,22,2020,0
 119,Sanga Reddy,15.27,0.07,Bodily Crimes,Rioting,16,2020,0
 120,Suryapet,10.99,2.09,Bodily Crimes,Rioting,17,2020,0
 121,Vikarabad,9.41,0.32,Bodily Crimes,Rioting,6,2020,0
 122,Wanaparthy,5.77,0.17,Bodily Crimes,Rioting,5,2020,0
 123,RP Secunderabad,,,Bodily Crimes,Rioting,0,2020,0
 124,CID,,,Bodily Crimes,Rioting,,2020,0
-125,Cyberabad,,,Crime Against Children,Kidnapping_Abduction,388,2020,0
-126,Hyderabad,,,Crime Against Children,Kidnapping_Abduction,95,2020,0
-127,Karimnagar,,,Crime Against Children,Kidnapping_Abduction,7,2020,0
-128,Khammam,,,Crime Against Children,Kidnapping_Abduction,90,2020,0
-129,Nizamabad,,,Crime Against Children,Kidnapping_Abduction,16,2020,0
-130,Rachakonda,,,Crime Against Children,Kidnapping_Abduction,57,2020,0
-131,Ramagundam,,,Crime Against Children,Kidnapping_Abduction,36,2020,0
-132,Siddipet,,,Crime Against Children,Kidnapping_Abduction,14,2020,0
-133,Warangal,,,Crime Against Children,Kidnapping_Abduction,143,2020,0
-134,Adilabad,,,Crime Against Children,Kidnapping_Abduction,18,2020,0
-135,Bhadradri Kothagudem,,,Crime Against Children,Kidnapping_Abduction,73,2020,0
-136,Jagtial,,,Crime Against Children,Kidnapping_Abduction,2,2020,0
-137,Jayashankar Bhupalpally,,,Crime Against Children,Kidnapping_Abduction,29,2020,0
-138,Jogulamba Gadwal,,,Crime Against Children,Kidnapping_Abduction,4,2020,0
-139,Kamareddy,,,Crime Against Children,Kidnapping_Abduction,6,2020,0
-140,Kumaram Bheem Asifabad,,,Crime Against Children,Kidnapping_Abduction,6,2020,0
-141,Mahabubabad,,,Crime Against Children,Kidnapping_Abduction,36,2020,0
-142,Mahabubnagar,,,Crime Against Children,Kidnapping_Abduction,58,2020,0
-143,Medak,,,Crime Against Children,Kidnapping_Abduction,16,2020,0
-144,Mulugu,,,Crime Against Children,Kidnapping_Abduction,11,2020,0
-145,Nagarkurnool,,,Crime Against Children,Kidnapping_Abduction,40,2020,0
-146,Nalgonda,,,Crime Against Children,Kidnapping_Abduction,13,2020,0
-147,Narayanpet,,,Crime Against Children,Kidnapping_Abduction,13,2020,0
-148,Nirmal,,,Crime Against Children,Kidnapping_Abduction,2,2020,0
-149,Rajanna Sircilla,,,Crime Against Children,Kidnapping_Abduction,16,2020,0
-150,Sanga Reddy,,,Crime Against Children,Kidnapping_Abduction,10,2020,0
-151,Suryapet,,,Crime Against Children,Kidnapping_Abduction,30,2020,0
-152,Vikarabad,,,Crime Against Children,Kidnapping_Abduction,26,2020,0
-153,Wanaparthy,,,Crime Against Children,Kidnapping_Abduction,3,2020,0
+125,Cyberabad,62,6.258064516,Crime Against Children,Kidnapping_Abduction,388,2020,0
+126,Hyderabad,39.43,2.409332995,Crime Against Children,Kidnapping_Abduction,95,2020,0
+127,Karimnagar,10.05,0.696517413,Crime Against Children,Kidnapping_Abduction,7,2020,0
+128,Khammam,15.59,5.772931366,Crime Against Children,Kidnapping_Abduction,90,2020,0
+129,Nizamabad,15.71,1.01845958,Crime Against Children,Kidnapping_Abduction,16,2020,0
+130,Rachakonda,52,1.096153846,Crime Against Children,Kidnapping_Abduction,57,2020,0
+131,Ramagundam,16.02,2.247191011,Crime Against Children,Kidnapping_Abduction,36,2020,0
+132,Siddipet,10.55,1.327014218,Crime Against Children,Kidnapping_Abduction,14,2020,0
+133,Warangal,23.65,6.046511628,Crime Against Children,Kidnapping_Abduction,143,2020,0
+134,Adilabad,8.51,2.115158637,Crime Against Children,Kidnapping_Abduction,18,2020,0
+135,Bhadradri Kothagudem,13.96,5.229226361,Crime Against Children,Kidnapping_Abduction,73,2020,0
+136,Jagtial,9.85,0.203045685,Crime Against Children,Kidnapping_Abduction,2,2020,0
+137,Jayashankar Bhupalpally,4.5,6.444444444,Crime Against Children,Kidnapping_Abduction,29,2020,0
+138,Jogulamba Gadwal,6.09,0.65681445,Crime Against Children,Kidnapping_Abduction,4,2020,0
+139,Kamareddy,9.94,0.60362173,Crime Against Children,Kidnapping_Abduction,6,2020,0
+140,Kumaram Bheem Asifabad,5.38,1.115241636,Crime Against Children,Kidnapping_Abduction,6,2020,0
+141,Mahabubabad,7.74,4.651162791,Crime Against Children,Kidnapping_Abduction,36,2020,0
+142,Mahabubnagar,9.16,6.331877729,Crime Against Children,Kidnapping_Abduction,58,2020,0
+143,Medak,7.67,2.086049544,Crime Against Children,Kidnapping_Abduction,16,2020,0
+144,Mulugu,2.94,3.741496599,Crime Against Children,Kidnapping_Abduction,11,2020,0
+145,Nagarkurnool,8.61,4.645760743,Crime Against Children,Kidnapping_Abduction,40,2020,0
+146,Nalgonda,16.18,0.803461063,Crime Against Children,Kidnapping_Abduction,13,2020,0
+147,Narayanpet,5.66,2.296819788,Crime Against Children,Kidnapping_Abduction,13,2020,0
+148,Nirmal,7.09,0.282087447,Crime Against Children,Kidnapping_Abduction,2,2020,0
+149,Rajanna Sircilla,5.98,2.675585284,Crime Against Children,Kidnapping_Abduction,16,2020,0
+150,Sanga Reddy,15.27,0.654878847,Crime Against Children,Kidnapping_Abduction,10,2020,0
+151,Suryapet,10.99,2.729754322,Crime Against Children,Kidnapping_Abduction,30,2020,0
+152,Vikarabad,9.41,2.763018066,Crime Against Children,Kidnapping_Abduction,26,2020,0
+153,Wanaparthy,5.77,0.519930676,Crime Against Children,Kidnapping_Abduction,3,2020,0
 154,RP Secunderabad,,,Crime Against Children,Kidnapping_Abduction,0,2020,0
 155,CID,,,Crime Against Children,Kidnapping_Abduction,0,2020,0
-156,Cyberabad,,,Crime Against Children,Murder,7,2020,0
-157,Hyderabad,,,Crime Against Children,Murder,0,2020,0
-158,Karimnagar,,,Crime Against Children,Murder,1,2020,0
-159,Khammam,,,Crime Against Children,Murder,1,2020,0
-160,Nizamabad,,,Crime Against Children,Murder,2,2020,0
-161,Rachakonda,,,Crime Against Children,Murder,0,2020,0
-162,Ramagundam,,,Crime Against Children,Murder,0,2020,0
-163,Siddipet,,,Crime Against Children,Murder,0,2020,0
-164,Warangal,,,Crime Against Children,Murder,4,2020,0
-165,Adilabad,,,Crime Against Children,Murder,0,2020,0
-166,Bhadradri Kothagudem,,,Crime Against Children,Murder,0,2020,0
-167,Jagtial,,,Crime Against Children,Murder,0,2020,0
-168,Jayashankar Bhupalpally,,,Crime Against Children,Murder,0,2020,0
-169,Jogulamba Gadwal,,,Crime Against Children,Murder,1,2020,0
-170,Kamareddy,,,Crime Against Children,Murder,2,2020,0
-171,Kumaram Bheem Asifabad,,,Crime Against Children,Murder,0,2020,0
-172,Mahabubabad,,,Crime Against Children,Murder,1,2020,0
-173,Mahabubnagar,,,Crime Against Children,Murder,0,2020,0
-174,Medak,,,Crime Against Children,Murder,1,2020,0
-175,Mulugu,,,Crime Against Children,Murder,0,2020,0
-176,Nagarkurnool,,,Crime Against Children,Murder,2,2020,0
-177,Nalgonda,,,Crime Against Children,Murder,0,2020,0
-178,Narayanpet,,,Crime Against Children,Murder,0,2020,0
-179,Nirmal,,,Crime Against Children,Murder,1,2020,0
-180,Rajanna Sircilla,,,Crime Against Children,Murder,0,2020,0
-181,Sanga Reddy,,,Crime Against Children,Murder,4,2020,0
-182,Suryapet,,,Crime Against Children,Murder,1,2020,0
-183,Vikarabad,,,Crime Against Children,Murder,2,2020,0
-184,Wanaparthy,,,Crime Against Children,Murder,0,2020,0
+156,Cyberabad,62,0.112903226,Crime Against Children,Murder,7,2020,0
+157,Hyderabad,39.43,0,Crime Against Children,Murder,0,2020,0
+158,Karimnagar,10.05,0.099502488,Crime Against Children,Murder,1,2020,0
+159,Khammam,15.59,0.064143682,Crime Against Children,Murder,1,2020,0
+160,Nizamabad,15.71,0.127307447,Crime Against Children,Murder,2,2020,0
+161,Rachakonda,52,0,Crime Against Children,Murder,0,2020,0
+162,Ramagundam,16.02,0,Crime Against Children,Murder,0,2020,0
+163,Siddipet,10.55,0,Crime Against Children,Murder,0,2020,0
+164,Warangal,23.65,0.169133192,Crime Against Children,Murder,4,2020,0
+165,Adilabad,8.51,0,Crime Against Children,Murder,0,2020,0
+166,Bhadradri Kothagudem,13.96,0,Crime Against Children,Murder,0,2020,0
+167,Jagtial,9.85,0,Crime Against Children,Murder,0,2020,0
+168,Jayashankar Bhupalpally,4.5,0,Crime Against Children,Murder,0,2020,0
+169,Jogulamba Gadwal,6.09,0.164203612,Crime Against Children,Murder,1,2020,0
+170,Kamareddy,9.94,0.201207243,Crime Against Children,Murder,2,2020,0
+171,Kumaram Bheem Asifabad,5.38,0,Crime Against Children,Murder,0,2020,0
+172,Mahabubabad,7.74,0.129198966,Crime Against Children,Murder,1,2020,0
+173,Mahabubnagar,9.16,0,Crime Against Children,Murder,0,2020,0
+174,Medak,7.67,0.130378096,Crime Against Children,Murder,1,2020,0
+175,Mulugu,2.94,0,Crime Against Children,Murder,0,2020,0
+176,Nagarkurnool,8.61,0.232288037,Crime Against Children,Murder,2,2020,0
+177,Nalgonda,16.18,0,Crime Against Children,Murder,0,2020,0
+178,Narayanpet,5.66,0,Crime Against Children,Murder,0,2020,0
+179,Nirmal,7.09,0.141043724,Crime Against Children,Murder,1,2020,0
+180,Rajanna Sircilla,5.98,0,Crime Against Children,Murder,0,2020,0
+181,Sanga Reddy,15.27,0.261951539,Crime Against Children,Murder,4,2020,0
+182,Suryapet,10.99,0.090991811,Crime Against Children,Murder,1,2020,0
+183,Vikarabad,9.41,0.212539851,Crime Against Children,Murder,2,2020,0
+184,Wanaparthy,5.77,0,Crime Against Children,Murder,0,2020,0
 185,RP Secunderabad,,,Crime Against Children,Murder,0,2020,0
 186,CID,,,Crime Against Children,Murder,0,2020,0
-187,Cyberabad,,,Crime Against Children,Rape,189,2020,0
-188,Hyderabad,,,Crime Against Children,Rape,222,2020,0
-189,Karimnagar,,,Crime Against Children,Rape,13,2020,0
-190,Khammam,,,Crime Against Children,Rape,56,2020,0
-191,Nizamabad,,,Crime Against Children,Rape,26,2020,0
-192,Rachakonda,,,Crime Against Children,Rape,187,2020,0
-193,Ramagundam,,,Crime Against Children,Rape,42,2020,0
-194,Siddipet,,,Crime Against Children,Rape,34,2020,0
-195,Warangal,,,Crime Against Children,Rape,34,2020,0
-196,Adilabad,,,Crime Against Children,Rape,27,2020,0
-197,Bhadradri Kothagudem,,,Crime Against Children,Rape,71,2020,0
-198,Jagtial,,,Crime Against Children,Rape,17,2020,0
-199,Jayashankar Bhupalpally,,,Crime Against Children,Rape,11,2020,0
-200,Jogulamba Gadwal,,,Crime Against Children,Rape,30,2020,0
-201,Kamareddy,,,Crime Against Children,Rape,36,2020,0
-202,Kumaram Bheem Asifabad,,,Crime Against Children,Rape,10,2020,0
-203,Mahabubabad,,,Crime Against Children,Rape,24,2020,0
-204,Mahabubnagar,,,Crime Against Children,Rape,47,2020,0
-205,Medak,,,Crime Against Children,Rape,31,2020,0
-206,Mulugu,,,Crime Against Children,Rape,18,2020,0
-207,Nagarkurnool,,,Crime Against Children,Rape,26,2020,0
-208,Nalgonda,,,Crime Against Children,Rape,40,2020,0
-209,Narayanpet,,,Crime Against Children,Rape,46,2020,0
-210,Nirmal,,,Crime Against Children,Rape,10,2020,0
-211,Rajanna Sircilla,,,Crime Against Children,Rape,25,2020,0
-212,Sanga Reddy,,,Crime Against Children,Rape,21,2020,0
-213,Suryapet,,,Crime Against Children,Rape,41,2020,0
-214,Vikarabad,,,Crime Against Children,Rape,54,2020,0
-215,Wanaparthy,,,Crime Against Children,Rape,27,2020,0
+187,Cyberabad,62,3.048387097,Crime Against Children,Rape,189,2020,0
+188,Hyderabad,39.43,5.630230789,Crime Against Children,Rape,222,2020,0
+189,Karimnagar,10.05,1.293532338,Crime Against Children,Rape,13,2020,0
+190,Khammam,15.59,3.592046183,Crime Against Children,Rape,56,2020,0
+191,Nizamabad,15.71,1.654996817,Crime Against Children,Rape,26,2020,0
+192,Rachakonda,52,3.596153846,Crime Against Children,Rape,187,2020,0
+193,Ramagundam,16.02,2.621722846,Crime Against Children,Rape,42,2020,0
+194,Siddipet,10.55,3.222748815,Crime Against Children,Rape,34,2020,0
+195,Warangal,23.65,1.437632135,Crime Against Children,Rape,34,2020,0
+196,Adilabad,8.51,3.172737955,Crime Against Children,Rape,27,2020,0
+197,Bhadradri Kothagudem,13.96,5.085959885,Crime Against Children,Rape,71,2020,0
+198,Jagtial,9.85,1.725888325,Crime Against Children,Rape,17,2020,0
+199,Jayashankar Bhupalpally,4.5,2.444444444,Crime Against Children,Rape,11,2020,0
+200,Jogulamba Gadwal,6.09,4.926108374,Crime Against Children,Rape,30,2020,0
+201,Kamareddy,9.94,3.621730382,Crime Against Children,Rape,36,2020,0
+202,Kumaram Bheem Asifabad,5.38,1.858736059,Crime Against Children,Rape,10,2020,0
+203,Mahabubabad,7.74,3.100775194,Crime Against Children,Rape,24,2020,0
+204,Mahabubnagar,9.16,5.131004367,Crime Against Children,Rape,47,2020,0
+205,Medak,7.67,4.041720991,Crime Against Children,Rape,31,2020,0
+206,Mulugu,2.94,6.12244898,Crime Against Children,Rape,18,2020,0
+207,Nagarkurnool,8.61,3.019744483,Crime Against Children,Rape,26,2020,0
+208,Nalgonda,16.18,2.472187886,Crime Against Children,Rape,40,2020,0
+209,Narayanpet,5.66,8.127208481,Crime Against Children,Rape,46,2020,0
+210,Nirmal,7.09,1.410437236,Crime Against Children,Rape,10,2020,0
+211,Rajanna Sircilla,5.98,4.180602007,Crime Against Children,Rape,25,2020,0
+212,Sanga Reddy,15.27,1.37524558,Crime Against Children,Rape,21,2020,0
+213,Suryapet,10.99,3.73066424,Crime Against Children,Rape,41,2020,0
+214,Vikarabad,9.41,5.738575983,Crime Against Children,Rape,54,2020,0
+215,Wanaparthy,5.77,4.679376083,Crime Against Children,Rape,27,2020,0
 216,RP Secunderabad,,,Crime Against Children,Rape,0,2020,0
 217,CID,,,Crime Against Children,Rape,0,2020,0
-218,Cyberabad,,,Crime Against Women,Abetment to Suicide,58,2020,0
-219,Hyderabad,,,Crime Against Women,Abetment to Suicide,15,2020,0
-220,Karimnagar,,,Crime Against Women,Abetment to Suicide,4,2020,0
-221,Khammam,,,Crime Against Women,Abetment to Suicide,19,2020,0
-222,Nizamabad,,,Crime Against Women,Abetment to Suicide,14,2020,0
-223,Rachakonda,,,Crime Against Women,Abetment to Suicide,33,2020,0
-224,Ramagundam,,,Crime Against Women,Abetment to Suicide,30,2020,0
-225,Siddipet,,,Crime Against Women,Abetment to Suicide,10,2020,0
-226,Warangal,,,Crime Against Women,Abetment to Suicide,29,2020,0
-227,Adilabad,,,Crime Against Women,Abetment to Suicide,7,2020,0
-228,Bhadradri Kothagudem,,,Crime Against Women,Abetment to Suicide,10,2020,0
-229,Jagtial,,,Crime Against Women,Abetment to Suicide,8,2020,0
-230,Jayashankar Bhupalpally,,,Crime Against Women,Abetment to Suicide,4,2020,0
-231,Jogulamba Gadwal,,,Crime Against Women,Abetment to Suicide,4,2020,0
-232,Kamareddy,,,Crime Against Women,Abetment to Suicide,7,2020,0
-233,Kumaram Bheem Asifabad,,,Crime Against Women,Abetment to Suicide,8,2020,0
-234,Mahabubabad,,,Crime Against Women,Abetment to Suicide,13,2020,0
-235,Mahabubnagar,,,Crime Against Women,Abetment to Suicide,22,2020,0
-236,Medak,,,Crime Against Women,Abetment to Suicide,9,2020,0
-237,Mulugu,,,Crime Against Women,Abetment to Suicide,10,2020,0
-238,Nagarkurnool,,,Crime Against Women,Abetment to Suicide,10,2020,0
-239,Nalgonda,,,Crime Against Women,Abetment to Suicide,23,2020,0
-240,Narayanpet,,,Crime Against Women,Abetment to Suicide,2,2020,0
-241,Nirmal,,,Crime Against Women,Abetment to Suicide,6,2020,0
-242,Rajanna Sircilla,,,Crime Against Women,Abetment to Suicide,7,2020,0
-243,Sanga Reddy,,,Crime Against Women,Abetment to Suicide,8,2020,0
-244,Suryapet,,,Crime Against Women,Abetment to Suicide,5,2020,0
-245,Vikarabad,,,Crime Against Women,Abetment to Suicide,12,2020,0
-246,Wanaparthy,,,Crime Against Women,Abetment to Suicide,0,2020,0
+218,Cyberabad,62,0.935483871,Crime Against Women,Abetment to Suicide,58,2020,0
+219,Hyderabad,39.43,0.380420999,Crime Against Women,Abetment to Suicide,15,2020,0
+220,Karimnagar,10.05,0.39800995,Crime Against Women,Abetment to Suicide,4,2020,0
+221,Khammam,15.59,1.218729955,Crime Against Women,Abetment to Suicide,19,2020,0
+222,Nizamabad,15.71,0.891152132,Crime Against Women,Abetment to Suicide,14,2020,0
+223,Rachakonda,52,0.634615385,Crime Against Women,Abetment to Suicide,33,2020,0
+224,Ramagundam,16.02,1.872659176,Crime Against Women,Abetment to Suicide,30,2020,0
+225,Siddipet,10.55,0.947867299,Crime Against Women,Abetment to Suicide,10,2020,0
+226,Warangal,23.65,1.226215645,Crime Against Women,Abetment to Suicide,29,2020,0
+227,Adilabad,8.51,0.822561692,Crime Against Women,Abetment to Suicide,7,2020,0
+228,Bhadradri Kothagudem,13.96,0.716332378,Crime Against Women,Abetment to Suicide,10,2020,0
+229,Jagtial,9.85,0.812182741,Crime Against Women,Abetment to Suicide,8,2020,0
+230,Jayashankar Bhupalpally,4.5,0.888888889,Crime Against Women,Abetment to Suicide,4,2020,0
+231,Jogulamba Gadwal,6.09,0.65681445,Crime Against Women,Abetment to Suicide,4,2020,0
+232,Kamareddy,9.94,0.704225352,Crime Against Women,Abetment to Suicide,7,2020,0
+233,Kumaram Bheem Asifabad,5.38,1.486988848,Crime Against Women,Abetment to Suicide,8,2020,0
+234,Mahabubabad,7.74,1.679586563,Crime Against Women,Abetment to Suicide,13,2020,0
+235,Mahabubnagar,9.16,2.401746725,Crime Against Women,Abetment to Suicide,22,2020,0
+236,Medak,7.67,1.173402868,Crime Against Women,Abetment to Suicide,9,2020,0
+237,Mulugu,2.94,3.401360544,Crime Against Women,Abetment to Suicide,10,2020,0
+238,Nagarkurnool,8.61,1.161440186,Crime Against Women,Abetment to Suicide,10,2020,0
+239,Nalgonda,16.18,1.421508035,Crime Against Women,Abetment to Suicide,23,2020,0
+240,Narayanpet,5.66,0.35335689,Crime Against Women,Abetment to Suicide,2,2020,0
+241,Nirmal,7.09,0.846262341,Crime Against Women,Abetment to Suicide,6,2020,0
+242,Rajanna Sircilla,5.98,1.170568562,Crime Against Women,Abetment to Suicide,7,2020,0
+243,Sanga Reddy,15.27,0.523903078,Crime Against Women,Abetment to Suicide,8,2020,0
+244,Suryapet,10.99,0.454959054,Crime Against Women,Abetment to Suicide,5,2020,0
+245,Vikarabad,9.41,1.275239107,Crime Against Women,Abetment to Suicide,12,2020,0
+246,Wanaparthy,5.77,0,Crime Against Women,Abetment to Suicide,0,2020,0
 247,RP Secunderabad,,,Crime Against Women,Abetment to Suicide,0,2020,0
 248,CID,,,Crime Against Women,Abetment to Suicide,0,2020,0
-249,Cyberabad,,,Crime Against Women,Dowry Death,20,2020,0
-250,Hyderabad,,,Crime Against Women,Dowry Death,20,2020,0
-251,Karimnagar,,,Crime Against Women,Dowry Death,1,2020,0
-252,Khammam,,,Crime Against Women,Dowry Death,5,2020,0
-253,Nizamabad,,,Crime Against Women,Dowry Death,3,2020,0
-254,Rachakonda,,,Crime Against Women,Dowry Death,24,2020,0
-255,Ramagundam,,,Crime Against Women,Dowry Death,7,2020,0
-256,Siddipet,,,Crime Against Women,Dowry Death,4,2020,0
-257,Warangal,,,Crime Against Women,Dowry Death,7,2020,0
-258,Adilabad,,,Crime Against Women,Dowry Death,2,2020,0
-259,Bhadradri Kothagudem,,,Crime Against Women,Dowry Death,1,2020,0
-260,Jagtial,,,Crime Against Women,Dowry Death,4,2020,0
-261,Jayashankar Bhupalpally,,,Crime Against Women,Dowry Death,4,2020,0
-262,Jogulamba Gadwal,,,Crime Against Women,Dowry Death,3,2020,0
-263,Kamareddy,,,Crime Against Women,Dowry Death,3,2020,0
-264,Kumaram Bheem Asifabad,,,Crime Against Women,Dowry Death,5,2020,0
-265,Mahabubabad,,,Crime Against Women,Dowry Death,7,2020,0
-266,Mahabubnagar,,,Crime Against Women,Dowry Death,3,2020,0
-267,Medak,,,Crime Against Women,Dowry Death,4,2020,0
-268,Mulugu,,,Crime Against Women,Dowry Death,1,2020,0
-269,Nagarkurnool,,,Crime Against Women,Dowry Death,4,2020,0
-270,Nalgonda,,,Crime Against Women,Dowry Death,1,2020,0
-271,Narayanpet,,,Crime Against Women,Dowry Death,3,2020,0
-272,Nirmal,,,Crime Against Women,Dowry Death,2,2020,0
-273,Rajanna Sircilla,,,Crime Against Women,Dowry Death,1,2020,0
-274,Sanga Reddy,,,Crime Against Women,Dowry Death,9,2020,0
-275,Suryapet,,,Crime Against Women,Dowry Death,3,2020,0
-276,Vikarabad,,,Crime Against Women,Dowry Death,4,2020,0
-277,Wanaparthy,,,Crime Against Women,Dowry Death,0,2020,0
+249,Cyberabad,62,0.322580645,Crime Against Women,Dowry Death,20,2020,0
+250,Hyderabad,39.43,0.507227999,Crime Against Women,Dowry Death,20,2020,0
+251,Karimnagar,10.05,0.099502488,Crime Against Women,Dowry Death,1,2020,0
+252,Khammam,15.59,0.320718409,Crime Against Women,Dowry Death,5,2020,0
+253,Nizamabad,15.71,0.190961171,Crime Against Women,Dowry Death,3,2020,0
+254,Rachakonda,52,0.461538462,Crime Against Women,Dowry Death,24,2020,0
+255,Ramagundam,16.02,0.436953808,Crime Against Women,Dowry Death,7,2020,0
+256,Siddipet,10.55,0.379146919,Crime Against Women,Dowry Death,4,2020,0
+257,Warangal,23.65,0.295983087,Crime Against Women,Dowry Death,7,2020,0
+258,Adilabad,8.51,0.235017626,Crime Against Women,Dowry Death,2,2020,0
+259,Bhadradri Kothagudem,13.96,0.071633238,Crime Against Women,Dowry Death,1,2020,0
+260,Jagtial,9.85,0.406091371,Crime Against Women,Dowry Death,4,2020,0
+261,Jayashankar Bhupalpally,4.5,0.888888889,Crime Against Women,Dowry Death,4,2020,0
+262,Jogulamba Gadwal,6.09,0.492610837,Crime Against Women,Dowry Death,3,2020,0
+263,Kamareddy,9.94,0.301810865,Crime Against Women,Dowry Death,3,2020,0
+264,Kumaram Bheem Asifabad,5.38,0.92936803,Crime Against Women,Dowry Death,5,2020,0
+265,Mahabubabad,7.74,0.904392765,Crime Against Women,Dowry Death,7,2020,0
+266,Mahabubnagar,9.16,0.327510917,Crime Against Women,Dowry Death,3,2020,0
+267,Medak,7.67,0.521512386,Crime Against Women,Dowry Death,4,2020,0
+268,Mulugu,2.94,0.340136054,Crime Against Women,Dowry Death,1,2020,0
+269,Nagarkurnool,8.61,0.464576074,Crime Against Women,Dowry Death,4,2020,0
+270,Nalgonda,16.18,0.061804697,Crime Against Women,Dowry Death,1,2020,0
+271,Narayanpet,5.66,0.530035336,Crime Against Women,Dowry Death,3,2020,0
+272,Nirmal,7.09,0.282087447,Crime Against Women,Dowry Death,2,2020,0
+273,Rajanna Sircilla,5.98,0.16722408,Crime Against Women,Dowry Death,1,2020,0
+274,Sanga Reddy,15.27,0.589390963,Crime Against Women,Dowry Death,9,2020,0
+275,Suryapet,10.99,0.272975432,Crime Against Women,Dowry Death,3,2020,0
+276,Vikarabad,9.41,0.425079702,Crime Against Women,Dowry Death,4,2020,0
+277,Wanaparthy,5.77,0,Crime Against Women,Dowry Death,0,2020,0
 278,RP Secunderabad,,,Crime Against Women,Dowry Death,0,2020,0
 279,CID,,,Crime Against Women,Dowry Death,0,2020,0
-280,Cyberabad,,,Crime Against Women,Harassment,990,2020,0
-281,Hyderabad,,,Crime Against Women,Harassment,1194,2020,0
-282,Karimnagar,,,Crime Against Women,Harassment,266,2020,0
-283,Khammam,,,Crime Against Women,Harassment,280,2020,0
-284,Nizamabad,,,Crime Against Women,Harassment,245,2020,0
-285,Rachakonda,,,Crime Against Women,Harassment,1175,2020,0
-286,Ramagundam,,,Crime Against Women,Harassment,388,2020,0
-287,Siddipet,,,Crime Against Women,Harassment,364,2020,0
-288,Warangal,,,Crime Against Women,Harassment,294,2020,0
-289,Adilabad,,,Crime Against Women,Harassment,69,2020,0
-290,Bhadradri Kothagudem,,,Crime Against Women,Harassment,266,2020,0
-291,Jagtial,,,Crime Against Women,Harassment,120,2020,0
-292,Jayashankar Bhupalpally,,,Crime Against Women,Harassment,56,2020,0
-293,Jogulamba Gadwal,,,Crime Against Women,Harassment,30,2020,0
-294,Kamareddy,,,Crime Against Women,Harassment,138,2020,0
-295,Kumaram Bheem Asifabad,,,Crime Against Women,Harassment,65,2020,0
-296,Mahabubabad,,,Crime Against Women,Harassment,105,2020,0
-297,Mahabubnagar,,,Crime Against Women,Harassment,64,2020,0
-298,Medak,,,Crime Against Women,Harassment,114,2020,0
-299,Mulugu,,,Crime Against Women,Harassment,69,2020,0
-300,Nagarkurnool,,,Crime Against Women,Harassment,65,2020,0
-301,Nalgonda,,,Crime Against Women,Harassment,247,2020,0
-302,Narayanpet,,,Crime Against Women,Harassment,37,2020,0
-303,Nirmal,,,Crime Against Women,Harassment,39,2020,0
-304,Rajanna Sircilla,,,Crime Against Women,Harassment,142,2020,0
-305,Sanga Reddy,,,Crime Against Women,Harassment,112,2020,0
-306,Suryapet,,,Crime Against Women,Harassment,219,2020,0
-307,Vikarabad,,,Crime Against Women,Harassment,80,2020,0
-308,Wanaparthy,,,Crime Against Women,Harassment,46,2020,0
+280,Cyberabad,62,15.96774194,Crime Against Women,Harassment,990,2020,0
+281,Hyderabad,39.43,30.28151154,Crime Against Women,Harassment,1194,2020,0
+282,Karimnagar,10.05,26.46766169,Crime Against Women,Harassment,266,2020,0
+283,Khammam,15.59,17.96023092,Crime Against Women,Harassment,280,2020,0
+284,Nizamabad,15.71,15.59516232,Crime Against Women,Harassment,245,2020,0
+285,Rachakonda,52,22.59615385,Crime Against Women,Harassment,1175,2020,0
+286,Ramagundam,16.02,24.21972534,Crime Against Women,Harassment,388,2020,0
+287,Siddipet,10.55,34.50236967,Crime Against Women,Harassment,364,2020,0
+288,Warangal,23.65,12.43128964,Crime Against Women,Harassment,294,2020,0
+289,Adilabad,8.51,8.108108108,Crime Against Women,Harassment,69,2020,0
+290,Bhadradri Kothagudem,13.96,19.05444126,Crime Against Women,Harassment,266,2020,0
+291,Jagtial,9.85,12.18274112,Crime Against Women,Harassment,120,2020,0
+292,Jayashankar Bhupalpally,4.5,12.44444444,Crime Against Women,Harassment,56,2020,0
+293,Jogulamba Gadwal,6.09,4.926108374,Crime Against Women,Harassment,30,2020,0
+294,Kamareddy,9.94,13.8832998,Crime Against Women,Harassment,138,2020,0
+295,Kumaram Bheem Asifabad,5.38,12.08178439,Crime Against Women,Harassment,65,2020,0
+296,Mahabubabad,7.74,13.56589147,Crime Against Women,Harassment,105,2020,0
+297,Mahabubnagar,9.16,6.986899563,Crime Against Women,Harassment,64,2020,0
+298,Medak,7.67,14.863103,Crime Against Women,Harassment,114,2020,0
+299,Mulugu,2.94,23.46938776,Crime Against Women,Harassment,69,2020,0
+300,Nagarkurnool,8.61,7.549361208,Crime Against Women,Harassment,65,2020,0
+301,Nalgonda,16.18,15.2657602,Crime Against Women,Harassment,247,2020,0
+302,Narayanpet,5.66,6.537102473,Crime Against Women,Harassment,37,2020,0
+303,Nirmal,7.09,5.500705219,Crime Against Women,Harassment,39,2020,0
+304,Rajanna Sircilla,5.98,23.7458194,Crime Against Women,Harassment,142,2020,0
+305,Sanga Reddy,15.27,7.334643091,Crime Against Women,Harassment,112,2020,0
+306,Suryapet,10.99,19.92720655,Crime Against Women,Harassment,219,2020,0
+307,Vikarabad,9.41,8.501594049,Crime Against Women,Harassment,80,2020,0
+308,Wanaparthy,5.77,7.972270364,Crime Against Women,Harassment,46,2020,0
 309,RP Secunderabad,,,Crime Against Women,Harassment,0,2020,0
 310,CID,,,Crime Against Women,Harassment,1,2020,0
-311,Cyberabad,,,Crime Against Women,Kidnapping,138,2020,0
-312,Hyderabad,,,Crime Against Women,Kidnapping,65,2020,0
-313,Karimnagar,,,Crime Against Women,Kidnapping,10,2020,0
-314,Khammam,,,Crime Against Women,Kidnapping,12,2020,0
-315,Nizamabad,,,Crime Against Women,Kidnapping,17,2020,0
-316,Rachakonda,,,Crime Against Women,Kidnapping,62,2020,0
-317,Ramagundam,,,Crime Against Women,Kidnapping,37,2020,0
-318,Siddipet,,,Crime Against Women,Kidnapping,18,2020,0
-319,Warangal,,,Crime Against Women,Kidnapping,56,2020,0
-320,Adilabad,,,Crime Against Women,Kidnapping,9,2020,0
-321,Bhadradri Kothagudem,,,Crime Against Women,Kidnapping,25,2020,0
-322,Jagtial,,,Crime Against Women,Kidnapping,13,2020,0
-323,Jayashankar Bhupalpally,,,Crime Against Women,Kidnapping,18,2020,0
-324,Jogulamba Gadwal,,,Crime Against Women,Kidnapping,4,2020,0
-325,Kamareddy,,,Crime Against Women,Kidnapping,6,2020,0
-326,Asifabad,,,Crime Against Women,Kidnapping,9,2020,0
-327,Mahabubabad,,,Crime Against Women,Kidnapping,21,2020,0
-328,Mahabubnagar,,,Crime Against Women,Kidnapping,14,2020,0
-329,Medak,,,Crime Against Women,Kidnapping,14,2020,0
-330,Mulugu,,,Crime Against Women,Kidnapping,6,2020,0
-331,Nagarkurnool,,,Crime Against Women,Kidnapping,17,2020,0
-332,Nalgonda,,,Crime Against Women,Kidnapping,31,2020,0
-333,Narayanpet,,,Crime Against Women,Kidnapping,5,2020,0
-334,Nirmal,,,Crime Against Women,Kidnapping,3,2020,0
-335,Rajanna Sircilla,,,Crime Against Women,Kidnapping,14,2020,0
-336,Sanga Reddy,,,Crime Against Women,Kidnapping,16,2020,0
-337,Suryapet,,,Crime Against Women,Kidnapping,27,2020,0
-338,Vikarabad,,,Crime Against Women,Kidnapping,31,2020,0
-339,Wanaparthy,,,Crime Against Women,Kidnapping,0,2020,0
+311,Cyberabad,62,2.225806452,Crime Against Women,Kidnapping,138,2020,0
+312,Hyderabad,39.43,1.648490997,Crime Against Women,Kidnapping,65,2020,0
+313,Karimnagar,10.05,0.995024876,Crime Against Women,Kidnapping,10,2020,0
+314,Khammam,15.59,0.769724182,Crime Against Women,Kidnapping,12,2020,0
+315,Nizamabad,15.71,1.082113304,Crime Against Women,Kidnapping,17,2020,0
+316,Rachakonda,52,1.192307692,Crime Against Women,Kidnapping,62,2020,0
+317,Ramagundam,16.02,2.309612984,Crime Against Women,Kidnapping,37,2020,0
+318,Siddipet,10.55,1.706161137,Crime Against Women,Kidnapping,18,2020,0
+319,Warangal,23.65,2.367864693,Crime Against Women,Kidnapping,56,2020,0
+320,Adilabad,8.51,1.057579318,Crime Against Women,Kidnapping,9,2020,0
+321,Bhadradri Kothagudem,13.96,1.790830946,Crime Against Women,Kidnapping,25,2020,0
+322,Jagtial,9.85,1.319796954,Crime Against Women,Kidnapping,13,2020,0
+323,Jayashankar Bhupalpally,4.5,4,Crime Against Women,Kidnapping,18,2020,0
+324,Jogulamba Gadwal,6.09,0.65681445,Crime Against Women,Kidnapping,4,2020,0
+325,Kamareddy,9.94,0.60362173,Crime Against Women,Kidnapping,6,2020,0
+326,Asifabad,5.38,1.672862454,Crime Against Women,Kidnapping,9,2020,0
+327,Mahabubabad,7.74,2.713178295,Crime Against Women,Kidnapping,21,2020,0
+328,Mahabubnagar,9.16,1.528384279,Crime Against Women,Kidnapping,14,2020,0
+329,Medak,7.67,1.825293351,Crime Against Women,Kidnapping,14,2020,0
+330,Mulugu,2.94,2.040816327,Crime Against Women,Kidnapping,6,2020,0
+331,Nagarkurnool,8.61,1.974448316,Crime Against Women,Kidnapping,17,2020,0
+332,Nalgonda,16.18,1.915945612,Crime Against Women,Kidnapping,31,2020,0
+333,Narayanpet,5.66,0.883392226,Crime Against Women,Kidnapping,5,2020,0
+334,Nirmal,7.09,0.423131171,Crime Against Women,Kidnapping,3,2020,0
+335,Rajanna Sircilla,5.98,2.341137124,Crime Against Women,Kidnapping,14,2020,0
+336,Sanga Reddy,15.27,1.047806156,Crime Against Women,Kidnapping,16,2020,0
+337,Suryapet,10.99,2.45677889,Crime Against Women,Kidnapping,27,2020,0
+338,Vikarabad,9.41,3.294367694,Crime Against Women,Kidnapping,31,2020,0
+339,Wanaparthy,5.77,0,Crime Against Women,Kidnapping,0,2020,0
 340,RP Secunderabad,,,Crime Against Women,Kidnapping,0,2020,0
 341,CID,,,Crime Against Women,Kidnapping,1,2020,0
-342,Cyberabad,,,Crime Against Women,Rape,283,2020,0
-343,Hyderabad,,,Crime Against Women,Rape,288,2020,0
-344,Karimnagar,,,Crime Against Women,Rape,30,2020,0
-345,Khammam,,,Crime Against Women,Rape,78,2020,0
-346,Nizamabad,,,Crime Against Women,Rape,39,2020,0
-347,Rachakonda,,,Crime Against Women,Rape,334,2020,0
-348,Ramagundam,,,Crime Against Women,Rape,71,2020,0
-349,Siddipet,,,Crime Against Women,Rape,49,2020,0
-350,Warangal,,,Crime Against Women,Rape,61,2020,0
-351,Adilabad,,,Crime Against Women,Rape,34,2020,0
-352,Bhadradri Kothagudem,,,Crime Against Women,Rape,99,2020,0
-353,Jagtial,,,Crime Against Women,Rape,40,2020,0
-354,Jayashankar Bhupalpally,,,Crime Against Women,Rape,16,2020,0
-355,Jogulamba Gadwal,,,Crime Against Women,Rape,34,2020,0
-356,Kamareddy,,,Crime Against Women,Rape,47,2020,0
-357,Asifabad,,,Crime Against Women,Rape,22,2020,0
-358,Mahabubabad,,,Crime Against Women,Rape,35,2020,0
-359,Mahabubnagar,,,Crime Against Women,Rape,64,2020,0
-360,Medak,,,Crime Against Women,Rape,38,2020,0
-361,Mulugu,,,Crime Against Women,Rape,25,2020,0
-362,Nagarkurnool,,,Crime Against Women,Rape,42,2020,0
-363,Nalgonda,,,Crime Against Women,Rape,54,2020,0
-364,Narayanpet,,,Crime Against Women,Rape,55,2020,0
-365,Nirmal,,,Crime Against Women,Rape,19,2020,0
-366,Rajanna Sircilla,,,Crime Against Women,Rape,44,2020,0
-367,Sanga Reddy,,,Crime Against Women,Rape,36,2020,0
-368,Suryapet,,,Crime Against Women,Rape,64,2020,0
-369,Vikarabad,,,Crime Against Women,Rape,63,2020,0
-370,Wanaparthy,,,Crime Against Women,Rape,37,2020,0
+342,Cyberabad,62,4.564516129,Crime Against Women,Rape,283,2020,0
+343,Hyderabad,39.43,7.304083185,Crime Against Women,Rape,288,2020,0
+344,Karimnagar,10.05,2.985074627,Crime Against Women,Rape,30,2020,0
+345,Khammam,15.59,5.003207184,Crime Against Women,Rape,78,2020,0
+346,Nizamabad,15.71,2.482495226,Crime Against Women,Rape,39,2020,0
+347,Rachakonda,52,6.423076923,Crime Against Women,Rape,334,2020,0
+348,Ramagundam,16.02,4.43196005,Crime Against Women,Rape,71,2020,0
+349,Siddipet,10.55,4.644549763,Crime Against Women,Rape,49,2020,0
+350,Warangal,23.65,2.579281184,Crime Against Women,Rape,61,2020,0
+351,Adilabad,8.51,3.995299647,Crime Against Women,Rape,34,2020,0
+352,Bhadradri Kothagudem,13.96,7.091690544,Crime Against Women,Rape,99,2020,0
+353,Jagtial,9.85,4.060913706,Crime Against Women,Rape,40,2020,0
+354,Jayashankar Bhupalpally,4.5,3.555555556,Crime Against Women,Rape,16,2020,0
+355,Jogulamba Gadwal,6.09,5.582922824,Crime Against Women,Rape,34,2020,0
+356,Kamareddy,9.94,4.728370221,Crime Against Women,Rape,47,2020,0
+357,Asifabad,5.38,4.089219331,Crime Against Women,Rape,22,2020,0
+358,Mahabubabad,7.74,4.521963824,Crime Against Women,Rape,35,2020,0
+359,Mahabubnagar,9.16,6.986899563,Crime Against Women,Rape,64,2020,0
+360,Medak,7.67,4.954367666,Crime Against Women,Rape,38,2020,0
+361,Mulugu,2.94,8.503401361,Crime Against Women,Rape,25,2020,0
+362,Nagarkurnool,8.61,4.87804878,Crime Against Women,Rape,42,2020,0
+363,Nalgonda,16.18,3.337453646,Crime Against Women,Rape,54,2020,0
+364,Narayanpet,5.66,9.717314488,Crime Against Women,Rape,55,2020,0
+365,Nirmal,7.09,2.679830748,Crime Against Women,Rape,19,2020,0
+366,Rajanna Sircilla,5.98,7.357859532,Crime Against Women,Rape,44,2020,0
+367,Sanga Reddy,15.27,2.357563851,Crime Against Women,Rape,36,2020,0
+368,Suryapet,10.99,5.823475887,Crime Against Women,Rape,64,2020,0
+369,Vikarabad,9.41,6.695005313,Crime Against Women,Rape,63,2020,0
+370,Wanaparthy,5.77,6.412478336,Crime Against Women,Rape,37,2020,0
 371,RP Secunderabad,,,Crime Against Women,Rape,0,2020,0
 372,CID,,,Crime Against Women,Rape,0,2020,0
-373,Cyberabad,,,Crime Aginst SC_ST,Arson,0,2020,0
-374,Hyderabad,,,Crime Aginst SC_ST,Arson,0,2020,0
-375,Karimnagar,,,Crime Aginst SC_ST,Arson,0,2020,0
-376,Khammam,,,Crime Aginst SC_ST,Arson,0,2020,0
-377,Nizamabad,,,Crime Aginst SC_ST,Arson,0,2020,0
-378,Rachakonda,,,Crime Aginst SC_ST,Arson,0,2020,0
-379,Ramagundam,,,Crime Aginst SC_ST,Arson,0,2020,0
-380,Siddipet,,,Crime Aginst SC_ST,Arson,0,2020,0
-381,Warangal,,,Crime Aginst SC_ST,Arson,0,2020,0
-382,Adilabad,,,Crime Aginst SC_ST,Arson,0,2020,0
-383,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Arson,0,2020,0
-384,Jagtial,,,Crime Aginst SC_ST,Arson,0,2020,0
-385,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Arson,0,2020,0
-386,Jogulamba Gadwal,,,Crime Aginst SC_ST,Arson,0,2020,0
-387,Kamareddy,,,Crime Aginst SC_ST,Arson,0,2020,0
-388,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Arson,0,2020,0
-389,Mahabubabad,,,Crime Aginst SC_ST,Arson,0,2020,0
-390,Mahabubnagar,,,Crime Aginst SC_ST,Arson,0,2020,0
-391,Medak,,,Crime Aginst SC_ST,Arson,0,2020,0
-392,Mulugu,,,Crime Aginst SC_ST,Arson,0,2020,0
-393,Nagarkurnool,,,Crime Aginst SC_ST,Arson,0,2020,0
-394,Nalgonda,,,Crime Aginst SC_ST,Arson,1,2020,0
-395,Narayanpet,,,Crime Aginst SC_ST,Arson,0,2020,0
-396,Nirmal,,,Crime Aginst SC_ST,Arson,0,2020,0
-397,Rajanna Sircilla,,,Crime Aginst SC_ST,Arson,0,2020,0
-398,Sanga Reddy,,,Crime Aginst SC_ST,Arson,0,2020,0
-399,Suryapet,,,Crime Aginst SC_ST,Arson,0,2020,0
-400,Vikarabad,,,Crime Aginst SC_ST,Arson,1,2020,0
-401,Wanaparthy,,,Crime Aginst SC_ST,Arson,0,2020,0
+373,Cyberabad,62,0,Crime Aginst SC_ST,Arson,0,2020,0
+374,Hyderabad,39.43,0,Crime Aginst SC_ST,Arson,0,2020,0
+375,Karimnagar,10.05,0,Crime Aginst SC_ST,Arson,0,2020,0
+376,Khammam,15.59,0,Crime Aginst SC_ST,Arson,0,2020,0
+377,Nizamabad,15.71,0,Crime Aginst SC_ST,Arson,0,2020,0
+378,Rachakonda,52,0,Crime Aginst SC_ST,Arson,0,2020,0
+379,Ramagundam,16.02,0,Crime Aginst SC_ST,Arson,0,2020,0
+380,Siddipet,10.55,0,Crime Aginst SC_ST,Arson,0,2020,0
+381,Warangal,23.65,0,Crime Aginst SC_ST,Arson,0,2020,0
+382,Adilabad,8.51,0,Crime Aginst SC_ST,Arson,0,2020,0
+383,Bhadradri Kothagudem,13.96,0,Crime Aginst SC_ST,Arson,0,2020,0
+384,Jagtial,9.85,0,Crime Aginst SC_ST,Arson,0,2020,0
+385,Jayashankar Bhupalpally,4.5,0,Crime Aginst SC_ST,Arson,0,2020,0
+386,Jogulamba Gadwal,6.09,0,Crime Aginst SC_ST,Arson,0,2020,0
+387,Kamareddy,9.94,0,Crime Aginst SC_ST,Arson,0,2020,0
+388,Kumaram Bheem Asifabad,5.38,0,Crime Aginst SC_ST,Arson,0,2020,0
+389,Mahabubabad,7.74,0,Crime Aginst SC_ST,Arson,0,2020,0
+390,Mahabubnagar,9.16,0,Crime Aginst SC_ST,Arson,0,2020,0
+391,Medak,7.67,0,Crime Aginst SC_ST,Arson,0,2020,0
+392,Mulugu,2.94,0,Crime Aginst SC_ST,Arson,0,2020,0
+393,Nagarkurnool,8.61,0,Crime Aginst SC_ST,Arson,0,2020,0
+394,Nalgonda,16.18,0.061804697,Crime Aginst SC_ST,Arson,1,2020,0
+395,Narayanpet,5.66,0,Crime Aginst SC_ST,Arson,0,2020,0
+396,Nirmal,7.09,0,Crime Aginst SC_ST,Arson,0,2020,0
+397,Rajanna Sircilla,5.98,0,Crime Aginst SC_ST,Arson,0,2020,0
+398,Sanga Reddy,15.27,0,Crime Aginst SC_ST,Arson,0,2020,0
+399,Suryapet,10.99,0,Crime Aginst SC_ST,Arson,0,2020,0
+400,Vikarabad,9.41,0.106269926,Crime Aginst SC_ST,Arson,1,2020,0
+401,Wanaparthy,5.77,0,Crime Aginst SC_ST,Arson,0,2020,0
 402,RP Secunderabad,,,Crime Aginst SC_ST,Arson,0,2020,0
 403,CID,,,Crime Aginst SC_ST,Arson,0,2020,0
-404,Cyberabad,,,Crime Aginst SC_ST,Hurt,15,2020,0
-405,Hyderabad,,,Crime Aginst SC_ST,Hurt,2,2020,0
-406,Karimnagar,,,Crime Aginst SC_ST,Hurt,11,2020,0
-407,Khammam,,,Crime Aginst SC_ST,Hurt,24,2020,0
-408,Nizamabad,,,Crime Aginst SC_ST,Hurt,22,2020,0
-409,Rachakonda,,,Crime Aginst SC_ST,Hurt,20,2020,0
-410,Ramagundam,,,Crime Aginst SC_ST,Hurt,22,2020,0
-411,Siddipet,,,Crime Aginst SC_ST,Hurt,16,2020,0
-412,Warangal,,,Crime Aginst SC_ST,Hurt,12,2020,0
-413,Adilabad,,,Crime Aginst SC_ST,Hurt,4,2020,0
-414,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Hurt,23,2020,0
-415,Jagtial,,,Crime Aginst SC_ST,Hurt,19,2020,0
-416,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Hurt,4,2020,0
-417,Jogulamba Gadwal,,,Crime Aginst SC_ST,Hurt,10,2020,0
-418,Kamareddy,,,Crime Aginst SC_ST,Hurt,9,2020,0
-419,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Hurt,7,2020,0
-420,Mahabubabad,,,Crime Aginst SC_ST,Hurt,4,2020,0
-421,Mahabubnagar,,,Crime Aginst SC_ST,Hurt,10,2020,0
-422,Medak,,,Crime Aginst SC_ST,Hurt,8,2020,0
-423,Mulugu,,,Crime Aginst SC_ST,Hurt,3,2020,0
-424,Nagarkurnool,,,Crime Aginst SC_ST,Hurt,7,2020,0
-425,Nalgonda,,,Crime Aginst SC_ST,Hurt,18,2020,0
-426,Narayanpet,,,Crime Aginst SC_ST,Hurt,6,2020,0
-427,Nirmal,,,Crime Aginst SC_ST,Hurt,3,2020,0
-428,Rajanna Sircilla,,,Crime Aginst SC_ST,Hurt,14,2020,0
-429,Sanga Reddy,,,Crime Aginst SC_ST,Hurt,6,2020,0
-430,Suryapet,,,Crime Aginst SC_ST,Hurt,18,2020,0
-431,Vikarabad,,,Crime Aginst SC_ST,Hurt,14,2020,0
-432,Wanaparthy,,,Crime Aginst SC_ST,Hurt,11,2020,0
+404,Cyberabad,62,0.241935484,Crime Aginst SC_ST,Hurt,15,2020,0
+405,Hyderabad,39.43,0.0507228,Crime Aginst SC_ST,Hurt,2,2020,0
+406,Karimnagar,10.05,1.094527363,Crime Aginst SC_ST,Hurt,11,2020,0
+407,Khammam,15.59,1.539448364,Crime Aginst SC_ST,Hurt,24,2020,0
+408,Nizamabad,15.71,1.400381922,Crime Aginst SC_ST,Hurt,22,2020,0
+409,Rachakonda,52,0.384615385,Crime Aginst SC_ST,Hurt,20,2020,0
+410,Ramagundam,16.02,1.373283396,Crime Aginst SC_ST,Hurt,22,2020,0
+411,Siddipet,10.55,1.516587678,Crime Aginst SC_ST,Hurt,16,2020,0
+412,Warangal,23.65,0.507399577,Crime Aginst SC_ST,Hurt,12,2020,0
+413,Adilabad,8.51,0.470035253,Crime Aginst SC_ST,Hurt,4,2020,0
+414,Bhadradri Kothagudem,13.96,1.64756447,Crime Aginst SC_ST,Hurt,23,2020,0
+415,Jagtial,9.85,1.92893401,Crime Aginst SC_ST,Hurt,19,2020,0
+416,Jayashankar Bhupalpally,4.5,0.888888889,Crime Aginst SC_ST,Hurt,4,2020,0
+417,Jogulamba Gadwal,6.09,1.642036125,Crime Aginst SC_ST,Hurt,10,2020,0
+418,Kamareddy,9.94,0.905432596,Crime Aginst SC_ST,Hurt,9,2020,0
+419,Kumaram Bheem Asifabad,5.38,1.301115242,Crime Aginst SC_ST,Hurt,7,2020,0
+420,Mahabubabad,7.74,0.516795866,Crime Aginst SC_ST,Hurt,4,2020,0
+421,Mahabubnagar,9.16,1.091703057,Crime Aginst SC_ST,Hurt,10,2020,0
+422,Medak,7.67,1.043024772,Crime Aginst SC_ST,Hurt,8,2020,0
+423,Mulugu,2.94,1.020408163,Crime Aginst SC_ST,Hurt,3,2020,0
+424,Nagarkurnool,8.61,0.81300813,Crime Aginst SC_ST,Hurt,7,2020,0
+425,Nalgonda,16.18,1.112484549,Crime Aginst SC_ST,Hurt,18,2020,0
+426,Narayanpet,5.66,1.060070671,Crime Aginst SC_ST,Hurt,6,2020,0
+427,Nirmal,7.09,0.423131171,Crime Aginst SC_ST,Hurt,3,2020,0
+428,Rajanna Sircilla,5.98,2.341137124,Crime Aginst SC_ST,Hurt,14,2020,0
+429,Sanga Reddy,15.27,0.392927308,Crime Aginst SC_ST,Hurt,6,2020,0
+430,Suryapet,10.99,1.637852593,Crime Aginst SC_ST,Hurt,18,2020,0
+431,Vikarabad,9.41,1.487778959,Crime Aginst SC_ST,Hurt,14,2020,0
+432,Wanaparthy,5.77,1.906412478,Crime Aginst SC_ST,Hurt,11,2020,0
 433,RP Secunderabad,,,Crime Aginst SC_ST,Hurt,0,2020,0
 434,CID,,,Crime Aginst SC_ST,Hurt,0,2020,0
-435,Cyberabad,,,Crime Aginst SC_ST,Murder,7,2020,0
-436,Hyderabad,,,Crime Aginst SC_ST,Murder,1,2020,0
-437,Karimnagar,,,Crime Aginst SC_ST,Murder,0,2020,0
-438,Khammam,,,Crime Aginst SC_ST,Murder,3,2020,0
-439,Nizamabad,,,Crime Aginst SC_ST,Murder,1,2020,0
-440,Rachakonda,,,Crime Aginst SC_ST,Murder,6,2020,0
-441,Ramagundam,,,Crime Aginst SC_ST,Murder,0,2020,0
-442,Siddipet,,,Crime Aginst SC_ST,Murder,0,2020,0
-443,Warangal,,,Crime Aginst SC_ST,Murder,3,2020,0
-444,Adilabad,,,Crime Aginst SC_ST,Murder,0,2020,0
-445,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Murder,0,2020,0
-446,Jagtial,,,Crime Aginst SC_ST,Murder,0,2020,0
-447,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Murder,1,2020,0
-448,Jogulamba Gadwal,,,Crime Aginst SC_ST,Murder,0,2020,0
-449,Kamareddy,,,Crime Aginst SC_ST,Murder,3,2020,0
-450,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Murder,0,2020,0
-451,Mahabubabad,,,Crime Aginst SC_ST,Murder,1,2020,0
-452,Mahabubnagar,,,Crime Aginst SC_ST,Murder,1,2020,0
-453,Medak,,,Crime Aginst SC_ST,Murder,0,2020,0
-454,Mulugu,,,Crime Aginst SC_ST,Murder,1,2020,0
-455,Nagarkurnool,,,Crime Aginst SC_ST,Murder,1,2020,0
-456,Nalgonda,,,Crime Aginst SC_ST,Murder,1,2020,0
-457,Narayanpet,,,Crime Aginst SC_ST,Murder,1,2020,0
-458,Nirmal,,,Crime Aginst SC_ST,Murder,2,2020,0
-459,Rajanna Sircilla,,,Crime Aginst SC_ST,Murder,1,2020,0
-460,Sanga Reddy,,,Crime Aginst SC_ST,Murder,3,2020,0
-461,Suryapet,,,Crime Aginst SC_ST,Murder,0,2020,0
-462,Vikarabad,,,Crime Aginst SC_ST,Murder,1,2020,0
-463,Wanaparthy,,,Crime Aginst SC_ST,Murder,0,2020,0
+435,Cyberabad,62,0.112903226,Crime Aginst SC_ST,Murder,7,2020,0
+436,Hyderabad,39.43,0.0253614,Crime Aginst SC_ST,Murder,1,2020,0
+437,Karimnagar,10.05,0,Crime Aginst SC_ST,Murder,0,2020,0
+438,Khammam,15.59,0.192431046,Crime Aginst SC_ST,Murder,3,2020,0
+439,Nizamabad,15.71,0.063653724,Crime Aginst SC_ST,Murder,1,2020,0
+440,Rachakonda,52,0.115384615,Crime Aginst SC_ST,Murder,6,2020,0
+441,Ramagundam,16.02,0,Crime Aginst SC_ST,Murder,0,2020,0
+442,Siddipet,10.55,0,Crime Aginst SC_ST,Murder,0,2020,0
+443,Warangal,23.65,0.126849894,Crime Aginst SC_ST,Murder,3,2020,0
+444,Adilabad,8.51,0,Crime Aginst SC_ST,Murder,0,2020,0
+445,Bhadradri Kothagudem,13.96,0,Crime Aginst SC_ST,Murder,0,2020,0
+446,Jagtial,9.85,0,Crime Aginst SC_ST,Murder,0,2020,0
+447,Jayashankar Bhupalpally,4.5,0.222222222,Crime Aginst SC_ST,Murder,1,2020,0
+448,Jogulamba Gadwal,6.09,0,Crime Aginst SC_ST,Murder,0,2020,0
+449,Kamareddy,9.94,0.301810865,Crime Aginst SC_ST,Murder,3,2020,0
+450,Kumaram Bheem Asifabad,5.38,0,Crime Aginst SC_ST,Murder,0,2020,0
+451,Mahabubabad,7.74,0.129198966,Crime Aginst SC_ST,Murder,1,2020,0
+452,Mahabubnagar,9.16,0.109170306,Crime Aginst SC_ST,Murder,1,2020,0
+453,Medak,7.67,0,Crime Aginst SC_ST,Murder,0,2020,0
+454,Mulugu,2.94,0.340136054,Crime Aginst SC_ST,Murder,1,2020,0
+455,Nagarkurnool,8.61,0.116144019,Crime Aginst SC_ST,Murder,1,2020,0
+456,Nalgonda,16.18,0.061804697,Crime Aginst SC_ST,Murder,1,2020,0
+457,Narayanpet,5.66,0.176678445,Crime Aginst SC_ST,Murder,1,2020,0
+458,Nirmal,7.09,0.282087447,Crime Aginst SC_ST,Murder,2,2020,0
+459,Rajanna Sircilla,5.98,0.16722408,Crime Aginst SC_ST,Murder,1,2020,0
+460,Sanga Reddy,15.27,0.196463654,Crime Aginst SC_ST,Murder,3,2020,0
+461,Suryapet,10.99,0,Crime Aginst SC_ST,Murder,0,2020,0
+462,Vikarabad,9.41,0.106269926,Crime Aginst SC_ST,Murder,1,2020,0
+463,Wanaparthy,5.77,0,Crime Aginst SC_ST,Murder,0,2020,0
 464,RP Secunderabad,,,Crime Aginst SC_ST,Murder,0,2020,0
 465,CID,,,Crime Aginst SC_ST,Murder,0,2020,0
-466,Cyberabad,,,Crime Aginst SC_ST,Rape,39,2020,0
-467,Hyderabad,,,Crime Aginst SC_ST,Rape,42,2020,0
-468,Karimnagar,,,Crime Aginst SC_ST,Rape,12,2020,0
-469,Khammam,,,Crime Aginst SC_ST,Rape,12,2020,0
-470,Nizamabad,,,Crime Aginst SC_ST,Rape,4,2020,0
-471,Rachakonda,,,Crime Aginst SC_ST,Rape,63,2020,0
-472,Ramagundam,,,Crime Aginst SC_ST,Rape,6,2020,0
-473,Siddipet,,,Crime Aginst SC_ST,Rape,5,2020,0
-474,Warangal,,,Crime Aginst SC_ST,Rape,6,2020,0
-475,Adilabad,,,Crime Aginst SC_ST,Rape,3,2020,0
-476,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Rape,9,2020,0
-477,Jagtial,,,Crime Aginst SC_ST,Rape,6,2020,0
-478,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Rape,3,2020,0
-479,Jogulamba Gadwal,,,Crime Aginst SC_ST,Rape,3,2020,0
-480,Kamareddy,,,Crime Aginst SC_ST,Rape,4,2020,0
-481,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Rape,3,2020,0
-482,Mahabubabad,,,Crime Aginst SC_ST,Rape,3,2020,0
-483,Mahabubnagar,,,Crime Aginst SC_ST,Rape,4,2020,0
-484,Medak,,,Crime Aginst SC_ST,Rape,1,2020,0
-485,Mulugu,,,Crime Aginst SC_ST,Rape,3,2020,0
-486,Nagarkurnool,,,Crime Aginst SC_ST,Rape,9,2020,0
-487,Nalgonda,,,Crime Aginst SC_ST,Rape,17,2020,0
-488,Narayanpet,,,Crime Aginst SC_ST,Rape,1,2020,0
-489,Nirmal,,,Crime Aginst SC_ST,Rape,1,2020,0
-490,Rajanna Sircilla,,,Crime Aginst SC_ST,Rape,3,2020,0
-491,Sanga Reddy,,,Crime Aginst SC_ST,Rape,5,2020,0
-492,Suryapet,,,Crime Aginst SC_ST,Rape,5,2020,0
-493,Vikarabad,,,Crime Aginst SC_ST,Rape,12,2020,0
-494,Wanaparthy,,,Crime Aginst SC_ST,Rape,6,2020,0
+466,Cyberabad,62,0.629032258,Crime Aginst SC_ST,Rape,39,2020,0
+467,Hyderabad,39.43,1.065178798,Crime Aginst SC_ST,Rape,42,2020,0
+468,Karimnagar,10.05,1.194029851,Crime Aginst SC_ST,Rape,12,2020,0
+469,Khammam,15.59,0.769724182,Crime Aginst SC_ST,Rape,12,2020,0
+470,Nizamabad,15.71,0.254614895,Crime Aginst SC_ST,Rape,4,2020,0
+471,Rachakonda,52,1.211538462,Crime Aginst SC_ST,Rape,63,2020,0
+472,Ramagundam,16.02,0.374531835,Crime Aginst SC_ST,Rape,6,2020,0
+473,Siddipet,10.55,0.473933649,Crime Aginst SC_ST,Rape,5,2020,0
+474,Warangal,23.65,0.253699789,Crime Aginst SC_ST,Rape,6,2020,0
+475,Adilabad,8.51,0.352526439,Crime Aginst SC_ST,Rape,3,2020,0
+476,Bhadradri Kothagudem,13.96,0.64469914,Crime Aginst SC_ST,Rape,9,2020,0
+477,Jagtial,9.85,0.609137056,Crime Aginst SC_ST,Rape,6,2020,0
+478,Jayashankar Bhupalpally,4.5,0.666666667,Crime Aginst SC_ST,Rape,3,2020,0
+479,Jogulamba Gadwal,6.09,0.492610837,Crime Aginst SC_ST,Rape,3,2020,0
+480,Kamareddy,9.94,0.402414487,Crime Aginst SC_ST,Rape,4,2020,0
+481,Kumaram Bheem Asifabad,5.38,0.557620818,Crime Aginst SC_ST,Rape,3,2020,0
+482,Mahabubabad,7.74,0.387596899,Crime Aginst SC_ST,Rape,3,2020,0
+483,Mahabubnagar,9.16,0.436681223,Crime Aginst SC_ST,Rape,4,2020,0
+484,Medak,7.67,0.130378096,Crime Aginst SC_ST,Rape,1,2020,0
+485,Mulugu,2.94,1.020408163,Crime Aginst SC_ST,Rape,3,2020,0
+486,Nagarkurnool,8.61,1.045296167,Crime Aginst SC_ST,Rape,9,2020,0
+487,Nalgonda,16.18,1.050679852,Crime Aginst SC_ST,Rape,17,2020,0
+488,Narayanpet,5.66,0.176678445,Crime Aginst SC_ST,Rape,1,2020,0
+489,Nirmal,7.09,0.141043724,Crime Aginst SC_ST,Rape,1,2020,0
+490,Rajanna Sircilla,5.98,0.501672241,Crime Aginst SC_ST,Rape,3,2020,0
+491,Sanga Reddy,15.27,0.327439424,Crime Aginst SC_ST,Rape,5,2020,0
+492,Suryapet,10.99,0.454959054,Crime Aginst SC_ST,Rape,5,2020,0
+493,Vikarabad,9.41,1.275239107,Crime Aginst SC_ST,Rape,12,2020,0
+494,Wanaparthy,5.77,1.039861352,Crime Aginst SC_ST,Rape,6,2020,0
 495,RP Secunderabad,,,Crime Aginst SC_ST,Rape,0,2020,0
 496,CID,,,Crime Aginst SC_ST,Rape,0,2020,0
-497,Cyberabad,,93.5,Economic Offence,Cheatings,2644,2020,0
-498,Hyderabad,,44.46,Economic Offence,Cheatings,1216,2020,0
-499,Karimnagar,,28.66,Economic Offence,Cheatings,221,2020,0
-500,Khammam,,20.14,Economic Offence,Cheatings,255,2020,0
-501,Nizamabad,,15.91,Economic Offence,Cheatings,304,2020,0
-502,Rachakonda,,52.46,Economic Offence,Cheatings,1647,2020,0
-503,Ramagundam,,38.58,Economic Offence,Cheatings,488,2020,0
-504,Siddipet,,20.19,Economic Offence,Cheatings,204,2020,0
-505,Warangal,,29.56,Economic Offence,Cheatings,479,2020,0
-506,Adilabad,,8.58,Economic Offence,Cheatings,67,2020,0
-507,Bhadradri Kothagudem,,14.33,Economic Offence,Cheatings,142,2020,0
-508,Jagtial,,34.31,Economic Offence,Cheatings,237,2020,0
-509,Jayashankar Bhupalpally,,21.11,Economic Offence,Cheatings,150,2020,0
-510,Jogulamba Gadwal,,38.1,Economic Offence,Cheatings,140,2020,0
-511,Kamareddy,,20.12,Economic Offence,Cheatings,87,2020,0
-512,Kumaram Bheem Asifabad,,49.44,Economic Offence,Cheatings,156,2020,0
-513,Mahabubabad,,20.8,Economic Offence,Cheatings,127,2020,0
-514,Mahabubnagar,,14.74,Economic Offence,Cheatings,72,2020,0
-515,Medak,,17.86,Economic Offence,Cheatings,57,2020,0
-516,Mulugu,,18.71,Economic Offence,Cheatings,42,2020,0
-517,Nagarkurnool,,16.38,Economic Offence,Cheatings,75,2020,0
-518,Nalgonda,,28.74,Economic Offence,Cheatings,293,2020,0
-519,Narayanpet,,17.14,Economic Offence,Cheatings,71,2020,0
-520,Nirmal,,9.59,Economic Offence,Cheatings,36,2020,0
-521,Rajanna Sircilla,,28.43,Economic Offence,Cheatings,143,2020,0
-522,Sanga Reddy,,15.46,Economic Offence,Cheatings,155,2020,0
-523,Suryapet,,30.94,Economic Offence,Cheatings,269,2020,0
-524,Vikarabad,,12.86,Economic Offence,Cheatings,51,2020,0
-525,Wanaparthy,,15.25,Economic Offence,Cheatings,68,2020,0
+497,Cyberabad,62,93.5,Economic Offence,Cheatings,2644,2020,0
+498,Hyderabad,39.43,44.46,Economic Offence,Cheatings,1216,2020,0
+499,Karimnagar,10.05,28.66,Economic Offence,Cheatings,221,2020,0
+500,Khammam,15.59,20.14,Economic Offence,Cheatings,255,2020,0
+501,Nizamabad,15.71,15.91,Economic Offence,Cheatings,304,2020,0
+502,Rachakonda,52,52.46,Economic Offence,Cheatings,1647,2020,0
+503,Ramagundam,16.02,38.58,Economic Offence,Cheatings,488,2020,0
+504,Siddipet,10.55,20.19,Economic Offence,Cheatings,204,2020,0
+505,Warangal,23.65,29.56,Economic Offence,Cheatings,479,2020,0
+506,Adilabad,8.51,8.58,Economic Offence,Cheatings,67,2020,0
+507,Bhadradri Kothagudem,13.96,14.33,Economic Offence,Cheatings,142,2020,0
+508,Jagtial,9.85,34.31,Economic Offence,Cheatings,237,2020,0
+509,Jayashankar Bhupalpally,4.5,21.11,Economic Offence,Cheatings,150,2020,0
+510,Jogulamba Gadwal,6.09,38.1,Economic Offence,Cheatings,140,2020,0
+511,Kamareddy,9.94,20.12,Economic Offence,Cheatings,87,2020,0
+512,Kumaram Bheem Asifabad,5.38,49.44,Economic Offence,Cheatings,156,2020,0
+513,Mahabubabad,7.74,20.8,Economic Offence,Cheatings,127,2020,0
+514,Mahabubnagar,9.16,14.74,Economic Offence,Cheatings,72,2020,0
+515,Medak,7.67,17.86,Economic Offence,Cheatings,57,2020,0
+516,Mulugu,2.94,18.71,Economic Offence,Cheatings,42,2020,0
+517,Nagarkurnool,8.61,16.38,Economic Offence,Cheatings,75,2020,0
+518,Nalgonda,16.18,28.74,Economic Offence,Cheatings,293,2020,0
+519,Narayanpet,5.66,17.14,Economic Offence,Cheatings,71,2020,0
+520,Nirmal,7.09,9.59,Economic Offence,Cheatings,36,2020,0
+521,Rajanna Sircilla,5.98,28.43,Economic Offence,Cheatings,143,2020,0
+522,Sanga Reddy,15.27,15.46,Economic Offence,Cheatings,155,2020,0
+523,Suryapet,10.99,30.94,Economic Offence,Cheatings,269,2020,0
+524,Vikarabad,9.41,12.86,Economic Offence,Cheatings,51,2020,0
+525,Wanaparthy,5.77,15.25,Economic Offence,Cheatings,68,2020,0
 526,RP Secunderabad,,,Economic Offence,Cheatings,2,2020,0
 527,CID,,,Economic Offence,Cheatings,0,2020,0
-528,Cyberabad,,0.03,Economic Offence,Counterfeit,0,2020,0
-529,Hyderabad,,0.15,Economic Offence,Counterfeit,4,2020,0
-530,Karimnagar,,0,Economic Offence,Counterfeit,0,2020,0
-531,Khammam,,0,Economic Offence,Counterfeit,1,2020,0
-532,Nizamabad,,0,Economic Offence,Counterfeit,0,2020,0
-533,Rachakonda,,0.02,Economic Offence,Counterfeit,0,2020,0
-534,Ramagundam,,0.06,Economic Offence,Counterfeit,0,2020,0
-535,Siddipet,,0,Economic Offence,Counterfeit,0,2020,0
-536,Warangal,,0.04,Economic Offence,Counterfeit,1,2020,0
-537,Adilabad,,0,Economic Offence,Counterfeit,0,2020,0
-538,Bhadradri Kothagudem,,0,Economic Offence,Counterfeit,0,2020,0
-539,Jagtial,,0,Economic Offence,Counterfeit,0,2020,0
-540,Jayashankar Bhupalpally,,0,Economic Offence,Counterfeit,0,2020,0
-541,Jogulamba Gadwal,,0,Economic Offence,Counterfeit,0,2020,0
-542,Kamareddy,,0.1,Economic Offence,Counterfeit,0,2020,0
-543,Kumaram Bheem Asifabad,,0.19,Economic Offence,Counterfeit,0,2020,0
-544,Mahabubabad,,0,Economic Offence,Counterfeit,1,2020,0
-545,Mahabubnagar,,0,Economic Offence,Counterfeit,0,2020,0
-546,Medak,,0,Economic Offence,Counterfeit,0,2020,0
-547,Mulugu,,0,Economic Offence,Counterfeit,0,2020,0
-548,Nagarkurnool,,0,Economic Offence,Counterfeit,0,2020,0
-549,Nalgonda,,0,Economic Offence,Counterfeit,1,2020,0
-550,Narayanpet,,0,Economic Offence,Counterfeit,0,2020,0
-551,Nirmal,,0,Economic Offence,Counterfeit,0,2020,0
-552,Rajanna Sircilla,,0.17,Economic Offence,Counterfeit,1,2020,0
-553,Sanga Reddy,,0.13,Economic Offence,Counterfeit,0,2020,0
-554,Suryapet,,0,Economic Offence,Counterfeit,1,2020,0
-555,Vikarabad,,0,Economic Offence,Counterfeit,0,2020,0
-556,Wanaparthy,,0,Economic Offence,Counterfeit,0,2020,0
+528,Cyberabad,62,0.03,Economic Offence,Counterfeit,0,2020,0
+529,Hyderabad,39.43,0.15,Economic Offence,Counterfeit,4,2020,0
+530,Karimnagar,10.05,0,Economic Offence,Counterfeit,0,2020,0
+531,Khammam,15.59,0,Economic Offence,Counterfeit,1,2020,0
+532,Nizamabad,15.71,0,Economic Offence,Counterfeit,0,2020,0
+533,Rachakonda,52,0.02,Economic Offence,Counterfeit,0,2020,0
+534,Ramagundam,16.02,0.06,Economic Offence,Counterfeit,0,2020,0
+535,Siddipet,10.55,0,Economic Offence,Counterfeit,0,2020,0
+536,Warangal,23.65,0.04,Economic Offence,Counterfeit,1,2020,0
+537,Adilabad,8.51,0,Economic Offence,Counterfeit,0,2020,0
+538,Bhadradri Kothagudem,13.96,0,Economic Offence,Counterfeit,0,2020,0
+539,Jagtial,9.85,0,Economic Offence,Counterfeit,0,2020,0
+540,Jayashankar Bhupalpally,4.5,0,Economic Offence,Counterfeit,0,2020,0
+541,Jogulamba Gadwal,6.09,0,Economic Offence,Counterfeit,0,2020,0
+542,Kamareddy,9.94,0.1,Economic Offence,Counterfeit,0,2020,0
+543,Kumaram Bheem Asifabad,5.38,0.19,Economic Offence,Counterfeit,0,2020,0
+544,Mahabubabad,7.74,0,Economic Offence,Counterfeit,1,2020,0
+545,Mahabubnagar,9.16,0,Economic Offence,Counterfeit,0,2020,0
+546,Medak,7.67,0,Economic Offence,Counterfeit,0,2020,0
+547,Mulugu,2.94,0,Economic Offence,Counterfeit,0,2020,0
+548,Nagarkurnool,8.61,0,Economic Offence,Counterfeit,0,2020,0
+549,Nalgonda,16.18,0,Economic Offence,Counterfeit,1,2020,0
+550,Narayanpet,5.66,0,Economic Offence,Counterfeit,0,2020,0
+551,Nirmal,7.09,0,Economic Offence,Counterfeit,0,2020,0
+552,Rajanna Sircilla,5.98,0.17,Economic Offence,Counterfeit,1,2020,0
+553,Sanga Reddy,15.27,0.13,Economic Offence,Counterfeit,0,2020,0
+554,Suryapet,10.99,0,Economic Offence,Counterfeit,1,2020,0
+555,Vikarabad,9.41,0,Economic Offence,Counterfeit,0,2020,0
+556,Wanaparthy,5.77,0,Economic Offence,Counterfeit,0,2020,0
 557,RP Secunderabad,,,Economic Offence,Counterfeit,0,2020,0
 558,CID,,,Economic Offence,Counterfeit,0,2020,0
-559,Cyberabad,,2.47,Economic Offence,Criminal Breach of Trust,161,2020,0
-560,Hyderabad,,3.91,Economic Offence,Criminal Breach of Trust,109,2020,0
-561,Karimnagar,,1.69,Economic Offence,Criminal Breach of Trust,4,2020,0
-562,Khammam,,1.09,Economic Offence,Criminal Breach of Trust,22,2020,0
-563,Nizamabad,,0.38,Economic Offence,Criminal Breach of Trust,10,2020,0
-564,Rachakonda,,1.65,Economic Offence,Criminal Breach of Trust,71,2020,0
-565,Ramagundam,,0.37,Economic Offence,Criminal Breach of Trust,8,2020,0
-566,Siddipet,,0.66,Economic Offence,Criminal Breach of Trust,5,2020,0
-567,Warangal,,0.13,Economic Offence,Criminal Breach of Trust,1,2020,0
-568,Adilabad,,0.12,Economic Offence,Criminal Breach of Trust,8,2020,0
-569,Bhadradri Kothagudem,,1.58,Economic Offence,Criminal Breach of Trust,22,2020,0
-570,Jagtial,,1.02,Economic Offence,Criminal Breach of Trust,8,2020,0
-571,Jayashankar Bhupalpally,,0.44,Economic Offence,Criminal Breach of Trust,2,2020,0
-572,Jogulamba Gadwal,,0.16,Economic Offence,Criminal Breach of Trust,5,2020,0
-573,Kamareddy,,0.91,Economic Offence,Criminal Breach of Trust,13,2020,0
-574,Kumaram Bheem Asifabad,,0,Economic Offence,Criminal Breach of Trust,1,2020,0
-575,Mahabubabad,,0.52,Economic Offence,Criminal Breach of Trust,7,2020,0
-576,Mahabubnagar,,0.22,Economic Offence,Criminal Breach of Trust,2,2020,0
-577,Medak,,1.83,Economic Offence,Criminal Breach of Trust,14,2020,0
-578,Mulugu,,0.68,Economic Offence,Criminal Breach of Trust,1,2020,0
-579,Nagarkurnool,,0.23,Economic Offence,Criminal Breach of Trust,8,2020,0
-580,Nalgonda,,0.49,Economic Offence,Criminal Breach of Trust,17,2020,0
-581,Narayanpet,,0.35,Economic Offence,Criminal Breach of Trust,0,2020,0
-582,Nirmal,,1.97,Economic Offence,Criminal Breach of Trust,5,2020,0
-583,Rajanna Sircilla,,1.17,Economic Offence,Criminal Breach of Trust,5,2020,0
-584,Sanga Reddy,,0.39,Economic Offence,Criminal Breach of Trust,5,2020,0
-585,Suryapet,,1.09,Economic Offence,Criminal Breach of Trust,8,2020,0
-586,Vikarabad,,0.21,Economic Offence,Criminal Breach of Trust,2,2020,0
-587,Wanaparthy,,1.04,Economic Offence,Criminal Breach of Trust,13,2020,0
+559,Cyberabad,62,2.47,Economic Offence,Criminal Breach of Trust,161,2020,0
+560,Hyderabad,39.43,3.91,Economic Offence,Criminal Breach of Trust,109,2020,0
+561,Karimnagar,10.05,1.69,Economic Offence,Criminal Breach of Trust,4,2020,0
+562,Khammam,15.59,1.09,Economic Offence,Criminal Breach of Trust,22,2020,0
+563,Nizamabad,15.71,0.38,Economic Offence,Criminal Breach of Trust,10,2020,0
+564,Rachakonda,52,1.65,Economic Offence,Criminal Breach of Trust,71,2020,0
+565,Ramagundam,16.02,0.37,Economic Offence,Criminal Breach of Trust,8,2020,0
+566,Siddipet,10.55,0.66,Economic Offence,Criminal Breach of Trust,5,2020,0
+567,Warangal,23.65,0.13,Economic Offence,Criminal Breach of Trust,1,2020,0
+568,Adilabad,8.51,0.12,Economic Offence,Criminal Breach of Trust,8,2020,0
+569,Bhadradri Kothagudem,13.96,1.58,Economic Offence,Criminal Breach of Trust,22,2020,0
+570,Jagtial,9.85,1.02,Economic Offence,Criminal Breach of Trust,8,2020,0
+571,Jayashankar Bhupalpally,4.5,0.44,Economic Offence,Criminal Breach of Trust,2,2020,0
+572,Jogulamba Gadwal,6.09,0.16,Economic Offence,Criminal Breach of Trust,5,2020,0
+573,Kamareddy,9.94,0.91,Economic Offence,Criminal Breach of Trust,13,2020,0
+574,Kumaram Bheem Asifabad,5.38,0,Economic Offence,Criminal Breach of Trust,1,2020,0
+575,Mahabubabad,7.74,0.52,Economic Offence,Criminal Breach of Trust,7,2020,0
+576,Mahabubnagar,9.16,0.22,Economic Offence,Criminal Breach of Trust,2,2020,0
+577,Medak,7.67,1.83,Economic Offence,Criminal Breach of Trust,14,2020,0
+578,Mulugu,2.94,0.68,Economic Offence,Criminal Breach of Trust,1,2020,0
+579,Nagarkurnool,8.61,0.23,Economic Offence,Criminal Breach of Trust,8,2020,0
+580,Nalgonda,16.18,0.49,Economic Offence,Criminal Breach of Trust,17,2020,0
+581,Narayanpet,5.66,0.35,Economic Offence,Criminal Breach of Trust,0,2020,0
+582,Nirmal,7.09,1.97,Economic Offence,Criminal Breach of Trust,5,2020,0
+583,Rajanna Sircilla,5.98,1.17,Economic Offence,Criminal Breach of Trust,5,2020,0
+584,Sanga Reddy,15.27,0.39,Economic Offence,Criminal Breach of Trust,5,2020,0
+585,Suryapet,10.99,1.09,Economic Offence,Criminal Breach of Trust,8,2020,0
+586,Vikarabad,9.41,0.21,Economic Offence,Criminal Breach of Trust,2,2020,0
+587,Wanaparthy,5.77,1.04,Economic Offence,Criminal Breach of Trust,13,2020,0
 588,RP Secunderabad,,,Economic Offence,Criminal Breach of Trust,0,2020,0
 589,CID,,,Economic Offence,Criminal Breach of Trust,0,2020,0
 590,Cyberabad,62,14.32,Property Crime,Burglaries,616,2020,0
@@ -619,97 +619,97 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 618,Wanaparthy,5.77,5.72,Property Crime,Burglaries,39,2020,0
 619,RP Secunderabad,,,Property Crime,Burglaries,0,2020,0
 620,CID,,,Property Crime,Burglaries,,2020,0
-621,Cyberabad,,0.19,Property Crime,Dacoities,8,2020,0
-622,Hyderabad,,0.28,Property Crime,Dacoities,5,2020,0
-623,Karimnagar,,0.1,Property Crime,Dacoities,0,2020,0
-624,Khammam,,0,Property Crime,Dacoities,1,2020,0
-625,Nizamabad,,0,Property Crime,Dacoities,1,2020,0
-626,Rachakonda,,0.12,Property Crime,Dacoities,4,2020,0
-627,Ramagundam,,0.06,Property Crime,Dacoities,0,2020,0
-628,Siddipet,,0,Property Crime,Dacoities,1,2020,0
-629,Warangal,,0.08,Property Crime,Dacoities,4,2020,0
-630,Adilabad,,0.12,Property Crime,Dacoities,1,2020,0
-631,Bhadradri Kothagudem,,0.07,Property Crime,Dacoities,2,2020,0
-632,Jagtial,,0,Property Crime,Dacoities,2,2020,0
-633,Jayashankar Bhupalpally,,0,Property Crime,Dacoities,0,2020,0
-634,Jogulamba Gadwal,,0,Property Crime,Dacoities,0,2020,0
-635,Kamareddy,,0,Property Crime,Dacoities,0,2020,0
-636,Kumaram Bheem Asifabad,,0,Property Crime,Dacoities,1,2020,0
-637,Mahabubabad,,0,Property Crime,Dacoities,0,2020,0
-638,Mahabubnagar,,0,Property Crime,Dacoities,0,2020,0
-639,Medak,,0.13,Property Crime,Dacoities,0,2020,0
-640,Mulugu,,0,Property Crime,Dacoities,0,2020,0
-641,Nagarkurnool,,0,Property Crime,Dacoities,0,2020,0
-642,Nalgonda,,0,Property Crime,Dacoities,0,2020,0
-643,Narayanpet,,0,Property Crime,Dacoities,0,2020,0
-644,Nirmal,,0,Property Crime,Dacoities,1,2020,0
-645,Rajanna Sircilla,,0,Property Crime,Dacoities,0,2020,0
-646,Sanga Reddy,,0.2,Property Crime,Dacoities,0,2020,0
-647,Suryapet,,0,Property Crime,Dacoities,0,2020,0
-648,Vikarabad,,0.32,Property Crime,Dacoities,1,2020,0
-649,Wanaparthy,,0,Property Crime,Dacoities,0,2020,0
+621,Cyberabad,62,0.19,Property Crime,Dacoities,8,2020,0
+622,Hyderabad,39.43,0.28,Property Crime,Dacoities,5,2020,0
+623,Karimnagar,10.05,0.1,Property Crime,Dacoities,0,2020,0
+624,Khammam,15.59,0,Property Crime,Dacoities,1,2020,0
+625,Nizamabad,15.71,0,Property Crime,Dacoities,1,2020,0
+626,Rachakonda,52,0.12,Property Crime,Dacoities,4,2020,0
+627,Ramagundam,16.02,0.06,Property Crime,Dacoities,0,2020,0
+628,Siddipet,10.55,0,Property Crime,Dacoities,1,2020,0
+629,Warangal,23.65,0.08,Property Crime,Dacoities,4,2020,0
+630,Adilabad,8.51,0.12,Property Crime,Dacoities,1,2020,0
+631,Bhadradri Kothagudem,13.96,0.07,Property Crime,Dacoities,2,2020,0
+632,Jagtial,9.85,0,Property Crime,Dacoities,2,2020,0
+633,Jayashankar Bhupalpally,4.5,0,Property Crime,Dacoities,0,2020,0
+634,Jogulamba Gadwal,6.09,0,Property Crime,Dacoities,0,2020,0
+635,Kamareddy,9.94,0,Property Crime,Dacoities,0,2020,0
+636,Kumaram Bheem Asifabad,5.38,0,Property Crime,Dacoities,1,2020,0
+637,Mahabubabad,7.74,0,Property Crime,Dacoities,0,2020,0
+638,Mahabubnagar,9.16,0,Property Crime,Dacoities,0,2020,0
+639,Medak,7.67,0.13,Property Crime,Dacoities,0,2020,0
+640,Mulugu,2.94,0,Property Crime,Dacoities,0,2020,0
+641,Nagarkumool,8.61,0,Property Crime,Dacoities,0,2020,0
+642,Nalgonda,16.18,0,Property Crime,Dacoities,0,2020,0
+643,Narayanpet,5.66,0,Property Crime,Dacoities,0,2020,0
+644,Nirmal,7.09,0,Property Crime,Dacoities,1,2020,0
+645,Rajanna Sircilla,5.98,0,Property Crime,Dacoities,0,2020,0
+646,Sanga Reddy,15.27,0.2,Property Crime,Dacoities,0,2020,0
+647,Suryapet,10.99,0,Property Crime,Dacoities,0,2020,0
+648,Vikarabad,9.41,0.32,Property Crime,Dacoities,1,2020,0
+649,Wanaparthy,5.77,0,Property Crime,Dacoities,0,2020,0
 650,RP Secunderabad,,,Property Crime,Dacoities,0,2020,0
 651,CID,,,Property Crime,Dacoities,,2020,0
-652,Cyberabad,,0.26,Property Crime,Murder for gain,8,2020,0
-653,Hyderabad,,0.2,Property Crime,Murder for gain,4,2020,0
-654,Karimnagar,,0.1,Property Crime,Murder for gain,2,2020,0
-655,Khammam,,0,Property Crime,Murder for gain,1,2020,0
-656,Nizamabad,,0.38,Property Crime,Murder for gain,5,2020,0
-657,Rachakonda,,0.12,Property Crime,Murder for gain,2,2020,0
-658,Ramagundam,,0.12,Property Crime,Murder for gain,0,2020,0
-659,Siddipet,,0.28,Property Crime,Murder for gain,0,2020,0
-660,Warangal,,0.04,Property Crime,Murder for gain,1,2020,0
-661,Adilabad,,0,Property Crime,Murder for gain,0,2020,0
-662,Bhadradri Kothagudem,,0.21,Property Crime,Murder for gain,1,2020,0
-663,Jagtial,,0.1,Property Crime,Murder for gain,1,2020,0
-664,Jayashankar Bhupalpally,,0.22,Property Crime,Murder for gain,1,2020,0
-665,Jogulamba Gadwal,,0,Property Crime,Murder for gain,0,2020,0
-666,Kamareddy,,0.8,Property Crime,Murder for gain,2,2020,0
-667,Kumaram Bheem Asifabad,,0.19,Property Crime,Murder for gain,2,2020,0
-668,Mahabubabad,,0,Property Crime,Murder for gain,0,2020,0
-669,Mahabubnagar,,0.55,Property Crime,Murder for gain,2,2020,0
-670,Medak,,0.91,Property Crime,Murder for gain,1,2020,0
-671,Mulugu,,0,Property Crime,Murder for gain,0,2020,0
-672,Nagarkurnool,,0.23,Property Crime,Murder for gain,0,2020,0
-673,Nalgonda,,0,Property Crime,Murder for gain,1,2020,0
-674,Narayanpet,,0.53,Property Crime,Murder for gain,0,2020,0
-675,Nirmal,,0.14,Property Crime,Murder for gain,1,2020,0
-676,Rajanna Sircilla,,0,Property Crime,Murder for gain,0,2020,0
-677,Sanga Reddy,,0.98,Property Crime,Murder for gain,5,2020,0
-678,Suryapet,,0.18,Property Crime,Murder for gain,1,2020,0
-679,Vikarabad,,0.43,Property Crime,Murder for gain,4,2020,0
-680,Wanaparthy,,0,Property Crime,Murder for gain,0,2020,0
+652,Cyberabad,62,0.26,Property Crime,Murder for gain,8,2020,0
+653,Hyderabad,39.43,0.2,Property Crime,Murder for gain,4,2020,0
+654,Karimnagar,10.05,0.1,Property Crime,Murder for gain,2,2020,0
+655,Khammam,15.59,0,Property Crime,Murder for gain,1,2020,0
+656,Nizamabad,15.71,0.38,Property Crime,Murder for gain,5,2020,0
+657,Rachakonda,52,0.12,Property Crime,Murder for gain,2,2020,0
+658,Ramagundam,16.02,0.12,Property Crime,Murder for gain,0,2020,0
+659,Siddipet,10.55,0.28,Property Crime,Murder for gain,0,2020,0
+660,Warangal,23.65,0.04,Property Crime,Murder for gain,1,2020,0
+661,Adilabad,8.51,0,Property Crime,Murder for gain,0,2020,0
+662,Bhadradri Kothagudem,13.96,0.21,Property Crime,Murder for gain,1,2020,0
+663,Jagtial,9.85,0.1,Property Crime,Murder for gain,1,2020,0
+664,Jayashankar Bhupalpally,4.5,0.22,Property Crime,Murder for gain,1,2020,0
+665,Jogulamba Gadwal,6.09,0,Property Crime,Murder for gain,0,2020,0
+666,Kamareddy,9.94,0.8,Property Crime,Murder for gain,2,2020,0
+667,Kumaram Bheem Asifabad,5.38,0.19,Property Crime,Murder for gain,2,2020,0
+668,Mahabubabad,7.74,0,Property Crime,Murder for gain,0,2020,0
+669,Mahabubnagar,9.16,0.55,Property Crime,Murder for gain,2,2020,0
+670,Medak,7.67,0.91,Property Crime,Murder for gain,1,2020,0
+671,Mulugu,2.94,0,Property Crime,Murder for gain,0,2020,0
+672,Nagarkumool,8.61,0.23,Property Crime,Murder for gain,0,2020,0
+673,Nalgonda,16.18,0,Property Crime,Murder for gain,1,2020,0
+674,Narayanpet,5.66,0.53,Property Crime,Murder for gain,0,2020,0
+675,Nirmal,7.09,0.14,Property Crime,Murder for gain,1,2020,0
+676,Rajanna Sircilla,5.98,0,Property Crime,Murder for gain,0,2020,0
+677,Sanga Reddy,15.27,0.98,Property Crime,Murder for gain,5,2020,0
+678,Suryapet,10.99,0.18,Property Crime,Murder for gain,1,2020,0
+679,Vikarabad,9.41,0.43,Property Crime,Murder for gain,4,2020,0
+680,Wanaparthy,5.77,0,Property Crime,Murder for gain,0,2020,0
 681,RP Secunderabad,,,Property Crime,Murder for gain,0,2020,0
 682,CID,,,Property Crime,Murder for gain,,2020,0
-683,Cyberabad,,61.84,Property Crime,ordinary thefts,1834,2020,0
-684,Hyderabad,,58.1,Property Crime,ordinary thefts,1861,2020,0
-685,Karimnagar,,11.14,Property Crime,ordinary thefts,138,2020,0
-686,Khammam,,17.96,Property Crime,ordinary thefts,203,2020,0
-687,Nizamabad,,29.85,Property Crime,ordinary thefts,401,2020,0
-688,Rachakonda,,37.63,Property Crime,ordinary thefts,1256,2020,0
-689,Ramagundam,,22.53,Property Crime,ordinary thefts,261,2020,0
-690,Siddipet,,50.33,Property Crime,ordinary thefts,367,2020,0
-691,Warangal,,19.28,Property Crime,ordinary thefts,241,2020,0
-692,Adilabad,,8.58,Property Crime,ordinary thefts,88,2020,0
-693,Bhadradri Kothagudem,,14.76,Property Crime,ordinary thefts,146,2020,0
-694,Jagtial,,16.55,Property Crime,ordinary thefts,94,2020,0
-695,Jayashankar Bhupalpally,,6.22,Property Crime,ordinary thefts,41,2020,0
-696,Jogulamba Gadwal,,45.32,Property Crime,ordinary thefts,210,2020,0
-697,Kamareddy,,28.87,Property Crime,ordinary thefts,217,2020,0
-698,Kumaram Bheem Asifabad,,12.08,Property Crime,ordinary thefts,86,2020,0
-699,Mahabubabad,,8.01,Property Crime,ordinary thefts,84,2020,0
-700,Mahabubnagar,,19,Property Crime,ordinary thefts,122,2020,0
-701,Medak,,26.08,Property Crime,ordinary thefts,140,2020,0
-702,Mulugu,,9.52,Property Crime,ordinary thefts,41,2020,0
-703,Nagarkurnool,,11.85,Property Crime,ordinary thefts,91,2020,0
-704,Nalgonda,,11.43,Property Crime,ordinary thefts,142,2020,0
-705,Narayanpet,,8.66,Property Crime,ordinary thefts,45,2020,0
-706,Nirmal,,12.41,Property Crime,ordinary thefts,96,2020,0
-707,Rajanna Sircilla,,14.21,Property Crime,ordinary thefts,64,2020,0
-708,Sanga Reddy,,21.74,Property Crime,ordinary thefts,328,2020,0
-709,Suryapet,,22.02,Property Crime,ordinary thefts,137,2020,0
-710,Vikarabad,,13.28,Property Crime,ordinary thefts,113,2020,0
-711,Wanaparthy,,26.52,Property Crime,ordinary thefts,148,2020,0
+683,Cyberabad,62,61.84,Property Crime,ordinary thefts,1834,2020,0
+684,Hyderabad,39.43,58.1,Property Crime,ordinary thefts,1861,2020,0
+685,Karimnagar,10.05,11.14,Property Crime,ordinary thefts,138,2020,0
+686,Khammam,15.59,17.96,Property Crime,ordinary thefts,203,2020,0
+687,Nizamabad,15.71,29.85,Property Crime,ordinary thefts,401,2020,0
+688,Rachakonda,52,37.63,Property Crime,ordinary thefts,1256,2020,0
+689,Ramagundam,16.02,22.53,Property Crime,ordinary thefts,261,2020,0
+690,Siddipet,10.55,50.33,Property Crime,ordinary thefts,367,2020,0
+691,Warangal,23.65,19.28,Property Crime,ordinary thefts,241,2020,0
+692,Adilabad,8.51,8.58,Property Crime,ordinary thefts,88,2020,0
+693,Bhadradri Kothagudem,13.96,14.76,Property Crime,ordinary thefts,146,2020,0
+694,Jagtial,9.85,16.55,Property Crime,ordinary thefts,94,2020,0
+695,Jayashankar Bhupalpally,4.5,6.22,Property Crime,ordinary thefts,41,2020,0
+696,Jogulamba Gadwal,6.09,45.32,Property Crime,ordinary thefts,210,2020,0
+697,Kamareddy,9.94,28.87,Property Crime,ordinary thefts,217,2020,0
+698,Kumaram Bheem Asifabad,5.38,12.08,Property Crime,ordinary thefts,86,2020,0
+699,Mahabubabad,7.74,8.01,Property Crime,ordinary thefts,84,2020,0
+700,Mahabubnagar,9.16,19,Property Crime,ordinary thefts,122,2020,0
+701,Medak,7.67,26.08,Property Crime,ordinary thefts,140,2020,0
+702,Mulugu,2.94,9.52,Property Crime,ordinary thefts,41,2020,0
+703,Nagarkurnool,8.61,11.85,Property Crime,ordinary thefts,91,2020,0
+704,Nalgonda,16.18,11.43,Property Crime,ordinary thefts,142,2020,0
+705,Narayanpet,5.66,8.66,Property Crime,ordinary thefts,45,2020,0
+706,Nirmal,7.09,12.41,Property Crime,ordinary thefts,96,2020,0
+707,Rajanna Sircilla,5.98,14.21,Property Crime,ordinary thefts,64,2020,0
+708,Sanga Reddy,15.27,21.74,Property Crime,ordinary thefts,328,2020,0
+709,Suryapet,10.99,22.02,Property Crime,ordinary thefts,137,2020,0
+710,Vikarabad,9.41,13.28,Property Crime,ordinary thefts,113,2020,0
+711,Wanaparthy,5.77,26.52,Property Crime,ordinary thefts,148,2020,0
 712,RP Secunderabad,,,Property Crime,ordinary thefts,257,2020,0
 713,CID,,,Property Crime,ordinary thefts,,2020,0
 714,Cyberabad,62,2.44,Property Crime,Robberies,80,2020,0
@@ -767,7 +767,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 766,Nalgonda,16.18,44.19,Bodily Crimes,Hurt,715,2021,-26.5
 767,Narayanpet,5.66,41.87,Bodily Crimes,Hurt,237,2021,-20.5
 768,Nirmal,7.09,40.76,Bodily Crimes,Hurt,289,2021,17
-769,Rajanna Sircilla,5.98,75.75,Bodily Crimes,Hurt,453,2021,-5.8
+769,Rajanna Siricilla,5.98,75.75,Bodily Crimes,Hurt,453,2021,-5.8
 770,Sanga Reddy,15.27,41.26,Bodily Crimes,Hurt,630,2021,-0.2
 771,Suryapet,10.99,81.16,Bodily Crimes,Hurt,892,2021,-5.6
 772,Vikarabad,9.41,56.54,Bodily Crimes,Hurt,532,2021,-2.4
@@ -794,7 +794,7 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 793,Mahabubnagar,9.16,2.51,Bodily Crimes,Murder,23,2021,43.8
 794,Medak,7.67,3.65,Bodily Crimes,Murder,28,2021,7.7
 795,Mulugu,2.94,2.04,Bodily Crimes,Murder,6,2021,0
-796,Nagarkurnool,8.61,2.67,Bodily Crimes,Murder,23,2021,-8
+796,Nagarkumool,8.61,2.67,Bodily Crimes,Murder,23,2021,-8
 797,Nalgonda,16.18,3.28,Bodily Crimes,Murder,53,2021,103.8
 798,Narayanpet,5.66,1.94,Bodily Crimes,Murder,11,2021,83.3
 799,Nirmal,7.09,1.83,Bodily Crimes,Murder,13,2021,-31.6
@@ -825,11 +825,11 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 824,Mahabubnagar,9.16,9.61,Bodily Crimes,Rape,88,2021,37.5
 825,Medak,7.67,6.78,Bodily Crimes,Rape,52,2021,36.8
 826,Mulugu,2.94,12.93,Bodily Crimes,Rape,38,2021,52
-827,Nagarkurnool,8.61,5.81,Bodily Crimes,Rape,50,2021,19
+827,Nagarkumool,8.61,5.81,Bodily Crimes,Rape,50,2021,19
 828,Nalgonda,16.18,5.81,Bodily Crimes,Rape,94,2021,74.1
 829,Narayanpet,5.66,10.25,Bodily Crimes,Rape,58,2021,5.5
 830,Nirmal,7.09,2.4,Bodily Crimes,Rape,17,2021,-10.5
-831,Rajanna Sircilla,5.98,5.35,Bodily Crimes,Rape,32,2021,-27.3
+831,Rajanna Siricilla,5.98,5.35,Bodily Crimes,Rape,32,2021,-27.3
 832,Sanga Reddy,15.27,3.73,Bodily Crimes,Rape,57,2021,58.3
 833,Suryapet,10.99,7.64,Bodily Crimes,Rape,84,2021,31.3
 834,Vikarabad,9.41,7.86,Bodily Crimes,Rape,74,2021,17.5
@@ -860,476 +860,476 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 859,Nalgonda,16.18,1.05,Bodily Crimes,Rioting,17,2021,-45.2
 860,Narayanpet,5.66,0.53,Bodily Crimes,Rioting,3,2021,-66.7
 861,Nirmal,7.09,2.12,Bodily Crimes,Rioting,15,2021,-28.6
-862,Rajanna Sircilla,5.98,0.67,Bodily Crimes,Rioting,4,2021,-81.8
+862,Rajanna Siricilla,5.98,0.67,Bodily Crimes,Rioting,4,2021,-81.8
 863,Sanga Reddy,15.27,0.07,Bodily Crimes,Rioting,1,2021,-93.8
 864,Suryapet,10.99,2.09,Bodily Crimes,Rioting,23,2021,35.3
 865,Vikarabad,9.41,0.32,Bodily Crimes,Rioting,3,2021,-50
 866,Wanaparthy,5.77,0.17,Bodily Crimes,Rioting,1,2021,-80
 867,RP Secunderabad,,,Bodily Crimes,Rioting,0,2021,0
 868,CID,,,Bodily Crimes,Rioting,,2021,0
-869,Cyberabad,,,Crime Against Children,Kidnapping_Abduction,509,2021,31
-870,Hyderabad,,,Crime Against Children,Kidnapping_Abduction,108,2021,14
-871,Karimnagar,,,Crime Against Children,Kidnapping_Abduction,25,2021,257
-872,Khammam,,,Crime Against Children,Kidnapping_Abduction,126,2021,40
-873,Nizamabad,,,Crime Against Children,Kidnapping_Abduction,21,2021,31
-874,Rachakonda,,,Crime Against Children,Kidnapping_Abduction,145,2021,154
-875,Ramagundam,,,Crime Against Children,Kidnapping_Abduction,54,2021,50
-876,Siddipet,,,Crime Against Children,Kidnapping_Abduction,20,2021,43
-877,Warangal,,,Crime Against Children,Kidnapping_Abduction,177,2021,24
-878,Adilabad,,,Crime Against Children,Kidnapping_Abduction,21,2021,17
-879,Bhadradri Kothagudem,,,Crime Against Children,Kidnapping_Abduction,85,2021,16
-880,Jagtial,,,Crime Against Children,Kidnapping_Abduction,37,2021,1750
-881,Jayashankar Bhupalpally,,,Crime Against Children,Kidnapping_Abduction,11,2021,-62
-882,Jogulamba Gadwal,,,Crime Against Children,Kidnapping_Abduction,25,2021,525
-883,Kamareddy,,,Crime Against Children,Kidnapping_Abduction,7,2021,17
-884,Kumaram Bheem Asifabad,,,Crime Against Children,Kidnapping_Abduction,37,2021,517
-885,Mahabubabad,,,Crime Against Children,Kidnapping_Abduction,54,2021,50
-886,Mahabubnagar,,,Crime Against Children,Kidnapping_Abduction,93,2021,60
-887,Medak,,,Crime Against Children,Kidnapping_Abduction,26,2021,63
-888,Mulugu,,,Crime Against Children,Kidnapping_Abduction,28,2021,155
-889,Nagarkurnool,,,Crime Against Children,Kidnapping_Abduction,30,2021,-25
-890,Nalgonda,,,Crime Against Children,Kidnapping_Abduction,13,2021,0
-891,Narayanpet,,,Crime Against Children,Kidnapping_Abduction,36,2021,177
-892,Nirmal,,,Crime Against Children,Kidnapping_Abduction,3,2021,50
-893,Rajanna Sircilla,,,Crime Against Children,Kidnapping_Abduction,8,2021,-50
-894,Sanga Reddy,,,Crime Against Children,Kidnapping_Abduction,10,2021,0
-895,Suryapet,,,Crime Against Children,Kidnapping_Abduction,9,2021,-70
-896,Vikarabad,,,Crime Against Children,Kidnapping_Abduction,19,2021,-27
-897,Wanaparthy,,,Crime Against Children,Kidnapping_Abduction,11,2021,267
+869,Cyberabad,62,8.209677419,Crime Against Children,Kidnapping_Abduction,509,2021,31
+870,Hyderabad,39.43,2.739031195,Crime Against Children,Kidnapping_Abduction,108,2021,14
+871,Karimnagar,10.05,2.487562189,Crime Against Children,Kidnapping_Abduction,25,2021,257
+872,Khammam,15.59,8.082103913,Crime Against Children,Kidnapping_Abduction,126,2021,40
+873,Nizamabad,15.71,1.336728199,Crime Against Children,Kidnapping_Abduction,21,2021,31
+874,Rachakonda,52,2.788461538,Crime Against Children,Kidnapping_Abduction,145,2021,154
+875,Ramagundam,16.02,3.370786517,Crime Against Children,Kidnapping_Abduction,54,2021,50
+876,Siddipet,10.55,1.895734597,Crime Against Children,Kidnapping_Abduction,20,2021,43
+877,Warangal,23.65,7.484143763,Crime Against Children,Kidnapping_Abduction,177,2021,24
+878,Adilabad,8.51,2.467685076,Crime Against Children,Kidnapping_Abduction,21,2021,17
+879,Bhadradri Kothagudem,13.96,6.088825215,Crime Against Children,Kidnapping_Abduction,85,2021,16
+880,Jagtial,9.85,3.756345178,Crime Against Children,Kidnapping_Abduction,37,2021,1750
+881,Jayashankar Bhupalpally,4.5,2.444444444,Crime Against Children,Kidnapping_Abduction,11,2021,-62
+882,Jogulamba Gadwal,6.09,4.105090312,Crime Against Children,Kidnapping_Abduction,25,2021,525
+883,Kamareddy,9.94,0.704225352,Crime Against Children,Kidnapping_Abduction,7,2021,17
+884,Kumaram Bheem Asifabad,5.38,6.87732342,Crime Against Children,Kidnapping_Abduction,37,2021,517
+885,Mahabubabad,7.74,6.976744186,Crime Against Children,Kidnapping_Abduction,54,2021,50
+886,Mahabubnagar,9.16,10.15283843,Crime Against Children,Kidnapping_Abduction,93,2021,60
+887,Medak,7.67,3.389830508,Crime Against Children,Kidnapping_Abduction,26,2021,63
+888,Mulugu,2.94,9.523809524,Crime Against Children,Kidnapping_Abduction,28,2021,155
+889,Nagarkurnool,8.61,3.484320557,Crime Against Children,Kidnapping_Abduction,30,2021,-25
+890,Nalgonda,16.18,0.803461063,Crime Against Children,Kidnapping_Abduction,13,2021,0
+891,Narayanpet,5.66,6.360424028,Crime Against Children,Kidnapping_Abduction,36,2021,177
+892,Nirmal,7.09,0.423131171,Crime Against Children,Kidnapping_Abduction,3,2021,50
+893,Rajanna Sircilla,5.98,1.337792642,Crime Against Children,Kidnapping_Abduction,8,2021,-50
+894,Sanga Reddy,15.27,0.654878847,Crime Against Children,Kidnapping_Abduction,10,2021,0
+895,Suryapet,10.99,0.818926297,Crime Against Children,Kidnapping_Abduction,9,2021,-70
+896,Vikarabad,9.41,2.019128587,Crime Against Children,Kidnapping_Abduction,19,2021,-27
+897,Wanaparthy,5.77,1.906412478,Crime Against Children,Kidnapping_Abduction,11,2021,267
 898,RP Secunderabad,,,Crime Against Children,Kidnapping_Abduction,0,2021,0
 899,CID,,,Crime Against Children,Kidnapping_Abduction,0,2021,0
-900,Cyberabad,,,Crime Against Children,Murder,9,2021,29
-901,Hyderabad,,,Crime Against Children,Murder,2,2021,0
-902,Karimnagar,,,Crime Against Children,Murder,0,2021,-100
-903,Khammam,,,Crime Against Children,Murder,0,2021,-100
-904,Nizamabad,,,Crime Against Children,Murder,2,2021,0
-905,Rachakonda,,,Crime Against Children,Murder,2,2021,0
-906,Ramagundam,,,Crime Against Children,Murder,1,2021,0
-907,Siddipet,,,Crime Against Children,Murder,1,2021,0
-908,Warangal,,,Crime Against Children,Murder,2,2021,-50
-909,Adilabad,,,Crime Against Children,Murder,0,2021,0
-910,Bhadradri Kothagudem,,,Crime Against Children,Murder,0,2021,0
-911,Jagtial,,,Crime Against Children,Murder,0,2021,0
-912,Jayashankar Bhupalpally,,,Crime Against Children,Murder,0,2021,0
-913,Jogulamba Gadwal,,,Crime Against Children,Murder,1,2021,0
-914,Kamareddy,,,Crime Against Children,Murder,0,2021,-100
-915,Kumaram Bheem Asifabad,,,Crime Against Children,Murder,1,2021,0
-916,Mahabubabad,,,Crime Against Children,Murder,3,2021,200
-917,Mahabubnagar,,,Crime Against Children,Murder,1,2021,0
-918,Medak,,,Crime Against Children,Murder,3,2021,200
-919,Mulugu,,,Crime Against Children,Murder,0,2021,0
-920,Nagarkurnool,,,Crime Against Children,Murder,2,2021,0
-921,Nalgonda,,,Crime Against Children,Murder,1,2021,0
-922,Narayanpet,,,Crime Against Children,Murder,1,2021,0
-923,Nirmal,,,Crime Against Children,Murder,0,2021,-100
-924,Rajanna Sircilla,,,Crime Against Children,Murder,1,2021,0
-925,Sanga Reddy,,,Crime Against Children,Murder,0,2021,-100
-926,Suryapet,,,Crime Against Children,Murder,3,2021,200
-927,Vikarabad,,,Crime Against Children,Murder,0,2021,-100
-928,Wanaparthy,,,Crime Against Children,Murder,0,2021,0
+900,Cyberabad,62,0.14516129,Crime Against Children,Murder,9,2021,29
+901,Hyderabad,39.43,0.0507228,Crime Against Children,Murder,2,2021,0
+902,Karimnagar,10.05,0,Crime Against Children,Murder,0,2021,-100
+903,Khammam,15.59,0,Crime Against Children,Murder,0,2021,-100
+904,Nizamabad,15.71,0.127307447,Crime Against Children,Murder,2,2021,0
+905,Rachakonda,52,0.038461538,Crime Against Children,Murder,2,2021,0
+906,Ramagundam,16.02,0.062421973,Crime Against Children,Murder,1,2021,0
+907,Siddipet,10.55,0.09478673,Crime Against Children,Murder,1,2021,0
+908,Warangal,23.65,0.084566596,Crime Against Children,Murder,2,2021,-50
+909,Adilabad,8.51,0,Crime Against Children,Murder,0,2021,0
+910,Bhadradri Kothagudem,13.96,0,Crime Against Children,Murder,0,2021,0
+911,Jagtial,9.85,0,Crime Against Children,Murder,0,2021,0
+912,Jayashankar Bhupalpally,4.5,0,Crime Against Children,Murder,0,2021,0
+913,Jogulamba Gadwal,6.09,0.164203612,Crime Against Children,Murder,1,2021,0
+914,Kamareddy,9.94,0,Crime Against Children,Murder,0,2021,-100
+915,Kumaram Bheem Asifabad,5.38,0.185873606,Crime Against Children,Murder,1,2021,0
+916,Mahabubabad,7.74,0.387596899,Crime Against Children,Murder,3,2021,200
+917,Mahabubnagar,9.16,0.109170306,Crime Against Children,Murder,1,2021,0
+918,Medak,7.67,0.391134289,Crime Against Children,Murder,3,2021,200
+919,Mulugu,2.94,0,Crime Against Children,Murder,0,2021,0
+920,Nagarkurnool,8.61,0.232288037,Crime Against Children,Murder,2,2021,0
+921,Nalgonda,16.18,0.061804697,Crime Against Children,Murder,1,2021,0
+922,Narayanpet,5.66,0.176678445,Crime Against Children,Murder,1,2021,0
+923,Nirmal,7.09,0,Crime Against Children,Murder,0,2021,-100
+924,Rajanna Sircilla,5.98,0.16722408,Crime Against Children,Murder,1,2021,0
+925,Sanga Reddy,15.27,0,Crime Against Children,Murder,0,2021,-100
+926,Suryapet,10.99,0.272975432,Crime Against Children,Murder,3,2021,200
+927,Vikarabad,9.41,0,Crime Against Children,Murder,0,2021,-100
+928,Wanaparthy,5.77,0,Crime Against Children,Murder,0,2021,0
 929,RP Secunderabad,,,Crime Against Children,Murder,0,2021,0
 930,CID,,,Crime Against Children,Murder,0,2021,0
-931,Cyberabad,,,Crime Against Children,Rape,254,2021,34
-932,Hyderabad,,,Crime Against Children,Rape,253,2021,14
-933,Karimnagar,,,Crime Against Children,Rape,20,2021,54
-934,Khammam,,,Crime Against Children,Rape,72,2021,29
-935,Nizamabad,,,Crime Against Children,Rape,33,2021,27
-936,Rachakonda,,,Crime Against Children,Rape,253,2021,35
-937,Ramagundam,,,Crime Against Children,Rape,61,2021,45
-938,Siddipet,,,Crime Against Children,Rape,68,2021,100
-939,Warangal,,,Crime Against Children,Rape,47,2021,38
-940,Adilabad,,,Crime Against Children,Rape,20,2021,-26
-941,Bhadradri Kothagudem,,,Crime Against Children,Rape,73,2021,3
-942,Jagtial,,,Crime Against Children,Rape,27,2021,59
-943,Jayashankar Bhupalpally,,,Crime Against Children,Rape,8,2021,-27
-944,Jogulamba Gadwal,,,Crime Against Children,Rape,27,2021,-10
-945,Kamareddy,,,Crime Against Children,Rape,33,2021,-8
-946,Kumaram Bheem Asifabad,,,Crime Against Children,Rape,10,2021,0
-947,Mahabubabad,,,Crime Against Children,Rape,26,2021,8
-948,Mahabubnagar,,,Crime Against Children,Rape,80,2021,70
-949,Medak,,,Crime Against Children,Rape,49,2021,58
-950,Mulugu,,,Crime Against Children,Rape,28,2021,56
-951,Nagarkurnool,,,Crime Against Children,Rape,43,2021,65
-952,Nalgonda,,,Crime Against Children,Rape,73,2021,83
-953,Narayanpet,,,Crime Against Children,Rape,44,2021,-4
-954,Nirmal,,,Crime Against Children,Rape,10,2021,0
-955,Rajanna Sircilla,,,Crime Against Children,Rape,23,2021,-8
-956,Sanga Reddy,,,Crime Against Children,Rape,37,2021,76
-957,Suryapet,,,Crime Against Children,Rape,48,2021,17
-958,Vikarabad,,,Crime Against Children,Rape,63,2021,17
-959,Wanaparthy,,,Crime Against Children,Rape,35,2021,30
+931,Cyberabad,62,4.096774194,Crime Against Children,Rape,254,2021,34
+932,Hyderabad,39.43,6.416434187,Crime Against Children,Rape,253,2021,14
+933,Karimnagar,10.05,1.990049751,Crime Against Children,Rape,20,2021,54
+934,Khammam,15.59,4.618345093,Crime Against Children,Rape,72,2021,29
+935,Nizamabad,15.71,2.100572884,Crime Against Children,Rape,33,2021,27
+936,Rachakonda,52,4.865384615,Crime Against Children,Rape,253,2021,35
+937,Ramagundam,16.02,3.807740325,Crime Against Children,Rape,61,2021,45
+938,Siddipet,10.55,6.44549763,Crime Against Children,Rape,68,2021,100
+939,Warangal,23.65,1.987315011,Crime Against Children,Rape,47,2021,38
+940,Adilabad,8.51,2.350176263,Crime Against Children,Rape,20,2021,-26
+941,Bhadradri Kothagudem,13.96,5.229226361,Crime Against Children,Rape,73,2021,3
+942,Jagtial,9.85,2.741116751,Crime Against Children,Rape,27,2021,59
+943,Jayashankar Bhupalpally,4.5,1.777777778,Crime Against Children,Rape,8,2021,-27
+944,Jogulamba Gadwal,6.09,4.433497537,Crime Against Children,Rape,27,2021,-10
+945,Kamareddy,9.94,3.319919517,Crime Against Children,Rape,33,2021,-8
+946,Kumaram Bheem Asifabad,5.38,1.858736059,Crime Against Children,Rape,10,2021,0
+947,Mahabubabad,7.74,3.359173127,Crime Against Children,Rape,26,2021,8
+948,Mahabubnagar,9.16,8.733624454,Crime Against Children,Rape,80,2021,70
+949,Medak,7.67,6.388526728,Crime Against Children,Rape,49,2021,58
+950,Mulugu,2.94,9.523809524,Crime Against Children,Rape,28,2021,56
+951,Nagarkurnool,8.61,4.994192799,Crime Against Children,Rape,43,2021,65
+952,Nalgonda,16.18,4.511742892,Crime Against Children,Rape,73,2021,83
+953,Narayanpet,5.66,7.77385159,Crime Against Children,Rape,44,2021,-4
+954,Nirmal,7.09,1.410437236,Crime Against Children,Rape,10,2021,0
+955,Rajanna Sircilla,5.98,3.846153846,Crime Against Children,Rape,23,2021,-8
+956,Sanga Reddy,15.27,2.423051735,Crime Against Children,Rape,37,2021,76
+957,Suryapet,10.99,4.367606915,Crime Against Children,Rape,48,2021,17
+958,Vikarabad,9.41,6.695005313,Crime Against Children,Rape,63,2021,17
+959,Wanaparthy,5.77,6.065857886,Crime Against Children,Rape,35,2021,30
 960,RP Secunderabad,,,Crime Against Children,Rape,0,2021,0
 961,CID,,,Crime Against Children,Rape,0,2021,0
-962,Cyberabad,,,Crime Against Women,Abetment to Suicide,64,2021,10.3
-963,Hyderabad,,,Crime Against Women,Abetment to Suicide,13,2021,-13.3
-964,Karimnagar,,,Crime Against Women,Abetment to Suicide,4,2021,0
-965,Khammam,,,Crime Against Women,Abetment to Suicide,29,2021,52.6
-966,Nizamabad,,,Crime Against Women,Abetment to Suicide,13,2021,-7.1
-967,Rachakonda,,,Crime Against Women,Abetment to Suicide,21,2021,-36.4
-968,Ramagundam,,,Crime Against Women,Abetment to Suicide,24,2021,-20
-969,Siddipet,,,Crime Against Women,Abetment to Suicide,10,2021,0
-970,Warangal,,,Crime Against Women,Abetment to Suicide,33,2021,13.8
-971,Adilabad,,,Crime Against Women,Abetment to Suicide,14,2021,100
-972,Bhadradri Kothagudem,,,Crime Against Women,Abetment to Suicide,10,2021,0
-973,Jagtial,,,Crime Against Women,Abetment to Suicide,4,2021,-50
-974,Jayashankar Bhupalpally,,,Crime Against Women,Abetment to Suicide,5,2021,25
-975,Jogulamba Gadwal,,,Crime Against Women,Abetment to Suicide,4,2021,0
-976,Kamareddy,,,Crime Against Women,Abetment to Suicide,4,2021,-42.9
-977,Kumaram Bheem Asifabad,,,Crime Against Women,Abetment to Suicide,10,2021,25
-978,Mahabubabad,,,Crime Against Women,Abetment to Suicide,9,2021,-30.8
-979,Mahabubnagar,,,Crime Against Women,Abetment to Suicide,24,2021,9.1
-980,Medak,,,Crime Against Women,Abetment to Suicide,7,2021,-22.2
-981,Mulugu,,,Crime Against Women,Abetment to Suicide,4,2021,-60
-982,Nagarkurnool,,,Crime Against Women,Abetment to Suicide,8,2021,-20
-983,Nalgonda,,,Crime Against Women,Abetment to Suicide,21,2021,-8.7
-984,Narayanpet,,,Crime Against Women,Abetment to Suicide,2,2021,0
-985,Nirmal,,,Crime Against Women,Abetment to Suicide,14,2021,133.3
-986,Rajanna Sircilla,,,Crime Against Women,Abetment to Suicide,2,2021,-71.4
-987,Sanga Reddy,,,Crime Against Women,Abetment to Suicide,13,2021,62.5
-988,Suryapet,,,Crime Against Women,Abetment to Suicide,12,2021,140
-989,Vikarabad,,,Crime Against Women,Abetment to Suicide,20,2021,66.7
-990,Wanaparthy,,,Crime Against Women,Abetment to Suicide,0,2021,0
+962,Cyberabad,62,1.032258065,Crime Against Women,Abetment to Suicide,64,2021,10.3
+963,Hyderabad,39.43,0.329698199,Crime Against Women,Abetment to Suicide,13,2021,-13.3
+964,Karimnagar,10.05,0.39800995,Crime Against Women,Abetment to Suicide,4,2021,0
+965,Khammam,15.59,1.860166774,Crime Against Women,Abetment to Suicide,29,2021,52.6
+966,Nizamabad,15.71,0.827498409,Crime Against Women,Abetment to Suicide,13,2021,-7.1
+967,Rachakonda,52,0.403846154,Crime Against Women,Abetment to Suicide,21,2021,-36.4
+968,Ramagundam,16.02,1.498127341,Crime Against Women,Abetment to Suicide,24,2021,-20
+969,Siddipet,10.55,0.947867299,Crime Against Women,Abetment to Suicide,10,2021,0
+970,Warangal,23.65,1.395348837,Crime Against Women,Abetment to Suicide,33,2021,13.8
+971,Adilabad,8.51,1.645123384,Crime Against Women,Abetment to Suicide,14,2021,100
+972,Bhadradri Kothagudem,13.96,0.716332378,Crime Against Women,Abetment to Suicide,10,2021,0
+973,Jagtial,9.85,0.406091371,Crime Against Women,Abetment to Suicide,4,2021,-50
+974,Jayashankar Bhupalpally,4.5,1.111111111,Crime Against Women,Abetment to Suicide,5,2021,25
+975,Jogulamba Gadwal,6.09,0.65681445,Crime Against Women,Abetment to Suicide,4,2021,0
+976,Kamareddy,9.94,0.402414487,Crime Against Women,Abetment to Suicide,4,2021,-42.9
+977,Kumaram Bheem Asifabad,5.38,1.858736059,Crime Against Women,Abetment to Suicide,10,2021,25
+978,Mahabubabad,7.74,1.162790698,Crime Against Women,Abetment to Suicide,9,2021,-30.8
+979,Mahabubnagar,9.16,2.620087336,Crime Against Women,Abetment to Suicide,24,2021,9.1
+980,Medak,7.67,0.912646675,Crime Against Women,Abetment to Suicide,7,2021,-22.2
+981,Mulugu,2.94,1.360544218,Crime Against Women,Abetment to Suicide,4,2021,-60
+982,Nagarkurnool,8.61,0.929152149,Crime Against Women,Abetment to Suicide,8,2021,-20
+983,Nalgonda,16.18,1.29789864,Crime Against Women,Abetment to Suicide,21,2021,-8.7
+984,Narayanpet,5.66,0.35335689,Crime Against Women,Abetment to Suicide,2,2021,0
+985,Nirmal,7.09,1.97461213,Crime Against Women,Abetment to Suicide,14,2021,133.3
+986,Rajanna Sircilla,5.98,0.334448161,Crime Against Women,Abetment to Suicide,2,2021,-71.4
+987,Sanga Reddy,15.27,0.851342502,Crime Against Women,Abetment to Suicide,13,2021,62.5
+988,Suryapet,10.99,1.091901729,Crime Against Women,Abetment to Suicide,12,2021,140
+989,Vikarabad,9.41,2.125398512,Crime Against Women,Abetment to Suicide,20,2021,66.7
+990,Wanaparthy,5.77,0,Crime Against Women,Abetment to Suicide,0,2021,0
 991,RP Secunderabad,,,Crime Against Women,Abetment to Suicide,0,2021,0
 992,CID,,,Crime Against Women,Abetment to Suicide,0,2021,0
-993,Cyberabad,,,Crime Against Women,Dowry Death,21,2021,5
-994,Hyderabad,,,Crime Against Women,Dowry Death,15,2021,-25
-995,Karimnagar,,,Crime Against Women,Dowry Death,5,2021,400
-996,Khammam,,,Crime Against Women,Dowry Death,5,2021,0
-997,Nizamabad,,,Crime Against Women,Dowry Death,4,2021,33.3
-998,Rachakonda,,,Crime Against Women,Dowry Death,21,2021,-12.5
-999,Ramagundam,,,Crime Against Women,Dowry Death,10,2021,42.9
-1000,Siddipet,,,Crime Against Women,Dowry Death,7,2021,75
-1001,Warangal,,,Crime Against Women,Dowry Death,10,2021,42.9
-1002,Adilabad,,,Crime Against Women,Dowry Death,5,2021,150
-1003,Bhadradri Kothagudem,,,Crime Against Women,Dowry Death,3,2021,200
-1004,Jagtial,,,Crime Against Women,Dowry Death,6,2021,50
-1005,Jayashankar Bhupalpally,,,Crime Against Women,Dowry Death,4,2021,0
-1006,Jogulamba Gadwal,,,Crime Against Women,Dowry Death,1,2021,-66.7
-1007,Kamareddy,,,Crime Against Women,Dowry Death,3,2021,0
-1008,Kumaram Bheem Asifabad,,,Crime Against Women,Dowry Death,2,2021,-60
-1009,Mahabubabad,,,Crime Against Women,Dowry Death,4,2021,-42.9
-1010,Mahabubnagar,,,Crime Against Women,Dowry Death,5,2021,66.7
-1011,Medak,,,Crime Against Women,Dowry Death,4,2021,0
-1012,Mulugu,,,Crime Against Women,Dowry Death,0,2021,-100
-1013,Nagarkurnool,,,Crime Against Women,Dowry Death,1,2021,-75
-1014,Nalgonda,,,Crime Against Women,Dowry Death,11,2021,1000
-1015,Narayanpet,,,Crime Against Women,Dowry Death,1,2021,-66.7
-1016,Nirmal,,,Crime Against Women,Dowry Death,2,2021,0
-1017,Rajanna Sircilla,,,Crime Against Women,Dowry Death,4,2021,300
-1018,Sanga Reddy,,,Crime Against Women,Dowry Death,7,2021,-22.2
-1019,Suryapet,,,Crime Against Women,Dowry Death,10,2021,233.3
-1020,Vikarabad,,,Crime Against Women,Dowry Death,4,2021,0
-1021,Wanaparthy,,,Crime Against Women,Dowry Death,0,2021,0
+993,Cyberabad,62,0.338709677,Crime Against Women,Dowry Death,21,2021,5
+994,Hyderabad,39.43,0.380420999,Crime Against Women,Dowry Death,15,2021,-25
+995,Karimnagar,10.05,0.497512438,Crime Against Women,Dowry Death,5,2021,400
+996,Khammam,15.59,0.320718409,Crime Against Women,Dowry Death,5,2021,0
+997,Nizamabad,15.71,0.254614895,Crime Against Women,Dowry Death,4,2021,33.3
+998,Rachakonda,52,0.403846154,Crime Against Women,Dowry Death,21,2021,-12.5
+999,Ramagundam,16.02,0.624219725,Crime Against Women,Dowry Death,10,2021,42.9
+1000,Siddipet,10.55,0.663507109,Crime Against Women,Dowry Death,7,2021,75
+1001,Warangal,23.65,0.422832981,Crime Against Women,Dowry Death,10,2021,42.9
+1002,Adilabad,8.51,0.587544066,Crime Against Women,Dowry Death,5,2021,150
+1003,Bhadradri Kothagudem,13.96,0.214899713,Crime Against Women,Dowry Death,3,2021,200
+1004,Jagtial,9.85,0.609137056,Crime Against Women,Dowry Death,6,2021,50
+1005,Jayashankar Bhupalpally,4.5,0.888888889,Crime Against Women,Dowry Death,4,2021,0
+1006,Jogulamba Gadwal,6.09,0.164203612,Crime Against Women,Dowry Death,1,2021,-66.7
+1007,Kamareddy,9.94,0.301810865,Crime Against Women,Dowry Death,3,2021,0
+1008,Kumaram Bheem Asifabad,5.38,0.371747212,Crime Against Women,Dowry Death,2,2021,-60
+1009,Mahabubabad,7.74,0.516795866,Crime Against Women,Dowry Death,4,2021,-42.9
+1010,Mahabubnagar,9.16,0.545851528,Crime Against Women,Dowry Death,5,2021,66.7
+1011,Medak,7.67,0.521512386,Crime Against Women,Dowry Death,4,2021,0
+1012,Mulugu,2.94,0,Crime Against Women,Dowry Death,0,2021,-100
+1013,Nagarkurnool,8.61,0.116144019,Crime Against Women,Dowry Death,1,2021,-75
+1014,Nalgonda,16.18,0.679851669,Crime Against Women,Dowry Death,11,2021,1000
+1015,Narayanpet,5.66,0.176678445,Crime Against Women,Dowry Death,1,2021,-66.7
+1016,Nirmal,7.09,0.282087447,Crime Against Women,Dowry Death,2,2021,0
+1017,Rajanna Sircilla,5.98,0.668896321,Crime Against Women,Dowry Death,4,2021,300
+1018,Sanga Reddy,15.27,0.458415193,Crime Against Women,Dowry Death,7,2021,-22.2
+1019,Suryapet,10.99,0.909918107,Crime Against Women,Dowry Death,10,2021,233.3
+1020,Vikarabad,9.41,0.425079702,Crime Against Women,Dowry Death,4,2021,0
+1021,Wanaparthy,5.77,0,Crime Against Women,Dowry Death,0,2021,0
 1022,RP Secunderabad,,,Crime Against Women,Dowry Death,0,2021,0
 1023,CID,,,Crime Against Women,Dowry Death,0,2021,0
-1024,Cyberabad,,,Crime Against Women,Harassment,1178,2021,19
-1025,Hyderabad,,,Crime Against Women,Harassment,1640,2021,37.4
-1026,Karimnagar,,,Crime Against Women,Harassment,244,2021,-8.3
-1027,Khammam,,,Crime Against Women,Harassment,307,2021,9.6
-1028,Nizamabad,,,Crime Against Women,Harassment,260,2021,6.1
-1029,Rachakonda,,,Crime Against Women,Harassment,1464,2021,24.6
-1030,Ramagundam,,,Crime Against Women,Harassment,561,2021,44.6
-1031,Siddipet,,,Crime Against Women,Harassment,335,2021,-8
-1032,Warangal,,,Crime Against Women,Harassment,511,2021,73.8
-1033,Adilabad,,,Crime Against Women,Harassment,118,2021,71
-1034,Bhadradri Kothagudem,,,Crime Against Women,Harassment,366,2021,37.6
-1035,Jagtial,,,Crime Against Women,Harassment,316,2021,163.3
-1036,Jayashankar Bhupalpally,,,Crime Against Women,Harassment,62,2021,10.7
-1037,Jogulamba Gadwal,,,Crime Against Women,Harassment,40,2021,33.3
-1038,Kamareddy,,,Crime Against Women,Harassment,233,2021,68.8
-1039,Kumaram Bheem Asifabad,,,Crime Against Women,Harassment,78,2021,20
-1040,Mahabubabad,,,Crime Against Women,Harassment,125,2021,19
-1041,Mahabubnagar,,,Crime Against Women,Harassment,114,2021,78.1
-1042,Medak,,,Crime Against Women,Harassment,139,2021,21.9
-1043,Mulugu,,,Crime Against Women,Harassment,69,2021,0
-1044,Nagarkurnool,,,Crime Against Women,Harassment,59,2021,-9.2
-1045,Nalgonda,,,Crime Against Women,Harassment,278,2021,12.6
-1046,Narayanpet,,,Crime Against Women,Harassment,35,2021,-5.4
-1047,Nirmal,,,Crime Against Women,Harassment,66,2021,69.2
-1048,Rajanna Sircilla,,,Crime Against Women,Harassment,185,2021,30.3
-1049,Sanga Reddy,,,Crime Against Women,Harassment,127,2021,13.4
-1050,Suryapet,,,Crime Against Women,Harassment,263,2021,20.1
-1051,Vikarabad,,,Crime Against Women,Harassment,95,2021,18.8
-1052,Wanaparthy,,,Crime Against Women,Harassment,41,2021,-10.9
+1024,Cyberabad,62,19,Crime Against Women,Harassment,1178,2021,19
+1025,Hyderabad,39.43,41.59269592,Crime Against Women,Harassment,1640,2021,37.4
+1026,Karimnagar,10.05,24.27860697,Crime Against Women,Harassment,244,2021,-8.3
+1027,Khammam,15.59,19.69211033,Crime Against Women,Harassment,307,2021,9.6
+1028,Nizamabad,15.71,16.54996817,Crime Against Women,Harassment,260,2021,6.1
+1029,Rachakonda,52,28.15384615,Crime Against Women,Harassment,1464,2021,24.6
+1030,Ramagundam,16.02,35.01872659,Crime Against Women,Harassment,561,2021,44.6
+1031,Siddipet,10.55,31.7535545,Crime Against Women,Harassment,335,2021,-8
+1032,Warangal,23.65,21.60676533,Crime Against Women,Harassment,511,2021,73.8
+1033,Adilabad,8.51,13.86603995,Crime Against Women,Harassment,118,2021,71
+1034,Bhadradri Kothagudem,13.96,26.21776504,Crime Against Women,Harassment,366,2021,37.6
+1035,Jagtial,9.85,32.08121827,Crime Against Women,Harassment,316,2021,163.3
+1036,Jayashankar Bhupalpally,4.5,13.77777778,Crime Against Women,Harassment,62,2021,10.7
+1037,Jogulamba Gadwal,6.09,6.568144499,Crime Against Women,Harassment,40,2021,33.3
+1038,Kamareddy,9.94,23.44064386,Crime Against Women,Harassment,233,2021,68.8
+1039,Kumaram Bheem Asifabad,5.38,14.49814126,Crime Against Women,Harassment,78,2021,20
+1040,Mahabubabad,7.74,16.1498708,Crime Against Women,Harassment,125,2021,19
+1041,Mahabubnagar,9.16,12.44541485,Crime Against Women,Harassment,114,2021,78.1
+1042,Medak,7.67,18.12255541,Crime Against Women,Harassment,139,2021,21.9
+1043,Mulugu,2.94,23.46938776,Crime Against Women,Harassment,69,2021,0
+1044,Nagarkurnool,8.61,6.852497096,Crime Against Women,Harassment,59,2021,-9.2
+1045,Nalgonda,16.18,17.18170581,Crime Against Women,Harassment,278,2021,12.6
+1046,Narayanpet,5.66,6.183745583,Crime Against Women,Harassment,35,2021,-5.4
+1047,Nirmal,7.09,9.308885755,Crime Against Women,Harassment,66,2021,69.2
+1048,Rajanna Sircilla,5.98,30.93645485,Crime Against Women,Harassment,185,2021,30.3
+1049,Sanga Reddy,15.27,8.316961362,Crime Against Women,Harassment,127,2021,13.4
+1050,Suryapet,10.99,23.93084622,Crime Against Women,Harassment,263,2021,20.1
+1051,Vikarabad,9.41,10.09564293,Crime Against Women,Harassment,95,2021,18.8
+1052,Wanaparthy,5.77,7.105719237,Crime Against Women,Harassment,41,2021,-10.9
 1053,RP Secunderabad,,,Crime Against Women,Harassment,1,2021,0
 1054,CID,,,Crime Against Women,Harassment,0,2021,-100
-1055,Cyberabad,,,Crime Against Women,Kidnapping,145,2021,5.1
-1056,Hyderabad,,,Crime Against Women,Kidnapping,99,2021,52.3
-1057,Karimnagar,,,Crime Against Women,Kidnapping,30,2021,200
-1058,Khammam,,,Crime Against Women,Kidnapping,21,2021,75
-1059,Nizamabad,,,Crime Against Women,Kidnapping,20,2021,17.6
-1060,Rachakonda,,,Crime Against Women,Kidnapping,114,2021,83.9
-1061,Ramagundam,,,Crime Against Women,Kidnapping,38,2021,2.7
-1062,Siddipet,,,Crime Against Women,Kidnapping,32,2021,77.8
-1063,Warangal,,,Crime Against Women,Kidnapping,42,2021,-25
-1064,Adilabad,,,Crime Against Women,Kidnapping,12,2021,33.3
-1065,Bhadradri Kothagudem,,,Crime Against Women,Kidnapping,17,2021,-32
-1066,Jagtial,,,Crime Against Women,Kidnapping,39,2021,200
-1067,Jayashankar Bhupalpally,,,Crime Against Women,Kidnapping,18,2021,0
-1068,Jogulamba Gadwal,,,Crime Against Women,Kidnapping,16,2021,300
-1069,Kamareddy,,,Crime Against Women,Kidnapping,8,2021,33.3
-1070,Asifabad,,,Crime Against Women,Kidnapping,11,2021,22.2
-1071,Mahabubabad,,,Crime Against Women,Kidnapping,18,2021,-14.3
-1072,Mahabubnagar,,,Crime Against Women,Kidnapping,35,2021,150
-1073,Medak,,,Crime Against Women,Kidnapping,19,2021,35.7
-1074,Mulugu,,,Crime Against Women,Kidnapping,10,2021,66.7
-1075,Nagarkurnool,,,Crime Against Women,Kidnapping,25,2021,47.1
-1076,Nalgonda,,,Crime Against Women,Kidnapping,32,2021,3.2
-1077,Narayanpet,,,Crime Against Women,Kidnapping,24,2021,380
-1078,Nirmal,,,Crime Against Women,Kidnapping,12,2021,300
-1079,Rajanna Sircilla,,,Crime Against Women,Kidnapping,16,2021,14.3
-1080,Sanga Reddy,,,Crime Against Women,Kidnapping,16,2021,0
-1081,Suryapet,,,Crime Against Women,Kidnapping,36,2021,33.3
-1082,Vikarabad,,,Crime Against Women,Kidnapping,42,2021,35.5
-1083,Wanaparthy,,,Crime Against Women,Kidnapping,8,2021,0
+1055,Cyberabad,62,2.338709677,Crime Against Women,Kidnapping,145,2021,5.1
+1056,Hyderabad,39.43,2.510778595,Crime Against Women,Kidnapping,99,2021,52.3
+1057,Karimnagar,10.05,2.985074627,Crime Against Women,Kidnapping,30,2021,200
+1058,Khammam,15.59,1.347017319,Crime Against Women,Kidnapping,21,2021,75
+1059,Nizamabad,15.71,1.273074475,Crime Against Women,Kidnapping,20,2021,17.6
+1060,Rachakonda,52,2.192307692,Crime Against Women,Kidnapping,114,2021,83.9
+1061,Ramagundam,16.02,2.372034956,Crime Against Women,Kidnapping,38,2021,2.7
+1062,Siddipet,10.55,3.033175355,Crime Against Women,Kidnapping,32,2021,77.8
+1063,Warangal,23.65,1.77589852,Crime Against Women,Kidnapping,42,2021,-25
+1064,Adilabad,8.51,1.410105758,Crime Against Women,Kidnapping,12,2021,33.3
+1065,Bhadradri Kothagudem,13.96,1.217765043,Crime Against Women,Kidnapping,17,2021,-32
+1066,Jagtial,9.85,3.959390863,Crime Against Women,Kidnapping,39,2021,200
+1067,Jayashankar Bhupalpally,4.5,4,Crime Against Women,Kidnapping,18,2021,0
+1068,Jogulamba Gadwal,6.09,2.6272578,Crime Against Women,Kidnapping,16,2021,300
+1069,Kamareddy,9.94,0.804828974,Crime Against Women,Kidnapping,8,2021,33.3
+1070,Asifabad,5.38,2.044609665,Crime Against Women,Kidnapping,11,2021,22.2
+1071,Mahabubabad,7.74,2.325581395,Crime Against Women,Kidnapping,18,2021,-14.3
+1072,Mahabubnagar,9.16,3.820960699,Crime Against Women,Kidnapping,35,2021,150
+1073,Medak,7.67,2.477183833,Crime Against Women,Kidnapping,19,2021,35.7
+1074,Mulugu,2.94,3.401360544,Crime Against Women,Kidnapping,10,2021,66.7
+1075,Nagarkurnool,8.61,2.903600465,Crime Against Women,Kidnapping,25,2021,47.1
+1076,Nalgonda,16.18,1.977750309,Crime Against Women,Kidnapping,32,2021,3.2
+1077,Narayanpet,5.66,4.240282686,Crime Against Women,Kidnapping,24,2021,380
+1078,Nirmal,7.09,1.692524683,Crime Against Women,Kidnapping,12,2021,300
+1079,Rajanna Sircilla,5.98,2.675585284,Crime Against Women,Kidnapping,16,2021,14.3
+1080,Sanga Reddy,15.27,1.047806156,Crime Against Women,Kidnapping,16,2021,0
+1081,Suryapet,10.99,3.275705187,Crime Against Women,Kidnapping,36,2021,33.3
+1082,Vikarabad,9.41,4.463336876,Crime Against Women,Kidnapping,42,2021,35.5
+1083,Wanaparthy,5.77,1.386481802,Crime Against Women,Kidnapping,8,2021,0
 1084,RP Secunderabad,,,Crime Against Women,Kidnapping,0,2021,0
 1085,CID,,,Crime Against Women,Kidnapping,,2021,-100
-1086,Cyberabad,,,Crime Against Women,Rape,364,2021,28.6
-1087,Hyderabad,,,Crime Against Women,Rape,356,2021,23.6
-1088,Karimnagar,,,Crime Against Women,Rape,42,2021,40
-1089,Khammam,,,Crime Against Women,Rape,101,2021,29.5
-1090,Nizamabad,,,Crime Against Women,Rape,39,2021,0
-1091,Rachakonda,,,Crime Against Women,Rape,396,2021,18.6
-1092,Ramagundam,,,Crime Against Women,Rape,100,2021,40.8
-1093,Siddipet,,,Crime Against Women,Rape,82,2021,67.3
-1094,Warangal,,,Crime Against Women,Rape,84,2021,37.7
-1095,Adilabad,,,Crime Against Women,Rape,30,2021,-11.8
-1096,Bhadradri Kothagudem,,,Crime Against Women,Rape,102,2021,3
-1097,Jagtial,,,Crime Against Women,Rape,51,2021,27.5
-1098,Jayashankar Bhupalpally,,,Crime Against Women,Rape,9,2021,-43.8
-1099,Jogulamba Gadwal,,,Crime Against Women,Rape,32,2021,-5.9
-1100,Kamareddy,,,Crime Against Women,Rape,55,2021,17
-1101,Asifabad,,,Crime Against Women,Rape,18,2021,-18.2
-1102,Mahabubabad,,,Crime Against Women,Rape,30,2021,-14.3
-1103,Mahabubnagar,,,Crime Against Women,Rape,88,2021,37.5
-1104,Medak,,,Crime Against Women,Rape,52,2021,36.8
-1105,Mulugu,,,Crime Against Women,Rape,38,2021,52
-1106,Nagarkurnool,,,Crime Against Women,Rape,50,2021,19
-1107,Nalgonda,,,Crime Against Women,Rape,94,2021,74.1
-1108,Narayanpet,,,Crime Against Women,Rape,58,2021,5.5
-1109,Nirmal,,,Crime Against Women,Rape,17,2021,-10.5
-1110,Rajanna Sircilla,,,Crime Against Women,Rape,32,2021,-27.3
-1111,Sanga Reddy,,,Crime Against Women,Rape,57,2021,58.3
-1112,Suryapet,,,Crime Against Women,Rape,84,2021,31.3
-1113,Vikarabad,,,Crime Against Women,Rape,74,2021,17.5
-1114,Wanaparthy,,,Crime Against Women,Rape,42,2021,13.5
+1086,Cyberabad,62,5.870967742,Crime Against Women,Rape,364,2021,28.6
+1087,Hyderabad,39.43,9.028658382,Crime Against Women,Rape,356,2021,23.6
+1088,Karimnagar,10.05,4.179104478,Crime Against Women,Rape,42,2021,40
+1089,Khammam,15.59,6.478511867,Crime Against Women,Rape,101,2021,29.5
+1090,Nizamabad,15.71,2.482495226,Crime Against Women,Rape,39,2021,0
+1091,Rachakonda,52,7.615384615,Crime Against Women,Rape,396,2021,18.6
+1092,Ramagundam,16.02,6.242197253,Crime Against Women,Rape,100,2021,40.8
+1093,Siddipet,10.55,7.772511848,Crime Against Women,Rape,82,2021,67.3
+1094,Warangal,23.65,3.55179704,Crime Against Women,Rape,84,2021,37.7
+1095,Adilabad,8.51,3.525264395,Crime Against Women,Rape,30,2021,-11.8
+1096,Bhadradri Kothagudem,13.96,7.306590258,Crime Against Women,Rape,102,2021,3
+1097,Jagtial,9.85,5.177664975,Crime Against Women,Rape,51,2021,27.5
+1098,Jayashankar Bhupalpally,4.5,2,Crime Against Women,Rape,9,2021,-43.8
+1099,Jogulamba Gadwal,6.09,5.254515599,Crime Against Women,Rape,32,2021,-5.9
+1100,Kamareddy,9.94,5.533199195,Crime Against Women,Rape,55,2021,17
+1101,Asifabad,5.38,3.345724907,Crime Against Women,Rape,18,2021,-18.2
+1102,Mahabubabad,7.74,3.875968992,Crime Against Women,Rape,30,2021,-14.3
+1103,Mahabubnagar,9.16,9.6069869,Crime Against Women,Rape,88,2021,37.5
+1104,Medak,7.67,6.779661017,Crime Against Women,Rape,52,2021,36.8
+1105,Mulugu,2.94,12.92517007,Crime Against Women,Rape,38,2021,52
+1106,Nagarkurnool,8.61,5.807200929,Crime Against Women,Rape,50,2021,19
+1107,Nalgonda,16.18,5.809641533,Crime Against Women,Rape,94,2021,74.1
+1108,Narayanpet,5.66,10.24734982,Crime Against Women,Rape,58,2021,5.5
+1109,Nirmal,7.09,2.3977433,Crime Against Women,Rape,17,2021,-10.5
+1110,Rajanna Sircilla,5.98,5.351170569,Crime Against Women,Rape,32,2021,-27.3
+1111,Sanga Reddy,15.27,3.73280943,Crime Against Women,Rape,57,2021,58.3
+1112,Suryapet,10.99,7.643312102,Crime Against Women,Rape,84,2021,31.3
+1113,Vikarabad,9.41,7.863974495,Crime Against Women,Rape,74,2021,17.5
+1114,Wanaparthy,5.77,7.279029463,Crime Against Women,Rape,42,2021,13.5
 1115,RP Secunderabad,,,Crime Against Women,Rape,0,2021,0
 1116,CID,,,Crime Against Women,Rape,1,2021,0
-1117,Cyberabad,,,Crime Aginst SC_ST,Arson,0,2021,0
-1118,Hyderabad,,,Crime Aginst SC_ST,Arson,0,2021,0
-1119,Karimnagar,,,Crime Aginst SC_ST,Arson,0,2021,0
-1120,Khammam,,,Crime Aginst SC_ST,Arson,0,2021,0
-1121,Nizamabad,,,Crime Aginst SC_ST,Arson,0,2021,0
-1122,Rachakonda,,,Crime Aginst SC_ST,Arson,0,2021,0
-1123,Ramagundam,,,Crime Aginst SC_ST,Arson,0,2021,0
-1124,Siddipet,,,Crime Aginst SC_ST,Arson,0,2021,0
-1125,Warangal,,,Crime Aginst SC_ST,Arson,1,2021,0
-1126,Adilabad,,,Crime Aginst SC_ST,Arson,0,2021,0
-1127,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Arson,0,2021,0
-1128,Jagtial,,,Crime Aginst SC_ST,Arson,0,2021,0
-1129,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Arson,0,2021,0
-1130,Jogulamba Gadwal,,,Crime Aginst SC_ST,Arson,0,2021,0
-1131,Kamareddy,,,Crime Aginst SC_ST,Arson,0,2021,0
-1132,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Arson,0,2021,0
-1133,Mahabubabad,,,Crime Aginst SC_ST,Arson,0,2021,0
-1134,Mahabubnagar,,,Crime Aginst SC_ST,Arson,0,2021,0
-1135,Medak,,,Crime Aginst SC_ST,Arson,0,2021,0
-1136,Mulugu,,,Crime Aginst SC_ST,Arson,0,2021,0
-1137,Nagarkurnool,,,Crime Aginst SC_ST,Arson,0,2021,0
-1138,Nalgonda,,,Crime Aginst SC_ST,Arson,1,2021,0
-1139,Narayanpet,,,Crime Aginst SC_ST,Arson,0,2021,0
-1140,Nirmal,,,Crime Aginst SC_ST,Arson,0,2021,0
-1141,Rajanna Sircilla,,,Crime Aginst SC_ST,Arson,0,2021,0
-1142,Sanga Reddy,,,Crime Aginst SC_ST,Arson,0,2021,0
-1143,Suryapet,,,Crime Aginst SC_ST,Arson,0,2021,0
-1144,Vikarabad,,,Crime Aginst SC_ST,Arson,0,2021,-100
-1145,Wanaparthy,,,Crime Aginst SC_ST,Arson,0,2021,0
+1117,Cyberabad,62,0,Crime Aginst SC_ST,Arson,0,2021,0
+1118,Hyderabad,39.43,0,Crime Aginst SC_ST,Arson,0,2021,0
+1119,Karimnagar,10.05,0,Crime Aginst SC_ST,Arson,0,2021,0
+1120,Khammam,15.59,0,Crime Aginst SC_ST,Arson,0,2021,0
+1121,Nizamabad,15.71,0,Crime Aginst SC_ST,Arson,0,2021,0
+1122,Rachakonda,52,0,Crime Aginst SC_ST,Arson,0,2021,0
+1123,Ramagundam,16.02,0,Crime Aginst SC_ST,Arson,0,2021,0
+1124,Siddipet,10.55,0,Crime Aginst SC_ST,Arson,0,2021,0
+1125,Warangal,23.65,0.042283298,Crime Aginst SC_ST,Arson,1,2021,0
+1126,Adilabad,8.51,0,Crime Aginst SC_ST,Arson,0,2021,0
+1127,Bhadradri Kothagudem,13.96,0,Crime Aginst SC_ST,Arson,0,2021,0
+1128,Jagtial,9.85,0,Crime Aginst SC_ST,Arson,0,2021,0
+1129,Jayashankar Bhupalpally,4.5,0,Crime Aginst SC_ST,Arson,0,2021,0
+1130,Jogulamba Gadwal,6.09,0,Crime Aginst SC_ST,Arson,0,2021,0
+1131,Kamareddy,9.94,0,Crime Aginst SC_ST,Arson,0,2021,0
+1132,Kumaram Bheem Asifabad,5.38,0,Crime Aginst SC_ST,Arson,0,2021,0
+1133,Mahabubabad,7.74,0,Crime Aginst SC_ST,Arson,0,2021,0
+1134,Mahabubnagar,9.16,0,Crime Aginst SC_ST,Arson,0,2021,0
+1135,Medak,7.67,0,Crime Aginst SC_ST,Arson,0,2021,0
+1136,Mulugu,2.94,0,Crime Aginst SC_ST,Arson,0,2021,0
+1137,Nagarkurnool,8.61,0,Crime Aginst SC_ST,Arson,0,2021,0
+1138,Nalgonda,16.18,0.061804697,Crime Aginst SC_ST,Arson,1,2021,0
+1139,Narayanpet,5.66,0,Crime Aginst SC_ST,Arson,0,2021,0
+1140,Nirmal,7.09,0,Crime Aginst SC_ST,Arson,0,2021,0
+1141,Rajanna Sircilla,5.98,0,Crime Aginst SC_ST,Arson,0,2021,0
+1142,Sanga Reddy,15.27,0,Crime Aginst SC_ST,Arson,0,2021,0
+1143,Suryapet,10.99,0,Crime Aginst SC_ST,Arson,0,2021,0
+1144,Vikarabad,9.41,0,Crime Aginst SC_ST,Arson,0,2021,-100
+1145,Wanaparthy,5.77,0,Crime Aginst SC_ST,Arson,0,2021,0
 1146,RP Secunderabad,,,Crime Aginst SC_ST,Arson,0,2021,0
 1147,CID,,,Crime Aginst SC_ST,Arson,0,2021,0
-1148,Cyberabad,,,Crime Aginst SC_ST,Hurt,11,2021,-26.7
-1149,Hyderabad,,,Crime Aginst SC_ST,Hurt,4,2021,100
-1150,Karimnagar,,,Crime Aginst SC_ST,Hurt,8,2021,-27.3
-1151,Khammam,,,Crime Aginst SC_ST,Hurt,20,2021,-16.7
-1152,Nizamabad,,,Crime Aginst SC_ST,Hurt,9,2021,-59.1
-1153,Rachakonda,,,Crime Aginst SC_ST,Hurt,26,2021,30
-1154,Ramagundam,,,Crime Aginst SC_ST,Hurt,11,2021,-50
-1155,Siddipet,,,Crime Aginst SC_ST,Hurt,16,2021,0
-1156,Warangal,,,Crime Aginst SC_ST,Hurt,19,2021,58.3
-1157,Adilabad,,,Crime Aginst SC_ST,Hurt,4,2021,0
-1158,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Hurt,17,2021,-26.1
-1159,Jagtial,,,Crime Aginst SC_ST,Hurt,14,2021,-26.3
-1160,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Hurt,4,2021,0
-1161,Jogulamba Gadwal,,,Crime Aginst SC_ST,Hurt,7,2021,-30
-1162,Kamareddy,,,Crime Aginst SC_ST,Hurt,15,2021,66.7
-1163,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Hurt,5,2021,-28.6
-1164,Mahabubabad,,,Crime Aginst SC_ST,Hurt,9,2021,125
-1165,Mahabubnagar,,,Crime Aginst SC_ST,Hurt,11,2021,10
-1166,Medak,,,Crime Aginst SC_ST,Hurt,8,2021,0
-1167,Mulugu,,,Crime Aginst SC_ST,Hurt,4,2021,33.3
-1168,Nagarkurnool,,,Crime Aginst SC_ST,Hurt,14,2021,100
-1169,Nalgonda,,,Crime Aginst SC_ST,Hurt,12,2021,-33.3
-1170,Narayanpet,,,Crime Aginst SC_ST,Hurt,8,2021,33.3
-1171,Nirmal,,,Crime Aginst SC_ST,Hurt,3,2021,0
-1172,Rajanna Sircilla,,,Crime Aginst SC_ST,Hurt,12,2021,-14.3
-1173,Sanga Reddy,,,Crime Aginst SC_ST,Hurt,13,2021,116.7
-1174,Suryapet,,,Crime Aginst SC_ST,Hurt,8,2021,-55.6
-1175,Vikarabad,,,Crime Aginst SC_ST,Hurt,10,2021,-28.6
-1176,Wanaparthy,,,Crime Aginst SC_ST,Hurt,5,2021,-54.5
+1148,Cyberabad,62,0.177419355,Crime Aginst SC_ST,Hurt,11,2021,-26.7
+1149,Hyderabad,39.43,0.1014456,Crime Aginst SC_ST,Hurt,4,2021,100
+1150,Karimnagar,10.05,0.7960199,Crime Aginst SC_ST,Hurt,8,2021,-27.3
+1151,Khammam,15.59,1.282873637,Crime Aginst SC_ST,Hurt,20,2021,-16.7
+1152,Nizamabad,15.71,0.572883514,Crime Aginst SC_ST,Hurt,9,2021,-59.1
+1153,Rachakonda,52,0.5,Crime Aginst SC_ST,Hurt,26,2021,30
+1154,Ramagundam,16.02,0.686641698,Crime Aginst SC_ST,Hurt,11,2021,-50
+1155,Siddipet,10.55,1.516587678,Crime Aginst SC_ST,Hurt,16,2021,0
+1156,Warangal,23.65,0.803382664,Crime Aginst SC_ST,Hurt,19,2021,58.3
+1157,Adilabad,8.51,0.470035253,Crime Aginst SC_ST,Hurt,4,2021,0
+1158,Bhadradri Kothagudem,13.96,1.217765043,Crime Aginst SC_ST,Hurt,17,2021,-26.1
+1159,Jagtial,9.85,1.421319797,Crime Aginst SC_ST,Hurt,14,2021,-26.3
+1160,Jayashankar Bhupalpally,4.5,0.888888889,Crime Aginst SC_ST,Hurt,4,2021,0
+1161,Jogulamba Gadwal,6.09,1.149425287,Crime Aginst SC_ST,Hurt,7,2021,-30
+1162,Kamareddy,9.94,1.509054326,Crime Aginst SC_ST,Hurt,15,2021,66.7
+1163,Kumaram Bheem Asifabad,5.38,0.92936803,Crime Aginst SC_ST,Hurt,5,2021,-28.6
+1164,Mahabubabad,7.74,1.162790698,Crime Aginst SC_ST,Hurt,9,2021,125
+1165,Mahabubnagar,9.16,1.200873362,Crime Aginst SC_ST,Hurt,11,2021,10
+1166,Medak,7.67,1.043024772,Crime Aginst SC_ST,Hurt,8,2021,0
+1167,Mulugu,2.94,1.360544218,Crime Aginst SC_ST,Hurt,4,2021,33.3
+1168,Nagarkurnool,8.61,1.62601626,Crime Aginst SC_ST,Hurt,14,2021,100
+1169,Nalgonda,16.18,0.741656366,Crime Aginst SC_ST,Hurt,12,2021,-33.3
+1170,Narayanpet,5.66,1.413427562,Crime Aginst SC_ST,Hurt,8,2021,33.3
+1171,Nirmal,7.09,0.423131171,Crime Aginst SC_ST,Hurt,3,2021,0
+1172,Rajanna Sircilla,5.98,2.006688963,Crime Aginst SC_ST,Hurt,12,2021,-14.3
+1173,Sanga Reddy,15.27,0.851342502,Crime Aginst SC_ST,Hurt,13,2021,116.7
+1174,Suryapet,10.99,0.727934486,Crime Aginst SC_ST,Hurt,8,2021,-55.6
+1175,Vikarabad,9.41,1.062699256,Crime Aginst SC_ST,Hurt,10,2021,-28.6
+1176,Wanaparthy,5.77,0.866551127,Crime Aginst SC_ST,Hurt,5,2021,-54.5
 1177,RP Secunderabad,,,Crime Aginst SC_ST,Hurt,0,2021,0
 1178,CID,,,Crime Aginst SC_ST,Hurt,0,2021,0
-1179,Cyberabad,,,Crime Aginst SC_ST,Murder,12,2021,71.4
-1180,Hyderabad,,,Crime Aginst SC_ST,Murder,1,2021,0
-1181,Karimnagar,,,Crime Aginst SC_ST,Murder,1,2021,0
-1182,Khammam,,,Crime Aginst SC_ST,Murder,2,2021,-33.3
-1183,Nizamabad,,,Crime Aginst SC_ST,Murder,4,2021,300
-1184,Rachakonda,,,Crime Aginst SC_ST,Murder,4,2021,-33.3
-1185,Ramagundam,,,Crime Aginst SC_ST,Murder,2,2021,0
-1186,Siddipet,,,Crime Aginst SC_ST,Murder,2,2021,0
-1187,Warangal,,,Crime Aginst SC_ST,Murder,2,2021,-33.3
-1188,Adilabad,,,Crime Aginst SC_ST,Murder,0,2021,0
-1189,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Murder,1,2021,0
-1190,Jagtial,,,Crime Aginst SC_ST,Murder,2,2021,0
-1191,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Murder,2,2021,100
-1192,Jogulamba Gadwal,,,Crime Aginst SC_ST,Murder,1,2021,0
-1193,Kamareddy,,,Crime Aginst SC_ST,Murder,3,2021,0
-1194,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Murder,3,2021,0
-1195,Mahabubabad,,,Crime Aginst SC_ST,Murder,2,2021,100
-1196,Mahabubnagar,,,Crime Aginst SC_ST,Murder,2,2021,100
-1197,Medak,,,Crime Aginst SC_ST,Murder,4,2021,0
-1198,Mulugu,,,Crime Aginst SC_ST,Murder,1,2021,0
-1199,Nagarkurnool,,,Crime Aginst SC_ST,Murder,5,2021,400
-1200,Nalgonda,,,Crime Aginst SC_ST,Murder,2,2021,100
-1201,Narayanpet,,,Crime Aginst SC_ST,Murder,0,2021,-100
-1202,Nirmal,,,Crime Aginst SC_ST,Murder,0,2021,-100
-1203,Rajanna Sircilla,,,Crime Aginst SC_ST,Murder,0,2021,-100
-1204,Sanga Reddy,,,Crime Aginst SC_ST,Murder,1,2021,-66.7
-1205,Suryapet,,,Crime Aginst SC_ST,Murder,1,2021,0
-1206,Vikarabad,,,Crime Aginst SC_ST,Murder,5,2021,400
-1207,Wanaparthy,,,Crime Aginst SC_ST,Murder,0,2021,0
+1179,Cyberabad,62,0.193548387,Crime Aginst SC_ST,Murder,12,2021,71.4
+1180,Hyderabad,39.43,0.0253614,Crime Aginst SC_ST,Murder,1,2021,0
+1181,Karimnagar,10.05,0.099502488,Crime Aginst SC_ST,Murder,1,2021,0
+1182,Khammam,15.59,0.128287364,Crime Aginst SC_ST,Murder,2,2021,-33.3
+1183,Nizamabad,15.71,0.254614895,Crime Aginst SC_ST,Murder,4,2021,300
+1184,Rachakonda,52,0.076923077,Crime Aginst SC_ST,Murder,4,2021,-33.3
+1185,Ramagundam,16.02,0.124843945,Crime Aginst SC_ST,Murder,2,2021,0
+1186,Siddipet,10.55,0.18957346,Crime Aginst SC_ST,Murder,2,2021,0
+1187,Warangal,23.65,0.084566596,Crime Aginst SC_ST,Murder,2,2021,-33.3
+1188,Adilabad,8.51,0,Crime Aginst SC_ST,Murder,0,2021,0
+1189,Bhadradri Kothagudem,13.96,0.071633238,Crime Aginst SC_ST,Murder,1,2021,0
+1190,Jagtial,9.85,0.203045685,Crime Aginst SC_ST,Murder,2,2021,0
+1191,Jayashankar Bhupalpally,4.5,0.444444444,Crime Aginst SC_ST,Murder,2,2021,100
+1192,Jogulamba Gadwal,6.09,0.164203612,Crime Aginst SC_ST,Murder,1,2021,0
+1193,Kamareddy,9.94,0.301810865,Crime Aginst SC_ST,Murder,3,2021,0
+1194,Kumaram Bheem Asifabad,5.38,0.557620818,Crime Aginst SC_ST,Murder,3,2021,0
+1195,Mahabubabad,7.74,0.258397933,Crime Aginst SC_ST,Murder,2,2021,100
+1196,Mahabubnagar,9.16,0.218340611,Crime Aginst SC_ST,Murder,2,2021,100
+1197,Medak,7.67,0.521512386,Crime Aginst SC_ST,Murder,4,2021,0
+1198,Mulugu,2.94,0.340136054,Crime Aginst SC_ST,Murder,1,2021,0
+1199,Nagarkurnool,8.61,0.580720093,Crime Aginst SC_ST,Murder,5,2021,400
+1200,Nalgonda,16.18,0.123609394,Crime Aginst SC_ST,Murder,2,2021,100
+1201,Narayanpet,5.66,0,Crime Aginst SC_ST,Murder,0,2021,-100
+1202,Nirmal,7.09,0,Crime Aginst SC_ST,Murder,0,2021,-100
+1203,Rajanna Sircilla,5.98,0,Crime Aginst SC_ST,Murder,0,2021,-100
+1204,Sanga Reddy,15.27,0.065487885,Crime Aginst SC_ST,Murder,1,2021,-66.7
+1205,Suryapet,10.99,0.090991811,Crime Aginst SC_ST,Murder,1,2021,0
+1206,Vikarabad,9.41,0.531349628,Crime Aginst SC_ST,Murder,5,2021,400
+1207,Wanaparthy,5.77,0,Crime Aginst SC_ST,Murder,0,2021,0
 1208,RP Secunderabad,,,Crime Aginst SC_ST,Murder,0,2021,0
 1209,CID,,,Crime Aginst SC_ST,Murder,0,2021,0
-1210,Cyberabad,,,Crime Aginst SC_ST,Rape,53,2021,35.9
-1211,Hyderabad,,,Crime Aginst SC_ST,Rape,47,2021,11.9
-1212,Karimnagar,,,Crime Aginst SC_ST,Rape,7,2021,-41.7
-1213,Khammam,,,Crime Aginst SC_ST,Rape,15,2021,25
-1214,Nizamabad,,,Crime Aginst SC_ST,Rape,2,2021,-50
-1215,Rachakonda,,,Crime Aginst SC_ST,Rape,59,2021,-6.3
-1216,Ramagundam,,,Crime Aginst SC_ST,Rape,11,2021,83.3
-1217,Siddipet,,,Crime Aginst SC_ST,Rape,7,2021,40
-1218,Warangal,,,Crime Aginst SC_ST,Rape,10,2021,66.7
-1219,Adilabad,,,Crime Aginst SC_ST,Rape,3,2021,0
-1220,Bhadradri Kothagudem,,,Crime Aginst SC_ST,Rape,24,2021,166.7
-1221,Jagtial,,,Crime Aginst SC_ST,Rape,7,2021,16.7
-1222,Jayashankar Bhupalpally,,,Crime Aginst SC_ST,Rape,2,2021,-33.3
-1223,Jogulamba Gadwal,,,Crime Aginst SC_ST,Rape,2,2021,-33.3
-1224,Kamareddy,,,Crime Aginst SC_ST,Rape,7,2021,75
-1225,Kumaram Bheem Asifabad,,,Crime Aginst SC_ST,Rape,3,2021,0
-1226,Mahabubabad,,,Crime Aginst SC_ST,Rape,1,2021,-66.7
-1227,Mahabubnagar,,,Crime Aginst SC_ST,Rape,12,2021,200
-1228,Medak,,,Crime Aginst SC_ST,Rape,8,2021,700
-1229,Mulugu,,,Crime Aginst SC_ST,Rape,3,2021,0
-1230,Nagarkurnool,,,Crime Aginst SC_ST,Rape,5,2021,-44.4
-1231,Nalgonda,,,Crime Aginst SC_ST,Rape,14,2021,-17.6
-1232,Narayanpet,,,Crime Aginst SC_ST,Rape,4,2021,300
-1233,Nirmal,,,Crime Aginst SC_ST,Rape,7,2021,600
-1234,Rajanna Sircilla,,,Crime Aginst SC_ST,Rape,5,2021,66.7
-1235,Sanga Reddy,,,Crime Aginst SC_ST,Rape,6,2021,20
-1236,Suryapet,,,Crime Aginst SC_ST,Rape,12,2021,140
-1237,Vikarabad,,,Crime Aginst SC_ST,Rape,7,2021,-41.7
-1238,Wanaparthy,,,Crime Aginst SC_ST,Rape,6,2021,0
+1210,Cyberabad,62,0.85483871,Crime Aginst SC_ST,Rape,53,2021,35.9
+1211,Hyderabad,39.43,1.191985798,Crime Aginst SC_ST,Rape,47,2021,11.9
+1212,Karimnagar,10.05,0.696517413,Crime Aginst SC_ST,Rape,7,2021,-41.7
+1213,Khammam,15.59,0.962155228,Crime Aginst SC_ST,Rape,15,2021,25
+1214,Nizamabad,15.71,0.127307447,Crime Aginst SC_ST,Rape,2,2021,-50
+1215,Rachakonda,52,1.134615385,Crime Aginst SC_ST,Rape,59,2021,-6.3
+1216,Ramagundam,16.02,0.686641698,Crime Aginst SC_ST,Rape,11,2021,83.3
+1217,Siddipet,10.55,0.663507109,Crime Aginst SC_ST,Rape,7,2021,40
+1218,Warangal,23.65,0.422832981,Crime Aginst SC_ST,Rape,10,2021,66.7
+1219,Adilabad,8.51,0.352526439,Crime Aginst SC_ST,Rape,3,2021,0
+1220,Bhadradri Kothagudem,13.96,1.719197708,Crime Aginst SC_ST,Rape,24,2021,166.7
+1221,Jagtial,9.85,0.710659898,Crime Aginst SC_ST,Rape,7,2021,16.7
+1222,Jayashankar Bhupalpally,4.5,0.444444444,Crime Aginst SC_ST,Rape,2,2021,-33.3
+1223,Jogulamba Gadwal,6.09,0.328407225,Crime Aginst SC_ST,Rape,2,2021,-33.3
+1224,Kamareddy,9.94,0.704225352,Crime Aginst SC_ST,Rape,7,2021,75
+1225,Kumaram Bheem Asifabad,5.38,0.557620818,Crime Aginst SC_ST,Rape,3,2021,0
+1226,Mahabubabad,7.74,0.129198966,Crime Aginst SC_ST,Rape,1,2021,-66.7
+1227,Mahabubnagar,9.16,1.310043668,Crime Aginst SC_ST,Rape,12,2021,200
+1228,Medak,7.67,1.043024772,Crime Aginst SC_ST,Rape,8,2021,700
+1229,Mulugu,2.94,1.020408163,Crime Aginst SC_ST,Rape,3,2021,0
+1230,Nagarkurnool,8.61,0.580720093,Crime Aginst SC_ST,Rape,5,2021,-44.4
+1231,Nalgonda,16.18,0.86526576,Crime Aginst SC_ST,Rape,14,2021,-17.6
+1232,Narayanpet,5.66,0.706713781,Crime Aginst SC_ST,Rape,4,2021,300
+1233,Nirmal,7.09,0.987306065,Crime Aginst SC_ST,Rape,7,2021,600
+1234,Rajanna Sircilla,5.98,0.836120401,Crime Aginst SC_ST,Rape,5,2021,66.7
+1235,Sanga Reddy,15.27,0.392927308,Crime Aginst SC_ST,Rape,6,2021,20
+1236,Suryapet,10.99,1.091901729,Crime Aginst SC_ST,Rape,12,2021,140
+1237,Vikarabad,9.41,0.743889479,Crime Aginst SC_ST,Rape,7,2021,-41.7
+1238,Wanaparthy,5.77,1.039861352,Crime Aginst SC_ST,Rape,6,2021,0
 1239,RP Secunderabad,,,Crime Aginst SC_ST,Rape,0,2021,0
 1240,CID,,,Crime Aginst SC_ST,Rape,0,2021,0
-1241,Cyberabad,,93.5,Economic Offence,Cheatings,5797,2021,119.3
-1242,Hyderabad,,44.46,Economic Offence,Cheatings,1753,2021,44.2
-1243,Karimnagar,,28.66,Economic Offence,Cheatings,288,2021,30.3
-1244,Khammam,,20.14,Economic Offence,Cheatings,314,2021,23.1
-1245,Nizamabad,,15.91,Economic Offence,Cheatings,250,2021,-17.8
-1246,Rachakonda,,52.46,Economic Offence,Cheatings,2728,2021,65.6
-1247,Ramagundam,,38.58,Economic Offence,Cheatings,618,2021,26.6
-1248,Siddipet,,20.19,Economic Offence,Cheatings,213,2021,4.4
-1249,Warangal,,29.56,Economic Offence,Cheatings,699,2021,45.9
-1250,Adilabad,,8.58,Economic Offence,Cheatings,73,2021,9
-1251,Bhadradri Kothagudem,,14.33,Economic Offence,Cheatings,200,2021,40.8
-1252,Jagtial,,34.31,Economic Offence,Cheatings,338,2021,42.6
-1253,Jayashankar Bhupalpally,,21.11,Economic Offence,Cheatings,95,2021,-36.7
-1254,Jogulamba Gadwal,,38.1,Economic Offence,Cheatings,232,2021,65.7
-1255,Kamareddy,,20.12,Economic Offence,Cheatings,200,2021,129.9
-1256,Kumaram Bheem Asifabad,,49.44,Economic Offence,Cheatings,266,2021,70.5
-1257,Mahabubabad,,20.8,Economic Offence,Cheatings,161,2021,26.8
-1258,Mahabubnagar,,14.74,Economic Offence,Cheatings,135,2021,87.5
-1259,Medak,,17.86,Economic Offence,Cheatings,137,2021,140.4
-1260,Mulugu,,18.71,Economic Offence,Cheatings,55,2021,31
-1261,Nagarkurnool,,16.38,Economic Offence,Cheatings,141,2021,88
-1262,Nalgonda,,28.74,Economic Offence,Cheatings,465,2021,58.7
-1263,Narayanpet,,17.14,Economic Offence,Cheatings,97,2021,36.6
-1264,Nirmal,,9.59,Economic Offence,Cheatings,68,2021,88.9
-1265,Rajanna Sircilla,,28.43,Economic Offence,Cheatings,170,2021,18.9
-1266,Sanga Reddy,,15.46,Economic Offence,Cheatings,236,2021,52.3
-1267,Suryapet,,30.94,Economic Offence,Cheatings,340,2021,26.4
-1268,Vikarabad,,12.86,Economic Offence,Cheatings,121,2021,137.3
-1269,Wanaparthy,,15.25,Economic Offence,Cheatings,88,2021,29.4
+1241,Cyberabad,62,93.5,Economic Offence,Cheatings,5797,2021,119.3
+1242,Hyderabad,39.43,44.46,Economic Offence,Cheatings,1753,2021,44.2
+1243,Karimnagar,10.05,28.66,Economic Offence,Cheatings,288,2021,30.3
+1244,Khammam,15.59,20.14,Economic Offence,Cheatings,314,2021,23.1
+1245,Nizamabad,15.71,15.91,Economic Offence,Cheatings,250,2021,-17.8
+1246,Rachakonda,52,52.46,Economic Offence,Cheatings,2728,2021,65.6
+1247,Ramagundam,16.02,38.58,Economic Offence,Cheatings,618,2021,26.6
+1248,Siddipet,10.55,20.19,Economic Offence,Cheatings,213,2021,4.4
+1249,Warangal,23.65,29.56,Economic Offence,Cheatings,699,2021,45.9
+1250,Adilabad,8.51,8.58,Economic Offence,Cheatings,73,2021,9
+1251,Bhadradri Kothagudem,13.96,14.33,Economic Offence,Cheatings,200,2021,40.8
+1252,Jagtial,9.85,34.31,Economic Offence,Cheatings,338,2021,42.6
+1253,Jayashankar Bhupalpally,4.5,21.11,Economic Offence,Cheatings,95,2021,-36.7
+1254,Jogulamba Gadwal,6.09,38.1,Economic Offence,Cheatings,232,2021,65.7
+1255,Kamareddy,9.94,20.12,Economic Offence,Cheatings,200,2021,129.9
+1256,Kumaram Bheem Asifabad,5.38,49.44,Economic Offence,Cheatings,266,2021,70.5
+1257,Mahabubabad,7.74,20.8,Economic Offence,Cheatings,161,2021,26.8
+1258,Mahabubnagar,9.16,14.74,Economic Offence,Cheatings,135,2021,87.5
+1259,Medak,7.67,17.86,Economic Offence,Cheatings,137,2021,140.4
+1260,Mulugu,2.94,18.71,Economic Offence,Cheatings,55,2021,31
+1261,Nagarkurnool,8.61,16.38,Economic Offence,Cheatings,141,2021,88
+1262,Nalgonda,16.18,28.74,Economic Offence,Cheatings,465,2021,58.7
+1263,Narayanpet,5.66,17.14,Economic Offence,Cheatings,97,2021,36.6
+1264,Nirmal,7.09,9.59,Economic Offence,Cheatings,68,2021,88.9
+1265,Rajanna Sircilla,5.98,28.43,Economic Offence,Cheatings,170,2021,18.9
+1266,Sanga Reddy,15.27,15.46,Economic Offence,Cheatings,236,2021,52.3
+1267,Suryapet,10.99,30.94,Economic Offence,Cheatings,340,2021,26.4
+1268,Vikarabad,9.41,12.86,Economic Offence,Cheatings,121,2021,137.3
+1269,Wanaparthy,5.77,15.25,Economic Offence,Cheatings,88,2021,29.4
 1270,RP Secunderabad,,,Economic Offence,Cheatings,5,2021,150
 1271,CID,,,Economic Offence,Cheatings,4,2021,-50
-1272,Cyberabad,,0.03,Economic Offence,Counterfeit,2,2021,0
-1273,Hyderabad,,0.15,Economic Offence,Counterfeit,6,2021,50
-1274,Karimnagar,,0,Economic Offence,Counterfeit,0,2021,0
-1275,Khammam,,0,Economic Offence,Counterfeit,0,2021,-100
-1276,Nizamabad,,0,Economic Offence,Counterfeit,0,2021,0
-1277,Rachakonda,,0.02,Economic Offence,Counterfeit,1,2021,0
-1278,Ramagundam,,0.06,Economic Offence,Counterfeit,1,2021,0
-1279,Siddipet,,0,Economic Offence,Counterfeit,0,2021,0
-1280,Warangal,,0.04,Economic Offence,Counterfeit,1,2021,0
-1281,Adilabad,,0,Economic Offence,Counterfeit,0,2021,0
-1282,Bhadradri Kothagudem,,0,Economic Offence,Counterfeit,0,2021,0
-1283,Jagtial,,0,Economic Offence,Counterfeit,0,2021,0
-1284,Jayashankar Bhupalpally,,0,Economic Offence,Counterfeit,0,2021,0
-1285,Jogulamba Gadwal,,0,Economic Offence,Counterfeit,0,2021,0
-1286,Kamareddy,,0.1,Economic Offence,Counterfeit,1,2021,0
-1287,Kumaram Bheem Asifabad,,0.19,Economic Offence,Counterfeit,1,2021,0
-1288,Mahabubabad,,0,Economic Offence,Counterfeit,0,2021,-100
-1289,Mahabubnagar,,0,Economic Offence,Counterfeit,0,2021,0
-1290,Medak,,0,Economic Offence,Counterfeit,0,2021,0
-1291,Mulugu,,0,Economic Offence,Counterfeit,0,2021,0
-1292,Nagarkurnool,,0,Economic Offence,Counterfeit,0,2021,0
-1293,Nalgonda,,0,Economic Offence,Counterfeit,0,2021,-100
-1294,Narayanpet,,0,Economic Offence,Counterfeit,0,2021,0
-1295,Nirmal,,0,Economic Offence,Counterfeit,0,2021,0
-1296,Rajanna Sircilla,,0.17,Economic Offence,Counterfeit,1,2021,0
-1297,Sanga Reddy,,0.13,Economic Offence,Counterfeit,2,2021,0
-1298,Suryapet,,0,Economic Offence,Counterfeit,0,2021,-100
-1299,Vikarabad,,0,Economic Offence,Counterfeit,0,2021,0
-1300,Wanaparthy,,0,Economic Offence,Counterfeit,0,2021,0
+1272,Cyberabad,62,0.03,Economic Offence,Counterfeit,2,2021,0
+1273,Hyderabad,39.43,0.15,Economic Offence,Counterfeit,6,2021,50
+1274,Karimnagar,10.05,0,Economic Offence,Counterfeit,0,2021,0
+1275,Khammam,15.59,0,Economic Offence,Counterfeit,0,2021,-100
+1276,Nizamabad,15.71,0,Economic Offence,Counterfeit,0,2021,0
+1277,Rachakonda,52,0.02,Economic Offence,Counterfeit,1,2021,0
+1278,Ramagundam,16.02,0.06,Economic Offence,Counterfeit,1,2021,0
+1279,Siddipet,10.55,0,Economic Offence,Counterfeit,0,2021,0
+1280,Warangal,23.65,0.04,Economic Offence,Counterfeit,1,2021,0
+1281,Adilabad,8.51,0,Economic Offence,Counterfeit,0,2021,0
+1282,Bhadradri Kothagudem,13.96,0,Economic Offence,Counterfeit,0,2021,0
+1283,Jagtial,9.85,0,Economic Offence,Counterfeit,0,2021,0
+1284,Jayashankar Bhupalpally,4.5,0,Economic Offence,Counterfeit,0,2021,0
+1285,Jogulamba Gadwal,6.09,0,Economic Offence,Counterfeit,0,2021,0
+1286,Kamareddy,9.94,0.1,Economic Offence,Counterfeit,1,2021,0
+1287,Kumaram Bheem Asifabad,5.38,0.19,Economic Offence,Counterfeit,1,2021,0
+1288,Mahabubabad,7.74,0,Economic Offence,Counterfeit,0,2021,-100
+1289,Mahabubnagar,9.16,0,Economic Offence,Counterfeit,0,2021,0
+1290,Medak,7.67,0,Economic Offence,Counterfeit,0,2021,0
+1291,Mulugu,2.94,0,Economic Offence,Counterfeit,0,2021,0
+1292,Nagarkurnool,8.61,0,Economic Offence,Counterfeit,0,2021,0
+1293,Nalgonda,16.18,0,Economic Offence,Counterfeit,0,2021,-100
+1294,Narayanpet,5.66,0,Economic Offence,Counterfeit,0,2021,0
+1295,Nirmal,7.09,0,Economic Offence,Counterfeit,0,2021,0
+1296,Rajanna Sircilla,5.98,0.17,Economic Offence,Counterfeit,1,2021,0
+1297,Sanga Reddy,15.27,0.13,Economic Offence,Counterfeit,2,2021,0
+1298,Suryapet,10.99,0,Economic Offence,Counterfeit,0,2021,-100
+1299,Vikarabad,9.41,0,Economic Offence,Counterfeit,0,2021,0
+1300,Wanaparthy,5.77,0,Economic Offence,Counterfeit,0,2021,0
 1301,RP Secunderabad,,,Economic Offence,Counterfeit,,2021,0
 1302,CID,,,Economic Offence,Counterfeit,,2021,0
-1303,Cyberabad,,2.47,Economic Offence,Criminal Breach of Trust,153,2021,-5
-1304,Hyderabad,,3.91,Economic Offence,Criminal Breach of Trust,154,2021,41.3
-1305,Karimnagar,,1.69,Economic Offence,Criminal Breach of Trust,17,2021,325
-1306,Khammam,,1.09,Economic Offence,Criminal Breach of Trust,17,2021,-22.7
-1307,Nizamabad,,0.38,Economic Offence,Criminal Breach of Trust,6,2021,-40
-1308,Rachakonda,,1.65,Economic Offence,Criminal Breach of Trust,86,2021,21.1
-1309,Ramagundam,,0.37,Economic Offence,Criminal Breach of Trust,6,2021,-25
-1310,Siddipet,,0.66,Economic Offence,Criminal Breach of Trust,7,2021,40
-1311,Warangal,,0.13,Economic Offence,Criminal Breach of Trust,3,2021,200
-1312,Adilabad,,0.12,Economic Offence,Criminal Breach of Trust,1,2021,-87.5
-1313,Bhadradri Kothagudem,,1.58,Economic Offence,Criminal Breach of Trust,22,2021,0
-1314,Jagtial,,1.02,Economic Offence,Criminal Breach of Trust,10,2021,25
-1315,Jayashankar Bhupalpally,,0.44,Economic Offence,Criminal Breach of Trust,2,2021,0
-1316,Jogulamba Gadwal,,0.16,Economic Offence,Criminal Breach of Trust,1,2021,-80
-1317,Kamareddy,,0.91,Economic Offence,Criminal Breach of Trust,9,2021,-30.8
-1318,Kumaram Bheem Asifabad,,0,Economic Offence,Criminal Breach of Trust,0,2021,-100
-1319,Mahabubabad,,0.52,Economic Offence,Criminal Breach of Trust,4,2021,-42.9
-1320,Mahabubnagar,,0.22,Economic Offence,Criminal Breach of Trust,2,2021,0
-1321,Medak,,1.83,Economic Offence,Criminal Breach of Trust,14,2021,0
-1322,Mulugu,,0.68,Economic Offence,Criminal Breach of Trust,2,2021,100
-1323,Nagarkurnool,,0.23,Economic Offence,Criminal Breach of Trust,2,2021,-75
-1324,Nalgonda,,0.49,Economic Offence,Criminal Breach of Trust,8,2021,-52.9
-1325,Narayanpet,,0.35,Economic Offence,Criminal Breach of Trust,2,2021,0
-1326,Nirmal,,1.97,Economic Offence,Criminal Breach of Trust,14,2021,180
-1327,Rajanna Sircilla,,1.17,Economic Offence,Criminal Breach of Trust,7,2021,40
-1328,Sanga Reddy,,0.39,Economic Offence,Criminal Breach of Trust,6,2021,20
-1329,Suryapet,,1.09,Economic Offence,Criminal Breach of Trust,12,2021,50
-1330,Vikarabad,,0.21,Economic Offence,Criminal Breach of Trust,2,2021,0
-1331,Wanaparthy,,1.04,Economic Offence,Criminal Breach of Trust,6,2021,-53.8
+1303,Cyberabad,62,2.47,Economic Offence,Criminal Breach of Trust,153,2021,-5
+1304,Hyderabad,39.43,3.91,Economic Offence,Criminal Breach of Trust,154,2021,41.3
+1305,Karimnagar,10.05,1.69,Economic Offence,Criminal Breach of Trust,17,2021,325
+1306,Khammam,15.59,1.09,Economic Offence,Criminal Breach of Trust,17,2021,-22.7
+1307,Nizamabad,15.71,0.38,Economic Offence,Criminal Breach of Trust,6,2021,-40
+1308,Rachakonda,52,1.65,Economic Offence,Criminal Breach of Trust,86,2021,21.1
+1309,Ramagundam,16.02,0.37,Economic Offence,Criminal Breach of Trust,6,2021,-25
+1310,Siddipet,10.55,0.66,Economic Offence,Criminal Breach of Trust,7,2021,40
+1311,Warangal,23.65,0.13,Economic Offence,Criminal Breach of Trust,3,2021,200
+1312,Adilabad,8.51,0.12,Economic Offence,Criminal Breach of Trust,1,2021,-87.5
+1313,Bhadradri Kothagudem,13.96,1.58,Economic Offence,Criminal Breach of Trust,22,2021,0
+1314,Jagtial,9.85,1.02,Economic Offence,Criminal Breach of Trust,10,2021,25
+1315,Jayashankar Bhupalpally,4.5,0.44,Economic Offence,Criminal Breach of Trust,2,2021,0
+1316,Jogulamba Gadwal,6.09,0.16,Economic Offence,Criminal Breach of Trust,1,2021,-80
+1317,Kamareddy,9.94,0.91,Economic Offence,Criminal Breach of Trust,9,2021,-30.8
+1318,Kumaram Bheem Asifabad,5.38,0,Economic Offence,Criminal Breach of Trust,0,2021,-100
+1319,Mahabubabad,7.74,0.52,Economic Offence,Criminal Breach of Trust,4,2021,-42.9
+1320,Mahabubnagar,9.16,0.22,Economic Offence,Criminal Breach of Trust,2,2021,0
+1321,Medak,7.67,1.83,Economic Offence,Criminal Breach of Trust,14,2021,0
+1322,Mulugu,2.94,0.68,Economic Offence,Criminal Breach of Trust,2,2021,100
+1323,Nagarkurnool,8.61,0.23,Economic Offence,Criminal Breach of Trust,2,2021,-75
+1324,Nalgonda,16.18,0.49,Economic Offence,Criminal Breach of Trust,8,2021,-52.9
+1325,Narayanpet,5.66,0.35,Economic Offence,Criminal Breach of Trust,2,2021,0
+1326,Nirmal,7.09,1.97,Economic Offence,Criminal Breach of Trust,14,2021,180
+1327,Rajanna Sircilla,5.98,1.17,Economic Offence,Criminal Breach of Trust,7,2021,40
+1328,Sanga Reddy,15.27,0.39,Economic Offence,Criminal Breach of Trust,6,2021,20
+1329,Suryapet,10.99,1.09,Economic Offence,Criminal Breach of Trust,12,2021,50
+1330,Vikarabad,9.41,0.21,Economic Offence,Criminal Breach of Trust,2,2021,0
+1331,Wanaparthy,5.77,1.04,Economic Offence,Criminal Breach of Trust,6,2021,-53.8
 1332,RP Secunderabad,,,Economic Offence,Criminal Breach of Trust,0,2021,0
 1333,CID,,,Economic Offence,Criminal Breach of Trust,2,2021,0
 1334,Cyberabad,62,14.32,Property Crime,Burglaries,888,2021,44.2
@@ -1363,97 +1363,97 @@ Sl. No,UNITS,Population in Lakhs,Crime rate for 2021,Category,Crime_Type,Crimes,
 1362,Wanaparthy,5.77,5.72,Property Crime,Burglaries,33,2021,-15.4
 1363,RP Secunderabad,,,Property Crime,Burglaries,0,2021,0
 1364,CID,,,Property Crime,Burglaries,,2021,0
-1365,Cyberabad,,0.19,Property Crime,Dacoities,12,2021,50
-1366,Hyderabad,,0.28,Property Crime,Dacoities,11,2021,120
-1367,Karimnagar,,0.1,Property Crime,Dacoities,1,2021,0
-1368,Khammam,,0,Property Crime,Dacoities,0,2021,-100
-1369,Nizamabad,,0,Property Crime,Dacoities,0,2021,-100
-1370,Rachakonda,,0.12,Property Crime,Dacoities,6,2021,50
-1371,Ramagundam,,0.06,Property Crime,Dacoities,1,2021,0
-1372,Siddipet,,0,Property Crime,Dacoities,0,2021,-100
-1373,Warangal,,0.08,Property Crime,Dacoities,2,2021,-50
-1374,Adilabad,,0.12,Property Crime,Dacoities,1,2021,0
-1375,Bhadradri Kothagudem,,0.07,Property Crime,Dacoities,1,2021,-50
-1376,Jagtial,,0,Property Crime,Dacoities,0,2021,-100
-1377,Jayashankar Bhupalpally,,0,Property Crime,Dacoities,0,2021,0
-1378,Jogulamba Gadwal,,0,Property Crime,Dacoities,0,2021,0
-1379,Kamareddy,,0,Property Crime,Dacoities,0,2021,0
-1380,Kumaram Bheem Asifabad,,0,Property Crime,Dacoities,0,2021,-100
-1381,Mahabubabad,,0,Property Crime,Dacoities,0,2021,0
-1382,Mahabubnagar,,0,Property Crime,Dacoities,0,2021,0
-1383,Medak,,0.13,Property Crime,Dacoities,1,2021,0
-1384,Mulugu,,0,Property Crime,Dacoities,0,2021,0
-1385,Nagarkurnool,,0,Property Crime,Dacoities,0,2021,0
-1386,Nalgonda,,0,Property Crime,Dacoities,0,2021,0
-1387,Narayanpet,,0,Property Crime,Dacoities,0,2021,0
-1388,Nirmal,,0,Property Crime,Dacoities,0,2021,-100
-1389,Rajanna Sircilla,,0,Property Crime,Dacoities,0,2021,0
-1390,Sanga Reddy,,0.2,Property Crime,Dacoities,3,2021,0
-1391,Suryapet,,0,Property Crime,Dacoities,0,2021,0
-1392,Vikarabad,,0.32,Property Crime,Dacoities,3,2021,200
-1393,Wanaparthy,,0,Property Crime,Dacoities,0,2021,0
+1365,Cyberabad,62,0.19,Property Crime,Dacoities,12,2021,50
+1366,Hyderabad,39.43,0.28,Property Crime,Dacoities,11,2021,120
+1367,Karimnagar,10.05,0.1,Property Crime,Dacoities,1,2021,0
+1368,Khammam,15.59,0,Property Crime,Dacoities,0,2021,-100
+1369,Nizamabad,15.71,0,Property Crime,Dacoities,0,2021,-100
+1370,Rachakonda,52,0.12,Property Crime,Dacoities,6,2021,50
+1371,Ramagundam,16.02,0.06,Property Crime,Dacoities,1,2021,0
+1372,Siddipet,10.55,0,Property Crime,Dacoities,0,2021,-100
+1373,Warangal,23.65,0.08,Property Crime,Dacoities,2,2021,-50
+1374,Adilabad,8.51,0.12,Property Crime,Dacoities,1,2021,0
+1375,Bhadradri Kothagudem,13.96,0.07,Property Crime,Dacoities,1,2021,-50
+1376,Jagtial,9.85,0,Property Crime,Dacoities,0,2021,-100
+1377,Jayashankar Bhupalpally,4.5,0,Property Crime,Dacoities,0,2021,0
+1378,Jogulamba Gadwal,6.09,0,Property Crime,Dacoities,0,2021,0
+1379,Kamareddy,9.94,0,Property Crime,Dacoities,0,2021,0
+1380,Kumaram Bheem Asifabad,5.38,0,Property Crime,Dacoities,0,2021,-100
+1381,Mahabubabad,7.74,0,Property Crime,Dacoities,0,2021,0
+1382,Mahabubnagar,9.16,0,Property Crime,Dacoities,0,2021,0
+1383,Medak,7.67,0.13,Property Crime,Dacoities,1,2021,0
+1384,Mulugu,2.94,0,Property Crime,Dacoities,0,2021,0
+1385,Nagarkumool,8.61,0,Property Crime,Dacoities,0,2021,0
+1386,Nalgonda,16.18,0,Property Crime,Dacoities,0,2021,0
+1387,Narayanpet,5.66,0,Property Crime,Dacoities,0,2021,0
+1388,Nirmal,7.09,0,Property Crime,Dacoities,0,2021,-100
+1389,Rajanna Sircilla,5.98,0,Property Crime,Dacoities,0,2021,0
+1390,Sanga Reddy,15.27,0.2,Property Crime,Dacoities,3,2021,0
+1391,Suryapet,10.99,0,Property Crime,Dacoities,0,2021,0
+1392,Vikarabad,9.41,0.32,Property Crime,Dacoities,3,2021,200
+1393,Wanaparthy,5.77,0,Property Crime,Dacoities,0,2021,0
 1394,RP Secunderabad,,,Property Crime,Dacoities,0,2021,0
 1395,CID,,,Property Crime,Dacoities,,2021,0
-1396,Cyberabad,,0.26,Property Crime,Murder for gain,16,2021,100
-1397,Hyderabad,,0.2,Property Crime,Murder for gain,8,2021,100
-1398,Karimnagar,,0.1,Property Crime,Murder for gain,1,2021,-50
-1399,Khammam,,0,Property Crime,Murder for gain,0,2021,-100
-1400,Nizamabad,,0.38,Property Crime,Murder for gain,6,2021,20
-1401,Rachakonda,,0.12,Property Crime,Murder for gain,6,2021,200
-1402,Ramagundam,,0.12,Property Crime,Murder for gain,2,2021,0
-1403,Siddipet,,0.28,Property Crime,Murder for gain,3,2021,0
-1404,Warangal,,0.04,Property Crime,Murder for gain,1,2021,0
-1405,Adilabad,,0,Property Crime,Murder for gain,0,2021,0
-1406,Bhadradri Kothagudem,,0.21,Property Crime,Murder for gain,3,2021,200
-1407,Jagtial,,0.1,Property Crime,Murder for gain,1,2021,0
-1408,Jayashankar Bhupalpally,,0.22,Property Crime,Murder for gain,1,2021,0
-1409,Jogulamba Gadwal,,0,Property Crime,Murder for gain,0,2021,0
-1410,Kamareddy,,0.8,Property Crime,Murder for gain,8,2021,300
-1411,Kumaram Bheem Asifabad,,0.19,Property Crime,Murder for gain,1,2021,-50
-1412,Mahabubabad,,0,Property Crime,Murder for gain,0,2021,0
-1413,Mahabubnagar,,0.55,Property Crime,Murder for gain,5,2021,150
-1414,Medak,,0.91,Property Crime,Murder for gain,7,2021,600
-1415,Mulugu,,0,Property Crime,Murder for gain,0,2021,0
-1416,Nagarkurnool,,0.23,Property Crime,Murder for gain,2,2021,0
-1417,Nalgonda,,0,Property Crime,Murder for gain,0,2021,-100
-1418,Narayanpet,,0.53,Property Crime,Murder for gain,3,2021,0
-1419,Nirmal,,0.14,Property Crime,Murder for gain,1,2021,0
-1420,Rajanna Sircilla,,0,Property Crime,Murder for gain,0,2021,0
-1421,Sanga Reddy,,0.98,Property Crime,Murder for gain,15,2021,200
-1422,Suryapet,,0.18,Property Crime,Murder for gain,2,2021,100
-1423,Vikarabad,,0.43,Property Crime,Murder for gain,4,2021,0
-1424,Wanaparthy,,0,Property Crime,Murder for gain,0,2021,0
+1396,Cyberabad,62,0.26,Property Crime,Murder for gain,16,2021,100
+1397,Hyderabad,39.43,0.2,Property Crime,Murder for gain,8,2021,100
+1398,Karimnagar,10.05,0.1,Property Crime,Murder for gain,1,2021,-50
+1399,Khammam,15.59,0,Property Crime,Murder for gain,0,2021,-100
+1400,Nizamabad,15.71,0.38,Property Crime,Murder for gain,6,2021,20
+1401,Rachakonda,52,0.12,Property Crime,Murder for gain,6,2021,200
+1402,Ramagundam,16.02,0.12,Property Crime,Murder for gain,2,2021,0
+1403,Siddipet,10.55,0.28,Property Crime,Murder for gain,3,2021,0
+1404,Warangal,23.65,0.04,Property Crime,Murder for gain,1,2021,0
+1405,Adilabad,8.51,0,Property Crime,Murder for gain,0,2021,0
+1406,Bhadradri Kothagudem,13.96,0.21,Property Crime,Murder for gain,3,2021,200
+1407,Jagtial,9.85,0.1,Property Crime,Murder for gain,1,2021,0
+1408,Jayashankar Bhupalpally,4.5,0.22,Property Crime,Murder for gain,1,2021,0
+1409,Jogulamba Gadwal,6.09,0,Property Crime,Murder for gain,0,2021,0
+1410,Kamareddy,9.94,0.8,Property Crime,Murder for gain,8,2021,300
+1411,Kumaram Bheem Asifabad,5.38,0.19,Property Crime,Murder for gain,1,2021,-50
+1412,Mahabubabad,7.74,0,Property Crime,Murder for gain,0,2021,0
+1413,Mahabubnagar,9.16,0.55,Property Crime,Murder for gain,5,2021,150
+1414,Medak,7.67,0.91,Property Crime,Murder for gain,7,2021,600
+1415,Mulugu,2.94,0,Property Crime,Murder for gain,0,2021,0
+1416,Nagarkumool,8.61,0.23,Property Crime,Murder for gain,2,2021,0
+1417,Nalgonda,16.18,0,Property Crime,Murder for gain,0,2021,-100
+1418,Narayanpet,5.66,0.53,Property Crime,Murder for gain,3,2021,0
+1419,Nirmal,7.09,0.14,Property Crime,Murder for gain,1,2021,0
+1420,Rajanna Sircilla,5.98,0,Property Crime,Murder for gain,0,2021,0
+1421,Sanga Reddy,15.27,0.98,Property Crime,Murder for gain,15,2021,200
+1422,Suryapet,10.99,0.18,Property Crime,Murder for gain,2,2021,100
+1423,Vikarabad,9.41,0.43,Property Crime,Murder for gain,4,2021,0
+1424,Wanaparthy,5.77,0,Property Crime,Murder for gain,0,2021,0
 1425,RP Secunderabad,,,Property Crime,Murder for gain,0,2021,0
 1426,CID,,,Property Crime,Murder for gain,,2021,0
-1427,Cyberabad,,61.84,Property Crime,ordinary thefts,3834,2021,109.1
-1428,Hyderabad,,58.1,Property Crime,ordinary thefts,2291,2021,23.1
-1429,Karimnagar,,11.14,Property Crime,ordinary thefts,112,2021,-18.8
-1430,Khammam,,17.96,Property Crime,ordinary thefts,280,2021,37.9
-1431,Nizamabad,,29.85,Property Crime,ordinary thefts,469,2021,17
-1432,Rachakonda,,37.63,Property Crime,ordinary thefts,1957,2021,55.8
-1433,Ramagundam,,22.53,Property Crime,ordinary thefts,361,2021,38.3
-1434,Siddipet,,50.33,Property Crime,ordinary thefts,531,2021,44.7
-1435,Warangal,,19.28,Property Crime,ordinary thefts,456,2021,89.2
-1436,Adilabad,,8.58,Property Crime,ordinary thefts,73,2021,-17
-1437,Bhadradri Kothagudem,,14.76,Property Crime,ordinary thefts,206,2021,41.1
-1438,Jagtial,,16.55,Property Crime,ordinary thefts,163,2021,73.4
-1439,Jayashankar Bhupalpally,,6.22,Property Crime,ordinary thefts,28,2021,-31.7
-1440,Jogulamba Gadwal,,45.32,Property Crime,ordinary thefts,276,2021,31.4
-1441,Kamareddy,,28.87,Property Crime,ordinary thefts,287,2021,32.3
-1442,Kumaram Bheem Asifabad,,12.08,Property Crime,ordinary thefts,65,2021,-24.4
-1443,Mahabubabad,,8.01,Property Crime,ordinary thefts,62,2021,-26.2
-1444,Mahabubnagar,,19,Property Crime,ordinary thefts,174,2021,42.6
-1445,Medak,,26.08,Property Crime,ordinary thefts,200,2021,42.9
-1446,Mulugu,,9.52,Property Crime,ordinary thefts,28,2021,-31.7
-1447,Nagarkurnool,,11.85,Property Crime,ordinary thefts,102,2021,12.1
-1448,Nalgonda,,11.43,Property Crime,ordinary thefts,185,2021,30.3
-1449,Narayanpet,,8.66,Property Crime,ordinary thefts,49,2021,8.9
-1450,Nirmal,,12.41,Property Crime,ordinary thefts,88,2021,-8.3
-1451,Rajanna Sircilla,,14.21,Property Crime,ordinary thefts,85,2021,32.8
-1452,Sanga Reddy,,21.74,Property Crime,ordinary thefts,332,2021,1.2
-1453,Suryapet,,22.02,Property Crime,ordinary thefts,242,2021,76.6
-1454,Vikarabad,,13.28,Property Crime,ordinary thefts,125,2021,10.6
-1455,Wanaparthy,,26.52,Property Crime,ordinary thefts,153,2021,3.4
+1427,Cyberabad,62,61.84,Property Crime,ordinary thefts,3834,2021,109.1
+1428,Hyderabad,39.43,58.1,Property Crime,ordinary thefts,2291,2021,23.1
+1429,Karimnagar,10.05,11.14,Property Crime,ordinary thefts,112,2021,-18.8
+1430,Khammam,15.59,17.96,Property Crime,ordinary thefts,280,2021,37.9
+1431,Nizamabad,15.71,29.85,Property Crime,ordinary thefts,469,2021,17
+1432,Rachakonda,52,37.63,Property Crime,ordinary thefts,1957,2021,55.8
+1433,Ramagundam,16.02,22.53,Property Crime,ordinary thefts,361,2021,38.3
+1434,Siddipet,10.55,50.33,Property Crime,ordinary thefts,531,2021,44.7
+1435,Warangal,23.65,19.28,Property Crime,ordinary thefts,456,2021,89.2
+1436,Adilabad,8.51,8.58,Property Crime,ordinary thefts,73,2021,-17
+1437,Bhadradri Kothagudem,13.96,14.76,Property Crime,ordinary thefts,206,2021,41.1
+1438,Jagtial,9.85,16.55,Property Crime,ordinary thefts,163,2021,73.4
+1439,Jayashankar Bhupalpally,4.5,6.22,Property Crime,ordinary thefts,28,2021,-31.7
+1440,Jogulamba Gadwal,6.09,45.32,Property Crime,ordinary thefts,276,2021,31.4
+1441,Kamareddy,9.94,28.87,Property Crime,ordinary thefts,287,2021,32.3
+1442,Kumaram Bheem Asifabad,5.38,12.08,Property Crime,ordinary thefts,65,2021,-24.4
+1443,Mahabubabad,7.74,8.01,Property Crime,ordinary thefts,62,2021,-26.2
+1444,Mahabubnagar,9.16,19,Property Crime,ordinary thefts,174,2021,42.6
+1445,Medak,7.67,26.08,Property Crime,ordinary thefts,200,2021,42.9
+1446,Mulugu,2.94,9.52,Property Crime,ordinary thefts,28,2021,-31.7
+1447,Nagarkurnool,8.61,11.85,Property Crime,ordinary thefts,102,2021,12.1
+1448,Nalgonda,16.18,11.43,Property Crime,ordinary thefts,185,2021,30.3
+1449,Narayanpet,5.66,8.66,Property Crime,ordinary thefts,49,2021,8.9
+1450,Nirmal,7.09,12.41,Property Crime,ordinary thefts,88,2021,-8.3
+1451,Rajanna Sircilla,5.98,14.21,Property Crime,ordinary thefts,85,2021,32.8
+1452,Sanga Reddy,15.27,21.74,Property Crime,ordinary thefts,332,2021,1.2
+1453,Suryapet,10.99,22.02,Property Crime,ordinary thefts,242,2021,76.6
+1454,Vikarabad,9.41,13.28,Property Crime,ordinary thefts,125,2021,10.6
+1455,Wanaparthy,5.77,26.52,Property Crime,ordinary thefts,153,2021,3.4
 1456,RP Secunderabad,,,Property Crime,ordinary thefts,423,2021,64.6
 1457,CID,,,Property Crime,ordinary thefts,,2021,0
 1458,Cyberabad,62,2.44,Property Crime,Robberies,151,2021,88.8

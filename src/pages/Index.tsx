@@ -36,24 +36,24 @@ const Index = () => {
   const { data: telanganaStats, isLoading, error, refetch } = useTelanganaStats(activeFilters);
   const [searchParams] = useSearchParams();
   const [animatedElements, setAnimatedElements] = useState<boolean>(false);
-  
+
   useEffect(() => {
     refetch();
   }, [activeFilters, refetch]);
-  
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setAnimatedElements(true);
     }, 300);
-    
+
     return () => clearTimeout(timer);
   }, []);
-  
+
   const getDistrictName = () => {
     const district = activeFilters.district;
     return district === 'all' ? 'All Districts' : district;
   };
-  
+
   return (
     <SidebarWrapper>
       <div className="min-h-screen bg-gradient-to-br from-background via-background/95 to-background/90">
@@ -67,19 +67,19 @@ const Index = () => {
 
           <div className="container mx-auto px-4 py-8 relative">
             {/* <div className="flex justify-between items-center mb-8 transform hover:scale-[1.01] transition-transform"> */}
-              {/* <div className="backdrop-blur-sm bg-white/5 p-4 rounded-2xl border border-white/10 shadow-xl ring-1 ring-black/30 rounded-t-2xl"> */}
-                {/* <h2 className="text-2xl font-bold text-foreground">Dashboard Overview</h2> */}
-                {isFiltered && (
-                  <p className="text-sm text-muted-foreground animate-fade-in mt-2">
-                    Showing data for {getDistrictName()}
-                    {activeFilters.crimeCategory !== 'Total Cognizable Crime' ? ` • ${activeFilters.crimeCategory}` : ''}
-                    {activeFilters.crimeType !== 'all' ? ` • ${activeFilters.crimeType}` : ''}
-                    {activeFilters.year !== 'all' ? ` • Year ${activeFilters.year}` : ''}
-                  </p>
-                )}
-              {/* </div> */}
+            {/* <div className="backdrop-blur-sm bg-white/5 p-4 rounded-2xl border border-white/10 shadow-xl ring-1 ring-black/30 rounded-t-2xl"> */}
+            {/* <h2 className="text-2xl font-bold text-foreground">Dashboard Overview</h2> */}
+            {isFiltered && (
+              <p className="text-sm text-muted-foreground animate-fade-in mt-2">
+                Showing data for {getDistrictName()}
+                {activeFilters.crimeCategory !== 'Total Cognizable Crime' ? ` • ${activeFilters.crimeCategory}` : ''}
+                {activeFilters.crimeType !== 'all' ? ` • ${activeFilters.crimeType}` : ''}
+                {activeFilters.year !== 'all' ? ` • Year ${activeFilters.year}` : ''}
+              </p>
+            )}
             {/* </div> */}
-            
+            {/* </div> */}
+
             <div className="relative mb-8 transform hover:scale-[1.01] transition-transform">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl blur-xl"></div>
               {/* <div className="relative backdrop-blur-sm bg-white/5 p-4 rounded-2xl border border-white/10 shadow-xl"> */}
@@ -88,7 +88,7 @@ const Index = () => {
               </div>
 
             </div>
-            
+
             {isLoading ? (
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
                 {[1, 2, 3, 4].map((i) => (
@@ -115,7 +115,7 @@ const Index = () => {
                 </div>
               </div>
             )}
-            
+
             {activeFilters.district !== 'all' && (
               <div className="mt-8 animate-fade-in">
                 <Card className="relative group transform hover:scale-[1.01] transition-transform overflow-hidden">
@@ -129,22 +129,22 @@ const Index = () => {
                   </CardHeader>
                   <CardContent className="relative backdrop-blur-sm bg-white/5 p-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <SafetyFocusZone 
-                        title="Urban Areas" 
-                        description="Higher crime density in urban centers with increased police patrols deployed." 
+                      <SafetyFocusZone
+                        title="Urban Areas"
+                        description="Higher crime density in urban centers with increased police patrols deployed."
                       />
-                      <SafetyFocusZone 
-                        title="Transport Corridors" 
-                        description="Highway crime monitoring with specialized units for inter-district coordination." 
+                      <SafetyFocusZone
+                        title="Transport Corridors"
+                        description="Highway crime monitoring with specialized units for inter-district coordination."
                         className="bg-primary/5 border-primary/20"
                       />
-                      <SafetyFocusZone 
-                        title="Commercial Zones" 
-                        description="Enhanced surveillance in business districts and markets during peak hours." 
+                      <SafetyFocusZone
+                        title="Commercial Zones"
+                        description="Enhanced surveillance in business districts and markets during peak hours."
                       />
-                      <SafetyFocusZone 
-                        title="Community Programs" 
-                        description="Village-level crime prevention initiatives showing positive results." 
+                      <SafetyFocusZone
+                        title="Community Programs"
+                        description="Village-level crime prevention initiatives showing positive results."
                         className="bg-green-500/5 border-green-500/20"
                       />
                     </div>
@@ -152,7 +152,7 @@ const Index = () => {
                 </Card>
               </div>
             )}
-            
+
             <div className="mt-12 space-y-12">
               <section id="crime-map" className="relative group transform hover:scale-[1.01] transition-transform">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-2xl blur-xl 
@@ -163,44 +163,26 @@ const Index = () => {
                   </div>
                 </div>
               </section>
-              
-              <section id="crime-statistics" className="grid grid-cols-1 md:grid-cols-2 gap-8">
-  <div className="relative group transform hover:scale-[1.01] transition-transform">
-    {/* Gradient Background Blur */}
-    <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-2xl blur-xl 
-                    group-hover:from-purple-500/20 group-hover:to-pink-500/20 transition-all duration-300"></div>
-    
-    {/* Chart Card with new styling */}
-    <div className="relative backdrop-blur-sm bg-white/5 p-6 rounded-2xl ring-1 ring-black/30 shadow-md">
-      <h2 className="text-xl font-bold mb-4 text-purple-800">District Rankings</h2>
-      {isLoading ? (
-        <Skeleton className="h-[400px] w-full rounded-xl" />
-      ) : (
-        <div className={`chart-container rounded-xl overflow-hidden ${animatedElements ? 'animate-fade-in' : ''}`}>
-          <CrimeStatisticsChart />
-        </div>
-      )}
-    </div>
-  </div>
 
-  <div className="relative group transform hover:scale-[1.01] transition-transform">
-    {/* Gradient Background Blur */}
-    <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 rounded-2xl blur-xl 
-                    group-hover:from-emerald-500/20 group-hover:to-teal-500/20 transition-all duration-300"></div>
-    
-    {/* Chart Card with new styling */}
-    <div className="relative backdrop-blur-sm bg-white/5 p-6 rounded-2xl ring-1 ring-black/30 shadow-md">
-      <h2 className="text-xl font-bold mb-4 text-emerald-800">Year-on-Year Trends</h2>
-      {isLoading ? (
-        <Skeleton className="h-[400px] w-full rounded-xl" />
-      ) : (
-        <div className={`chart-container rounded-xl overflow-hidden ${animatedElements ? 'animate-fade-in' : ''}`}>
-          <CrimeTrendsChart />
-        </div>
-      )}
-    </div>
-  </div>
-</section>
+              <section id="crime-statistics" className="w-full mt-8">
+                <div className="relative group transform hover:scale-[1.01] transition-transform w-full">
+                  {/* Gradient Background Blur */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-2xl blur-xl 
+                    group-hover:from-purple-500/20 group-hover:to-pink-500/20 transition-all duration-300"></div>
+
+                  {/* Chart Card with new styling */}
+                  <div className="relative backdrop-blur-sm bg-white/5 p-8 rounded-2xl ring-1 ring-black/30 shadow-md w-full max-w-4xl mx-auto">
+                    <h2 className="text-2xl font-bold mb-6 text-purple-800">District Rankings</h2>
+                    {isLoading ? (
+                      <Skeleton className="h-[400px] w-full rounded-xl" />
+                    ) : (
+                      <div className={`chart-container rounded-xl overflow-hidden ${animatedElements ? 'animate-fade-in' : ''}`} style={{ minHeight: 400 }}>
+                        <CrimeStatisticsChart />
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </section>
 
             </div>
           </div>

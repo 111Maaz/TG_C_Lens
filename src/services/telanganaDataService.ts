@@ -7,7 +7,7 @@ export interface TelanganaDistrictData {
   crimeType: string;
   crimes: number;
   year: number;
-  percentVariationIn2021Over2020: number;
+  percentVariationFromPreviousYear: number;
 }
 
 export interface FilteredData {
@@ -23,9 +23,15 @@ class TelanganaDataService {
 
   async loadCSVData(): Promise<void> {
     try {
-      const response = await fetch('/telangana-crime-data.csv');
-      const csvText = await response.text();
-      this.csvData = this.parseCSV(csvText);
+      // Fetch both files
+      const [csv1, csv2] = await Promise.all([
+        fetch('/telangana-crime-data.csv').then(r => r.text()),
+        fetch('/telangana-crime-data 18-19.csv').then(r => r.text())
+      ]);
+      // Parse and merge
+      const data1 = this.parseCSV(csv1);
+      const data2 = this.parseCSV(csv2);
+      this.csvData = [...data1, ...data2];
       console.log('CSV data loaded:', this.csvData.length, 'records');
     } catch (error) {
       console.error('Failed to load CSV data:', error);
@@ -40,6 +46,10 @@ class TelanganaDataService {
     
     return lines.slice(1).map(line => {
       const values = line.split(',');
+      const year = parseInt(values[7]) || 2021;
+      // Find the correct variation column for this year
+      let variationIndex = headers.findIndex(h => h.includes(`% Variation in ${year} over ${year - 1}`));
+      if (variationIndex === -1) variationIndex = headers.length - 1;
       return {
         slNo: parseInt(values[0]) || 0,
         units: values[1] || '',
@@ -48,8 +58,8 @@ class TelanganaDataService {
         category: values[4] || '',
         crimeType: values[5] || '',
         crimes: parseInt(values[6]) || 0,
-        year: parseInt(values[7]) || 2021,
-        percentVariationIn2021Over2020: parseFloat(values[8]) || 0,
+        year,
+        percentVariationFromPreviousYear: parseFloat(values[variationIndex]) || 0,
       };
     });
   }
@@ -78,7 +88,7 @@ class TelanganaDataService {
             crimeType,
             crimes: baseValue,
             year: 2021,
-            percentVariationIn2021Over2020: (Math.random() - 0.5) * 0.2,
+            percentVariationFromPreviousYear: (Math.random() - 0.5) * 0.2,
           });
         });
       });
@@ -166,7 +176,7 @@ class TelanganaDataService {
     
     const totalCrimes2021 = filteredData.totalIncidents;
     const avgVariation = filteredData.districtData.length > 0 
-      ? filteredData.districtData.reduce((sum, d) => sum + d.percentVariationIn2021Over2020, 0) / filteredData.districtData.length
+      ? filteredData.districtData.reduce((sum, d) => sum + d.percentVariationFromPreviousYear, 0) / filteredData.districtData.length
       : 0;
     
     // Calculate 2020 data by reversing the variation
