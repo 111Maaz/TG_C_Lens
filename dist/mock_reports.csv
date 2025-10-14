@@ -1,0 +1,11 @@
+id,crime_category,crime_type,district,description,location,created_at,is_anonymous,email
+1,Property Crime,Theft,Hyderabad,"Mobile phone snatching incident near Charminar",78.4747,17.3616,2024-03-20T10:30:00Z,true,
+2,Property Crime,Criminal Trespass,Warangal,"Property damage at local park",79.5941,17.9689,2024-03-20T11:15:00Z,true,
+3,Crime Against Women,Sexual Harassment,Nizamabad,"Harassment incident reported near market",78.0940,18.6725,2024-03-20T12:00:00Z,true,
+4,Bodily Crimes,Assault,Karimnagar,"Physical altercation near bus station",79.1288,18.4386,2024-03-20T13:45:00Z,true,
+5,Economic Offence,Fraud,Khammam,"Online banking fraud reported",80.1514,17.2473,2024-03-20T14:30:00Z,true,
+6,Property Crime,Arson,Adilabad,"Attempted arson on public property",78.5266,19.6666,2024-03-20T15:15:00Z,true,
+7,Crime Against SC_ST,Caste-Based Abuse,Medak,"Verbal abuse incident reported",78.2632,17.6274,2024-03-20T16:00:00Z,true,
+8,Bodily Crimes,Hurt,Nalgonda,"Physical assault near market area",79.2674,17.0574,2024-03-20T16:45:00Z,true,
+9,Economic Offence,Cyber Crime (Financial),Mahbubnagar,"Online scam reported",77.9920,16.7375,2024-03-20T17:30:00Z,true,
+10,Crime Against Children,Child Labour,Sangareddy,"Child labour incident in factory",78.0941,17.6141,2024-03-20T18:15:00Z,true, 

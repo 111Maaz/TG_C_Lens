@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TGCL</string>
+    <string name="title_activity_main">TGCL</string>
+    <string name="package_name">com.tgcl.app</string>
+    <string name="custom_url_scheme">com.tgcl.app</string>
+</resources>

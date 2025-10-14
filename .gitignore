@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+# Android / iOS build outputs
+android/app/build/
+android/.gradle/
+ios/Pods/
+ios/build/
+# Misc
+.DS_Store
+*.log
+# Environment
+.env
+*.keystore
